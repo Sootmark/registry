@@ -182,6 +182,37 @@ impl<'a> Hive<'a> {
         Ok(Some(key))
     }
 
+    /// Every key, depth first with subkeys in the hive's order, and its
+    /// path from the root (`""` for the root, `\Software\…` below).
+    /// Damage never loops: a key reached twice is visited once, and a key
+    /// whose subkeys can't be read is passed to `problem` with the reason.
+    ///
+    /// # Errors
+    /// When the root can't be read.
+    pub fn walk(
+        &self,
+        mut visit: impl FnMut(&str, &Key<'_>),
+        mut problem: impl FnMut(&str, Error),
+    ) -> Result<(), Error> {
+        let mut seen = HashSet::new();
+        let mut stack = vec![(String::new(), self.root()?)];
+        while let Some((path, key)) = stack.pop() {
+            if !seen.insert(key.offset) {
+                continue;
+            }
+            visit(&path, &key);
+            match key.subkeys() {
+                Ok(subkeys) => {
+                    for sub in subkeys.into_iter().rev() {
+                        stack.push((format!("{path}\\{}", sub.name), sub));
+                    }
+                }
+                Err(e) => problem(&path, e),
+            }
+        }
+        Ok(())
+    }
+
     /// A cell's data (after its size), given its offset in the bins.
     pub(crate) fn cell(&self, offset: u32) -> Result<&'a [u8], Error> {
         let at = BASE_BLOCK

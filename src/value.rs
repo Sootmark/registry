@@ -63,6 +63,26 @@ impl Kind {
         }
     }
 
+    /// Its number, as stored.
+    #[must_use]
+    pub const fn number(self) -> u32 {
+        match self {
+            Self::None => 0,
+            Self::String => 1,
+            Self::ExpandString => 2,
+            Self::Binary => 3,
+            Self::Dword => 4,
+            Self::DwordBigEndian => 5,
+            Self::Link => 6,
+            Self::MultiString => 7,
+            Self::ResourceList => 8,
+            Self::FullResourceDescriptor => 9,
+            Self::ResourceRequirementsList => 10,
+            Self::Qword => 11,
+            Self::Other(n) => n,
+        }
+    }
+
     /// Its Windows name, `REG_SZ` and so on.
     #[must_use]
     pub fn name(self) -> Cow<'static, str> {
