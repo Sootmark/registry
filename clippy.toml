@@ -1,2 +1,2 @@
 # Tool and format names, not code.
-doc-valid-idents = ["UsrClass", "UserAssist", "ShimCache", "AppCompatCache", "AppCompatCacheParser", "RECmd", ".."]
+doc-valid-idents = ["UsrClass", "UserAssist", "ShimCache", "AppCompatCache", "AppCompatCacheParser", "RECmd", "SBECmd", "ShellBags", "ShellBag", "BagMRU", "NodeSlot", "MRUListEx", ".."]

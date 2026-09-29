@@ -16,6 +16,8 @@
 //! ([`Hive::is_dirty`] says when it matters), and recovering deleted keys
 //! and values from free cells.
 
+pub mod shellbags;
+pub mod shellitem;
 pub mod shimcache;
 pub mod userassist;
 mod value;
