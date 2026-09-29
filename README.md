@@ -4,7 +4,7 @@ A Windows registry hive (`regf`) parser, written from the public format document
 
 ```toml
 [dependencies]
-sootmark-registry = "0.5"
+sootmark-registry = "0.6"
 ```
 
 ```rust
