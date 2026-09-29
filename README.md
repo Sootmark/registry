@@ -4,7 +4,7 @@ A Windows registry hive (`regf`) parser, written from the public format document
 
 ```toml
 [dependencies]
-sootmark-registry = "0.1"
+sootmark-registry = "0.2"
 ```
 
 ```rust
@@ -26,12 +26,15 @@ hive.walk(|path, key| println!("{path} {}", key.last_written), |path, e| eprintl
 - `Value`: name (`""` for the default value), type (`Kind`, raw number kept for application types), raw bytes (inline, in a cell, or in big-data segments) and `data()` read by type: strings, multi-strings, DWORD (either byte order), QWORD, bytes.
 - Offsets of keys and values in the hive, as stable locators.
 - Damage is an error for what it touches, never a panic: a key whose value can't be read keeps its other values.
+- `shimcache::parse`: the AppCompatCache value (Windows 7 x86/x64, 8.0, 8.1, 10/11): each file's path as recorded, last modification time and, before Windows 10, the executed flag.
+- `userassist`: ROT13 names decoded, known folders named, run count, focus count and time, last run.
 
 Not yet: replaying transaction logs (`.LOG1`/`.LOG2`) into a dirty hive, and recovering deleted keys and values from free cells.
 
 ## How it's checked
 
 - Eric Zimmerman's 24 test hives (and a file that isn't one) (MIT; `tests/fixtures/EZ-LICENSE.txt`), including a damaged hbin header, duplicate names, a value on the root, big-endian DWORDs, slack and deleted ShellBags: every key and value compared with python-registry (all 153,075 keys of SOFTWARE included), each difference traced to python-registry (documented in `tests/hives.rs`). Each hive's dump is recorded as its key count and SHA-256, so any change in what is read fails the tests. Small hives are in the repository; `tests/fetch-hives.sh` downloads the large ones at a pinned commit, checked by SHA-256.
+- ShimCache: all 1,024 entries of the test SYSTEM hive against AppCompatCacheParser (position, path, time, executed); built caches for the Windows 7 and 10 layouts. UserAssist: all 578 entries of the test NTUSER.DAT against RECmd (names, paths, run counts, times to 100 ns). Where the tools choose a display form (the `\??\` prefix, "Unmapped GUID", session data read as counters), the difference is documented in the tests.
 - Corrupted hives (property tests): read or refused, never a panic or an endless walk.
 
 ## Licence

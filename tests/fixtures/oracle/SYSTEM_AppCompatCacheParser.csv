@@ -1,0 +1,1025 @@
+ControlSet,CacheEntryPosition,Path,LastModifiedTimeUTC,Executed,Duplicate
+1,0,SYSVOL\Program Files\CrashPlan\jre\bin\java.exe,2013-12-04 23:47:23,Yes,False
+1,1,SYSVOL\Windows\System32\rundll32.exe,2013-08-22 11:03:41,Yes,False
+1,2,SYSVOL\Users\eric\AppData\Roaming\Spotify\Data\SpotifyHelper.exe,2014-12-18 19:48:38,Yes,False
+1,3,SYSVOL\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static\CLI.exe,2013-05-07 16:52:24,Yes,False
+1,4,SYSVOL\Windows\System32\LogonUI.exe,2013-08-22 11:32:21,Yes,False
+1,5,SYSVOL\Windows\WinSxS\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_6.3.9600.17477_none_fa2b7d3b9b36c7b4\TiWorker.exe,2014-10-30 22:33:40,Yes,False
+1,6,SYSVOL\Windows\servicing\TrustedInstaller.exe,2014-03-18 10:05:07,Yes,False
+1,7,SYSVOL\Windows\System32\svchost.exe,2013-08-22 12:45:17,Yes,False
+1,8,SYSVOL\Windows\System32\dllhost.exe,2013-08-22 12:35:25,Yes,False
+1,9,SYSVOL\Windows\System32\ThumbnailExtractionHost.exe,2013-08-22 11:01:57,Yes,False
+1,10,SYSVOL\Windows\System32\sc.exe,2013-08-22 10:03:11,Yes,False
+1,11,SYSVOL\Program Files (x86)\Google\Update\GoogleUpdate.exe,2014-05-20 14:23:06,Yes,False
+1,12,SYSVOL\Windows\System32\taskeng.exe,2014-03-18 10:05:16,Yes,False
+1,13,F:\15b25f69aaa0999d37f224116fca\SetupUtility.exe,2015-02-04 23:01:12,Yes,False
+1,14,SYSVOL\Windows\System32\wuauclt.exe,2014-10-18 09:55:17,Yes,False
+1,15,SYSVOL\Windows\SysWOW64\wusa.exe,2014-03-13 06:51:36,Yes,False
+1,16,SYSVOL\Program Files (x86)\Stardock\Fences\Fences.exe,2013-11-26 13:49:20,Yes,False
+1,17,F:\15b25f69aaa0999d37f224116fca\Setup.exe,2015-02-04 23:01:12,Yes,False
+1,18,SYSVOL\ProgramData\Package Cache\4FF9C5BBD102B4816BE0FB4E642AE94BFE4B73A5\packages\dotNetFramework\dotNetFx-Web.exe,2015-02-07 03:52:24,Yes,False
+1,19,SYSVOL\ProgramData\Package Cache\EAB498DF-5BB7-3C58-8372-A49DFB746FDF\packages\vcRedistD11\1033\vcredist_x64.exe,2013-09-11 23:57:37,Yes,False
+1,20,SYSVOL\ProgramData\Package Cache\55A8C911-B754-3175-81B6-FBD60A02A43D\packages\vcRedistD11\1033\vcredist_x86.exe,2013-09-11 23:57:37,Yes,False
+1,21,SYSVOL\Windows\System32\wusa.exe,2014-03-13 07:42:24,Yes,False
+1,22,SYSVOL\ProgramData\Package Cache\030A711C-C11D-38B8-B196-2ADA3437B07F\packages\vcRedistD14\VC_redist.x64.exe,2015-02-09 08:20:40,Yes,False
+1,23,SYSVOL\ProgramData\Package Cache\{6f37e351-1f71-421c-8da2-4f59999ca8b3}\VC_redist.x64.exe,2015-02-05 03:37:22,Yes,False
+1,24,SYSVOL\ProgramData\Package Cache\{42e575c4-2dbe-4135-bb27-5d61236dc38b}\VC_redist.x86.exe,2015-02-05 03:37:19,Yes,False
+1,25,SYSVOL\Windows\System32\msiexec.exe,2013-08-22 11:23:10,Yes,False
+1,26,SYSVOL\ProgramData\Package Cache\030A711C-C11D-38B8-B196-2ADA3437B07F\packages\vcRedistD14\VC_redist.x86.exe,2015-02-09 08:19:29,Yes,False
+1,27,SYSVOL\ProgramData\Package Cache\CD352CDE-1F90-3778-933D-CCFA47816544\packages\vcRedistD12\1033\vcredist_x64.exe,2014-11-08 02:10:54,Yes,False
+1,28,SYSVOL\ProgramData\Package Cache\030A711C-C11D-38B8-B196-2ADA3437B07F\packages\vs_ultimate\Preparation.exe,2015-02-09 07:46:35,Yes,False
+1,29,SYSVOL\ProgramData\Package Cache\9DC86A6B0534C26B102557208303047BF62C2BAD\packages\VS_Clean\VS_PreClean_vs.exe,2015-02-09 07:46:35,Yes,False
+1,30,F:\8d3e7ea380b1d79c3aab5583bfaa\VSSetupUtility.exe,2015-02-09 07:46:36,Yes,False
+1,31,SYSVOL\ProgramData\Package Cache\7E32123E-082A-3C58-B56C-AACDAFD73A8F\packages\vs_ultimate\VSSetupUtility.exe,2015-02-09 08:42:29,Yes,False
+1,32,SYSVOL\Windows\System32\SrTasks.exe,2014-03-18 10:06:07,Yes,False
+1,33,SYSVOL\Windows\System32\VSSVC.exe,2014-03-27 03:10:11,Yes,False
+1,34,SYSVOL\Windows\System32\sppsvc.exe,2014-03-18 10:05:26,No,False
+1,35,SYSVOL\Users\eric\AppData\Local\Temp\{afbcbdef-e5df-4a94-bb7d-792f755778c3}\.be\vs_ultimate.exe,2015-02-24 02:39:06,Yes,False
+1,36,SYSVOL\Windows\System32\consent.exe,2014-10-13 02:33:24,Yes,False
+1,37,SYSVOL\Windows\Microsoft.NET\Framework\v2.0.50727\cvtres.exe,2014-05-27 04:39:14,Yes,False
+1,38,SYSVOL\Windows\Microsoft.NET\Framework\v2.0.50727\csc.exe,2014-05-27 04:39:13,Yes,False
+1,39,SYSVOL\Windows\Microsoft.NET\Framework\v4.0.30319\mscorsvw.exe,2014-12-11 21:51:49,Yes,False
+1,40,SYSVOL\Windows\Microsoft.NET\Framework\v4.0.30319\ngen.exe,2014-12-11 21:51:50,Yes,False
+1,41,SYSVOL\Windows\Microsoft.NET\Framework64\v3.0\WPF\PresentationFontCache.exe,2013-08-03 04:47:59,Yes,False
+1,42,SYSVOL\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\devenv.exe,2014-11-01 07:46:50,Yes,False
+1,43,SYSVOL\Users\eric\Desktop\vs_ultimate.exe,2015-02-24 02:38:01,Yes,False
+1,44,SYSVOL\Windows\SysWOW64\Macromed\Flash\FlashPlayerUpdateService.exe,2015-02-04 18:38:46,Yes,False
+1,45,SYSVOL\Program Files (x86)\Google\Chrome\Application\chrome.exe,2015-02-17 22:45:00,Yes,False
+1,46,SYSVOL\Program Files (x86)\TeamViewer\TeamViewer_Desktop.exe,2015-02-17 09:05:26,Yes,False
+1,47,SYSVOL\Users\eric\AppData\Local\Citrix\GoToMeeting\2352\g2mupdate.exe,2015-02-18 19:39:09,Yes,False
+1,48,SYSVOL\Windows\System32\gpupdate.exe,2013-08-22 11:31:21,Yes,False
+1,49,SYSVOL\Windows\System32\schtasks.exe,2013-08-22 10:42:55,Yes,False
+1,50,SYSVOL\Windows\System32\wsqmcons.exe,2014-03-18 10:05:38,Yes,False
+1,51,SYSVOL\Program Files\Internet Explorer\ielowutil.exe,2014-10-31 04:55:28,Yes,False
+1,52,SYSVOL\Windows\System32\msfeedssync.exe,2014-10-31 05:08:00,Yes,False
+1,53,SYSVOL\Program Files\Microsoft Office\Office15\msoia.exe,2014-01-22 10:11:30,Yes,False
+1,54,SYSVOL\Windows\System32\taskhost.exe,2014-03-18 10:05:16,Yes,False
+1,55,SYSVOL\Windows\System32\MRT.exe,2015-02-11 14:22:36,Yes,False
+1,56,SYSVOL\Windows\System32\taskhostex.exe,2014-03-18 10:05:16,Yes,False
+1,57,SYSVOL\Program Files (x86)\Google\Update\1.3.26.9\GoogleCrashHandler64.exe,2015-02-03 22:45:20,Yes,False
+1,58,SYSVOL\Program Files (x86)\Google\Update\1.3.26.9\GoogleCrashHandler.exe,2015-02-03 22:45:20,Yes,False
+1,59,SYSVOL\Windows\System32\ROUTE.EXE,2013-08-22 09:53:49,Yes,False
+1,60,SYSVOL\Windows\System32\cmd.exe,2013-08-22 10:03:31,Yes,False
+1,61,SYSVOL\Windows\System32\NETSTAT.EXE,2013-08-22 09:52:25,Yes,False
+1,62,SYSVOL\Program Files (x86)\DU Meter\DUMeter.exe,2014-11-13 21:01:02,Yes,False
+1,63,SYSVOL\Program Files (x86)\Microsoft Office\Office15\MSOSYNC.EXE,2015-01-21 21:59:44,Yes,False
+1,64,SYSVOL\ProjectWorkingFolder\Registry2\Registry\ExampleApp\bin\Debug\ExampleApp.vshost.exe,2015-02-23 21:06:56,Yes,False
+1,65,SYSVOL\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\Remote Debugger\x64\msvsmon.exe,2014-11-01 03:44:52,Yes,False
+1,66,SYSVOL\Users\eric\AppData\Local\JetBrains\Installations\ReSharperPlatformVs12\JetBrains.dotCover.WorkspaceHost.exe,2015-02-05 13:55:30,Yes,False
+1,67,SYSVOL\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\Extensions\BugAid Software\BugAid\1.0\OzCode.MetadataLoader.exe,2014-06-23 07:42:44,Yes,False
+1,68,SYSVOL\Program Files (x86)\Microsoft Office\Office15\POWERPNT.EXE,2015-02-12 20:22:16,Yes,False
+1,69,SYSVOL\Program Files (x86)\Git\bin\git.exe,2015-02-03 17:24:45,Yes,False
+1,70,SYSVOL\Program Files\7-Zip\7zG.exe,2010-11-19 04:11:38,Yes,False
+1,71,SYSVOL\Program Files (x86)\Google\Chrome\Application\40.0.2214.115\delegate_execute.exe,2015-02-17 22:44:49,Yes,False
+1,72,SYSVOL\Program Files (x86)\Mailbird\Mailbird_awesomium_process,2014-12-23 02:42:32,Yes,False
+1,73,SYSVOL\ProjectWorkingFolder\ShellBagsExplorer\ShellBagsExplorer\bin\Debug\ShellBagsExplorer.vshost.exe,2015-02-23 19:42:31,Yes,False
+1,74,SYSVOL\Windows\Microsoft.NET\Framework\v4.0.30319\cvtres.exe,2013-08-10 00:53:16,Yes,False
+1,75,SYSVOL\Program Files (x86)\MSBuild\12.0\Bin\csc.exe,2014-11-01 07:46:50,Yes,False
+1,76,SYSVOL\Program Files (x86)\Microsoft SDKs\Windows\v8.1A\bin\NETFX 4.5.1 Tools\lc.exe,2013-08-07 02:36:00,Yes,False
+1,77,SYSVOL\ProgramData\PostSharp\4.0.42\bin.Release\postsharp.srv.4.0-x86.exe,2015-02-13 09:44:29,Yes,False
+1,78,SYSVOL\Program Files (x86)\DevExpress 14.2\Components\Tools\Components\ProjectConverter.exe,2015-02-19 18:15:07,Yes,False
+1,79,SYSVOL\Program Files (x86)\MSBuild\12.0\Bin\MSBuild.exe,2014-11-01 07:46:50,Yes,False
+1,80,SYSVOL\Users\eric\AppData\Local\Temp\JetPackages\d42b6806-aa33-463b-a757-33f57592420b\JetBrains.Platform.Installer.exe,2015-02-23 19:33:35,Yes,False
+1,81,SYSVOL\Users\eric\AppData\Local\JetBrains\Installations\ReSharperPlatformVs12\JetBrains.Platform.Installer.Bootstrap.exe,2015-02-05 13:55:31,Yes,False
+1,82,SYSVOL\Program Files\Microsoft Visual Studio 12.0\Common7\Packages\Debugger\Services\VsEtwService.exe,2014-07-23 04:17:28,Yes,False
+1,83,SYSVOL\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\PerfWatson2.exe,2014-05-01 08:50:20,Yes,False
+1,84,SYSVOL\Windows\System32\wbem\WmiApSrv.exe,2013-08-22 09:48:06,Yes,False
+1,85,SYSVOL\Windows\System32\wbem\WmiPrvSE.exe,2013-08-22 11:45:14,Yes,False
+1,86,SYSVOL\xwf\WinHex.exe,2015-02-23 01:01:02,Yes,False
+1,87,SYSVOL\xwf\xwforensics.exe,2015-02-23 01:01:02,Yes,False
+1,88,SYSVOL\Program Files\010 Editor\010Editor.exe,2015-01-28 20:14:52,Yes,False
+1,89,SYSVOL\Windows\splwow64.exe,2013-08-22 11:03:57,Yes,False
+1,90,SYSVOL\Program Files (x86)\Siber Systems\AI RoboForm\identities.exe,2015-01-22 15:35:55,Yes,False
+1,91,SYSVOL\Program Files\7-Zip\7zFM.exe,2010-11-19 04:10:48,Yes,False
+1,92,SYSVOL\Program Files\Just Great Software\EditPad Pro 7\EditPadPro7.exe,2014-12-05 14:36:00,Yes,False
+1,93,SYSVOL\Windows\SysWOW64\dllhost.exe,2013-08-22 05:21:45,Yes,False
+1,94,SYSVOL\$Recycle.Bin\S-1-5-21-2417227394-2575385136-2411922467-1105\$RDQCOAE.exe,2015-02-19 17:52:42,No,False
+1,95,SYSVOL\Windows\System32\wbem\WMIADAP.exe,2014-05-03 07:47:00,Yes,False
+1,96,J:\ShellBagsExplorer.exe,2014-08-10 16:48:04,No,False
+1,97,J:\SetupRegexBuddy3EricPeterson.exe,2013-06-07 15:06:04,No,False
+1,98,J:\SetupEditPadLite.exe,2013-06-10 13:31:14,No,False
+1,99,J:\PortableRoboForm.exe,2014-05-22 14:38:19,No,False
+1,100,J:\osTriage2_RELEASE.exe,2014-03-06 19:11:54,No,False
+1,101,SYSVOL\Windows\System32\DsmUserTask.exe,2013-08-22 09:40:42,Yes,False
+1,102,SYSVOL\Program Files\Windows Defender\MpCmdRun.exe,2014-09-22 03:05:56,Yes,False
+1,103,SYSVOL\Windows\System32\WUDFHost.exe,2014-05-31 04:01:09,Yes,False
+1,104,SYSVOL\Windows\System32\drvinst.exe,2014-05-19 06:21:30,Yes,False
+1,105,SYSVOL\Program Files (x86)\VMware\VMware Workstation\vmware-shell-ext-thunker.exe,2014-11-21 01:44:32,Yes,False
+1,106,SYSVOL\Program Files (x86)\SumatraPDF\SumatraPDF.exe,2014-10-19 02:32:52,Yes,False
+1,107,D:\cmder\vendor\conemu-maximus5\ConEmu\ConEmuC64.exe,2014-07-08 21:32:10,Yes,False
+1,108,D:\Dropbox (Personal)\!Software\FTK Imager\FTK Imager.exe,2013-09-24 21:52:02,Yes,False
+1,109,SYSVOL\Program Files (x86)\Mailbird\MailbirdUpdater.exe,2014-12-23 03:28:02,Yes,False
+1,110,SYSVOL\Program Files (x86)\Internet Explorer\iexplore.exe,2014-10-31 10:32:44,Yes,False
+1,111,SYSVOL\Program Files\Internet Explorer\iexplore.exe,2014-10-31 10:32:34,Yes,False
+1,112,SYSVOL\Program Files (x86)\Common Files\TechSmith Shared\Updater\TSCUpdClt.exe,2014-05-30 19:06:58,Yes,False
+1,113,SYSVOL\xwf\xwforensics64.exe,2015-02-23 01:01:02,No,False
+1,114,F:\xwfim\XWFIM.exe,2015-02-04 14:59:32,Yes,False
+1,115,SYSVOL\Windows\explorer.exe,2014-08-23 07:48:28,Yes,False
+1,116,J:\setup.exe,2014-12-11 17:40:07,No,False
+1,117,D:\Dropbox (Personal)\!Software\DCode.exe,2009-11-02 14:20:12,Yes,False
+1,118,SYSVOL\Windows\System32\calc.exe,2013-08-22 10:51:45,Yes,False
+1,119,SYSVOL\Program Files (x86)\VideoLAN\VLC\vlc.exe,2014-07-22 23:29:12,Yes,False
+1,120,D:\Forensics\ShellBagsExplorer.exe,2015-02-18 15:28:14,Yes,False
+1,121,F:\dcaf38b64656e2b1f185ef176b\Setup.exe,2012-07-09 07:40:10,Yes,False
+1,122,SYSVOL\Users\eric\AppData\Local\Temp\AppLifeLauncher\5.0.0.6\f41887fbdac84423b25044e0e8acaacc\aa2a00f490474f11b86fd838e01a0e5a.exe,2014-07-24 12:58:04,Yes,False
+1,123,SYSVOL\Users\eric\AppData\Local\Temp\AppLifeLauncher\5.0.0.6\f41887fbdac84423b25044e0e8acaacc\Kjs.AppLife.Update.Engine.UI.exe,2014-06-20 01:44:57,Yes,False
+1,124,SYSVOL\Users\eric\AppData\Local\Temp\AppLifeLauncher\5.0.0.6\Kjs.AppLife.Update.UpdateLauncher.exe,2015-01-23 21:28:57,Yes,False
+1,125,SYSVOL\Program Files (x86)\Common Files\Microsoft Shared\Source Engine\OSE.EXE,2014-01-23 21:54:32,Yes,False
+1,126,SYSVOL\Windows\System32\RuntimeBroker.exe,2013-08-22 12:35:41,Yes,False
+1,127,SYSVOL\Windows\System32\audiodg.exe,2014-04-06 16:20:51,No,False
+1,128,SYSVOL\Windows\WinStore\WSHost.exe,2014-07-09 11:09:24,Yes,False
+1,129,SYSVOL\Windows\SoftwareDistribution\Download\Install\AM_Delta.exe,2015-02-23 10:10:55,Yes,False
+1,130,SYSVOL\Windows\System32\MpSigStub.exe,2014-12-31 11:14:31,Yes,False
+1,131,SYSVOL\Windows\System32\wermgr.exe,2014-10-29 04:00:23,Yes,False
+1,132,SYSVOL\Windows\System32\lpremove.exe,2013-08-22 11:04:26,Yes,False
+1,133,SYSVOL\Windows\System32\SkyDrive.exe,2014-08-16 00:10:35,Yes,False
+1,134,SYSVOL\Windows\Microsoft.NET\Framework\v4.0.30319\ngentask.exe,2013-08-10 00:54:18,Yes,False
+1,135,SYSVOL\Windows\Microsoft.NET\Framework64\v4.0.30319\ngentask.exe,2013-08-10 00:41:20,Yes,False
+1,136,SYSVOL\Windows\Microsoft.NET\Framework64\v4.0.30319\ngen.exe,2014-12-11 21:51:22,Yes,False
+1,137,SYSVOL\Windows\System32\w32tm.exe,2014-03-19 05:50:30,Yes,False
+1,138,SYSVOL\Windows\System32\PING.EXE,2013-08-22 10:02:58,Yes,False
+1,139,SYSVOL\Windows\Microsoft.NET\Framework64\v4.0.30319\mscorsvw.exe,2014-12-11 21:51:20,Yes,False
+1,140,SYSVOL\Windows\System32\sdiagnhost.exe,2013-08-22 11:20:16,Yes,False
+1,141,SYSVOL\Windows\System32\WerFault.exe,2014-10-29 04:00:24,Yes,False
+1,142,SYSVOL\Windows\System32\cleanmgr.exe,2014-03-18 10:05:34,Yes,False
+1,143,SYSVOL\Windows\System32\aitagent.exe,2014-03-18 10:05:22,Yes,False
+1,144,SYSVOL\Program Files (x86)\TeamViewer\TeamViewer.exe,2015-02-17 09:05:25,Yes,False
+1,145,SYSVOL\Program Files (x86)\TeamViewer\tv_x64.exe,2015-02-17 08:32:51,Yes,False
+1,146,SYSVOL\Program Files (x86)\TeamViewer\tv_w32.exe,2015-02-17 08:32:49,Yes,False
+1,147,SYSVOL\Program Files (x86)\TeamViewer\TeamViewer_Service.exe,2015-02-17 09:05:26,Yes,False
+1,148,SYSVOL\Windows\SysWOW64\schtasks.exe,2013-08-22 03:24:06,Yes,False
+1,149,SYSVOL\Windows\Temp\nsn1A87.tmp\TvUpdateInfo.exe,2015-01-20 09:24:16,Yes,False
+1,150,SYSVOL\Users\eric\AppData\Local\Temp\TeamViewer\update.exe,2015-02-17 18:31:02,Yes,False
+1,151,SYSVOL\Windows\SoftwareDistribution\Download\Install\AM_Delta_Patch_1.193.561.0.exe,2015-02-22 08:42:12,Yes,False
+1,152,SYSVOL\Users\eric\AppData\Local\Citrix\GoToMeeting\2352\G2MInstaller.exe,2015-02-18 19:39:09,Yes,False
+1,153,SYSVOL\Windows\System32\tzsync.exe,2013-08-22 12:40:26,Yes,False
+1,154,SYSVOL\Windows\SoftwareDistribution\Download\Install\NIS_Delta_Patch.exe,2015-02-21 04:31:58,Yes,False
+1,155,D:\Dropbox (Personal)\!Software\hexinator-64\TurboActivate.exe,2015-02-17 04:47:06,No,False
+1,156,D:\Dropbox (Personal)\!Software\hexinator-64\Hexinator.exe,2015-02-17 04:47:06,Yes,False
+1,157,SYSVOL\Program Files (x86)\eMule\emule.exe,2010-04-07 13:00:04,Yes,False
+1,158,SYSVOL\Program Files (x86)\Malwarebytes Anti-Malware\mbam.exe,2014-11-21 13:12:46,Yes,False
+1,159,SYSVOL\Program Files\PremiumSoft\Navicat for SQLite\navicat.exe,2014-11-03 16:39:53,Yes,False
+1,160,SYSVOL\Program Files (x86)\Postbox\postbox.exe,2014-06-17 12:59:43,Yes,False
+1,161,SYSVOL\Program Files (x86)\Beyond Compare 4\BCompare.exe,2015-01-16 21:30:34,Yes,False
+1,162,D:\Dropbox (Personal)\GnuPG\gpg2.exe,2014-02-01 03:05:50,Yes,False
+1,163,D:\Dropbox (Personal)\GnuPG\pinentry.exe,2014-02-01 03:05:51,Yes,False
+1,164,D:\Dropbox (Personal)\GnuPG\gpg-agent.exe,2014-02-01 03:05:50,Yes,False
+1,165,D:\Dropbox (Personal)\GnuPG\gpg-connect-agent.exe,2014-02-01 03:05:50,Yes,False
+1,166,SYSVOL\Program Files\Intel\Intel(R) Rapid Storage Technology\IAStorIcon.exe,2013-11-21 14:31:44,Yes,False
+1,167,SYSVOL\Program Files (x86)\Samsung\RAPID\CacheFilter\addfilter.exe,2014-09-16 21:29:16,Yes,False
+1,168,SYSVOL\Program Files (x86)\TechSmith\Snagit 12\SnagitEditor.exe,2014-10-28 16:55:56,Yes,False
+1,169,D:\Dropbox (Personal)\!Software\Yaru\yaru.exe,2014-11-21 05:47:44,Yes,False
+1,170,D:\Dropbox (Personal)\!Software\ProcessExplorer\procexp.exe,2014-01-29 14:23:36,Yes,False
+1,171,D:\Dropbox (Personal)\!Software\RegistryExplorer\RegistryExplorer.exe,2015-02-11 16:28:16,Yes,False
+1,172,SYSVOL\Program Files (x86)\Gurock Software\SmartInspect Professional\SmartInspectConsole.exe,2014-06-12 21:53:06,Yes,False
+1,173,SYSVOL\Users\eric\AppData\Roaming\Spotify\spotify.exe,2014-12-18 19:48:41,Yes,False
+1,174,SYSVOL\Program Files (x86)\Tableau\Tableau Firmware Update\tabup.exe,2014-09-17 20:07:28,Yes,False
+1,175,D:\Dropbox (Personal)\!Software\TimeApp.exe,2014-11-24 15:11:02,Yes,False
+1,176,D:\Forensics\TimeLord_0_1_5_6\TimeLord.exe,2009-10-23 15:28:46,Yes,False
+1,177,D:\Dropbox (Personal)\!Software\Hasher\hasher.exe,2014-09-17 21:49:04,Yes,False
+1,178,SYSVOL\Users\eric\AppData\Local\JDownloader v2.0\JDownloader2.exe,2014-07-23 21:01:00,Yes,False
+1,179,D:\Dropbox (Personal)\Kitty\kitty_portable.exe,2015-01-04 21:52:07,Yes,False
+1,180,D:\LINQPad4\LINQPad.exe,2015-01-27 23:56:28,No,False
+1,181,SYSVOL\Users\eric\AppData\Roaming\Dropbox\bin\Dropbox.exe,2015-02-11 01:12:26,Yes,False
+1,182,D:\Forensics\eMuleParser.exe,2014-09-18 14:28:06,Yes,False
+1,183,SYSVOL\Program Files (x86)\Event Log Explorer\elex.exe,2014-10-06 06:02:04,Yes,False
+1,184,D:\cmder\Cmder.exe,2014-08-31 11:30:14,Yes,False
+1,185,D:\Convert.exe,2014-03-06 07:52:47,Yes,False
+1,186,SYSVOL\ProjectWorkingFolder\osTriage2\trunk\osTriage2\CopyDLLs.bat,2014-08-26 19:30:18,No,False
+1,187,D:\Forensics\Arsenal_Image_Mounter-MountTool_v1.0.015\ArsenalImageMounterMountTool.exe,2014-02-28 14:57:11,Yes,False
+1,188,SYSVOL\Users\eric\AppData\Local\Amazon Music\Amazon Music.exe,2014-10-15 05:31:10,Yes,False
+1,189,SYSVOL\Program Files (x86)\Fookes Software\Aid4Mail3\Aid4Mail.exe,2014-11-18 10:50:00,Yes,False
+1,190,SYSVOL\Program Files (x86)\IDM Computer Solutions\UltraEdit\Uedit32.exe,2014-12-20 04:30:00,Yes,False
+1,191,SYSVOL\Program Files\WinRAR\WinRAR.exe,2014-08-28 04:41:32,Yes,False
+1,192,SYSVOL\Program Files (x86)\VMware\VMware Workstation\vmware.exe,2014-11-21 01:44:38,Yes,False
+1,193,SYSVOL\Program Files (x86)\SmartWhois\sw.exe,2015-01-13 21:16:39,Yes,False
+1,194,SYSVOL\Program Files\TrueCrypt\TrueCrypt.exe,2014-08-25 20:50:10,Yes,False
+1,195,SYSVOL\Windows\Installer\{24991BA0-F0EE-44AD-9CC8-5EC50AECF6B7}\SkypeIcon.exe,2015-01-13 14:55:29,No,False
+1,196,SYSVOL\Program Files\Just Great Software\RegexMagic 2\RegexMagic2.exe,2014-10-07 08:10:00,Yes,False
+1,197,SYSVOL\Program Files\Just Great Software\RegexBuddy4\RegexBuddy4.exe,2014-12-12 11:21:00,Yes,False
+1,198,SYSVOL\Program Files (x86)\MarkdownPad 2\MarkdownPad2.exe,2014-12-24 21:30:42,Yes,False
+1,199,SYSVOL\Program Files (x86)\Mailbird\Mailbird.exe,2014-12-23 03:28:44,Yes,False
+1,200,SYSVOL\Program Files (x86)\ImgBurn\ImgBurn.exe,2013-05-24 09:59:32,Yes,False
+1,201,SYSVOL\Program Files (x86)\DisplayFusion\DisplayFusion.exe,2015-01-29 22:27:02,Yes,False
+1,202,SYSVOL\Program Files\GPSoftware\Directory Opus\dopus.exe,2015-02-20 17:02:08,Yes,False
+1,203,SYSVOL\Program Files\CCleaner\CCleaner64.exe,2015-01-20 21:02:00,Yes,False
+1,204,SYSVOL\Program Files\Altova\XMLSpy2015\XMLSpy.exe,2014-11-18 19:28:28,Yes,False
+1,205,SYSVOL\Users\eric\AppData\Roaming\uTorrent\uTorrent.exe,2014-10-14 13:01:11,Yes,False
+1,206,SYSVOL\Program Files\Just Great Software\PowerGREP4\PowerGREP4.exe,2014-09-08 10:06:00,Yes,False
+1,207,SYSVOL\Windows\System32\PrintIsolationHost.exe,2013-08-22 11:04:29,Yes,False
+1,208,SYSVOL\Program Files (x86)\Intel\Intel(R) Management Engine Components\LMS\LMS.exe,2013-12-09 23:27:38,Yes,False
+1,209,SYSVOL\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL\jhi_service.exe,2013-12-09 23:27:36,Yes,False
+1,210,SYSVOL\Program Files\Intel\Intel(R) Rapid Storage Technology\IAStorDataMgrSvc.exe,2013-11-21 14:31:44,Yes,False
+1,211,SYSVOL\Program Files (x86)\TechSmith\Snagit 12\TscHelp.exe,2014-04-18 22:14:38,Yes,False
+1,212,SYSVOL\Windows\SysWOW64\wbem\WmiPrvSE.exe,2013-08-22 04:17:05,Yes,False
+1,213,SYSVOL\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static\MMLoadDrv.exe,2014-07-05 03:30:32,Yes,False
+1,214,SYSVOL\Program Files (x86)\TechSmith\Snagit 12\SnagPriv.exe,2014-10-28 16:55:56,Yes,False
+1,215,SYSVOL\Program Files (x86)\Siber Systems\AI RoboForm\Chrome\rf-chrome-nm-host.exe,2015-01-22 15:35:56,Yes,False
+1,216,SYSVOL\Program Files (x86)\Google\Chrome\Application\40.0.2214.115\nacl64.exe,2015-02-17 22:44:56,Yes,False
+1,217,SYSVOL\Windows\SysWOW64\cmd.exe,2013-08-22 02:54:00,Yes,False
+1,218,SYSVOL\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static\CCC.exe,2013-10-09 06:53:02,Yes,False
+1,219,SYSVOL\Program Files (x86)\VMware\VMware Workstation\vmware-tray.exe,2014-11-21 01:44:26,Yes,False
+1,220,SYSVOL\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static\MOM.exe,2013-05-07 16:51:52,Yes,False
+1,221,SYSVOL\Program Files (x86)\TechSmith\Snagit 12\Snagit32.exe,2014-10-28 16:55:56,Yes,False
+1,222,SYSVOL\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static\amd64\CLIStart.exe,2014-07-05 04:21:36,Yes,False
+1,223,SYSVOL\Program Files\CrashPlan\CrashPlanTray.exe,2014-11-20 16:15:39,Yes,False
+1,224,SYSVOL\Windows\SysWOW64\runonce.exe,2013-08-22 03:37:58,Yes,False
+1,225,SYSVOL\Program Files (x86)\Google\Chrome\Application\40.0.2214.111\delegate_execute.exe,2015-02-04 09:02:43,Yes,False
+1,226,D:\cmder\vendor\conemu-maximus5\ConEmu.exe,2014-07-08 21:32:09,Yes,False
+1,227,SYSVOL\Program Files (x86)\Google\Chrome\Application\40.0.2214.115\Installer\setup.exe,2015-02-19 21:50:44,Yes,False
+1,228,SYSVOL\Program Files (x86)\Siber Systems\AI RoboForm\robotaskbaricon.exe,2015-01-22 15:35:55,Yes,False
+1,229,SYSVOL\Program Files (x86)\Google\Update\1.3.26.9\GoogleUpdateOnDemand.exe,2015-02-03 22:45:20,Yes,False
+1,230,SYSVOL\Program Files\CCleaner\CCleaner.exe,2015-01-20 21:02:00,Yes,False
+1,231,SYSVOL\Users\eric\AppData\Local\Amazon Music\cd_helper.exe,2014-10-15 05:40:32,Yes,False
+1,232,SYSVOL\Users\eric\AppData\Local\Amazon Music\Amazon Music Helper.exe,2014-10-15 05:35:26,Yes,False
+1,233,SYSVOL\PROGRA~2\DUMETE~1\DUMeter.exe,2014-11-13 21:01:02,Yes,False
+1,234,SYSVOL\Program Files (x86)\Samsung\Samsung Magician\Samsung Magician.exe,2014-09-29 01:06:44,Yes,False
+1,235,SYSVOL\Program Files (x86)\Skype\Phone\Skype.exe,2014-12-11 18:20:32,Yes,False
+1,236,SYSVOL\Users\eric\AppData\Roaming\Spotify\Data\SpotifyWebHelper.exe,2014-12-18 19:48:38,Yes,False
+1,237,SYSVOL\Program Files (x86)\Garmin\Express Tray\ExpressTray.exe,2014-10-21 21:45:38,Yes,False
+1,238,SYSVOL\Program Files (x86)\DisplayFusion\DisplayFusionHookAppWIN6032.exe,2015-01-25 23:07:34,Yes,False
+1,239,SYSVOL\Program Files (x86)\DisplayFusion\DisplayFusionHookAppWIN6064.exe,2015-01-25 23:07:36,Yes,False
+1,240,SYSVOL\Program Files (x86)\Sanderson Forensics\SkypeAlyzer\SkypeAlyzer.exe,2013-04-25 15:16:30,Yes,False
+1,241,SYSVOL\Program Files (x86)\ClipboardFusion\ClipboardFusion.exe,2015-01-02 17:28:32,Yes,False
+1,242,SYSVOL\Windows\System32\icacls.exe,2013-08-22 10:03:01,Yes,False
+1,243,SYSVOL\Program Files\TortoiseSVN\bin\TSVNCache.exe,2014-08-10 22:10:40,Yes,False
+1,244,SYSVOL\Program Files\GPSoftware\Directory Opus\dopusrt.exe,2015-02-20 17:02:08,Yes,False
+1,245,SYSVOL\Program Files (x86)\Samsung\RAPID\CacheFilter\SamsungRapidApp.exe,2014-09-16 21:29:50,Yes,False
+1,246,SYSVOL\Program Files (x86)\Stardock\Fences\SDActivate.exe,2013-07-25 18:03:12,Yes,False
+1,247,F:\EverythingSearch\Everything.exe,2014-08-06 16:34:22,Yes,False
+1,248,SYSVOL\Program Files\Intel\Intel(R) Rapid Storage Technology\IAStorIconLaunch.exe,2013-11-21 14:33:04,Yes,False
+1,249,SYSVOL\Program Files\Classic Shell\ClassicStartMenu.exe,2014-04-20 17:17:40,Yes,False
+1,250,SYSVOL\Windows\System32\mobsync.exe,2013-08-22 11:01:25,Yes,False
+1,251,SYSVOL\Windows\System32\wscui.cpl,2014-03-18 10:05:15,No,False
+1,252,SYSVOL\Users\eric\AppData\Local\Temp\{4483B81B-25EF-4473-B4EB-55F6E1733F79}\ISBEW64.exe,2011-08-22 08:05:40,Yes,False
+1,253,SYSVOL\Program Files (x86)\InstallShield Installation Information\{5D4F167D-CCC8-413E-A6EE-F2FABBBBF50D}\setup.exe,2015-02-20 17:36:36,Yes,False
+1,254,SYSVOL\Windows\System32\runonce.exe,2013-08-22 11:01:31,Yes,False
+1,255,SYSVOL\Windows\System32\userinit.exe,2013-08-22 10:03:12,Yes,False
+1,256,SYSVOL\Program Files\Windows Defender\NisSrv.exe,2014-09-22 03:05:56,Yes,False
+1,257,SYSVOL\Program Files (x86)\VMware\VMware Workstation\vmware-authd.exe,2014-11-21 00:47:06,Yes,False
+1,258,SYSVOL\Program Files (x86)\Common Files\VMware\USB\vmware-usbarbitrator64.exe,2014-11-18 15:04:04,Yes,False
+1,259,SYSVOL\Windows\SysWOW64\vmnetdhcp.exe,2014-11-21 01:44:26,Yes,False
+1,260,SYSVOL\Program Files\Windows Defender\MsMpEng.exe,2014-09-22 03:05:56,Yes,False
+1,261,SYSVOL\Windows\SysWOW64\vmnat.exe,2014-11-21 01:44:38,Yes,False
+1,262,SYSVOL\Program Files\Microsoft SQL Server\90\Shared\sqlwriter.exe,2014-02-21 12:25:30,Yes,False
+1,263,SYSVOL\Program Files (x86)\Skype\Updater\Updater.exe,2014-12-11 17:30:48,Yes,False
+1,264,SYSVOL\Windows\System32\RAPID\SamsungRapidSvc.exe,2014-09-16 21:29:34,Yes,False
+1,265,SYSVOL\Program Files (x86)\Malwarebytes Anti-Malware\mbamservice.exe,2014-11-21 13:12:56,Yes,False
+1,266,SYSVOL\Program Files (x86)\Malwarebytes Anti-Malware\mbamscheduler.exe,2014-11-21 13:12:54,Yes,False
+1,267,SYSVOL\Program Files (x86)\Common Files\AppLifeUpdateService2\kjsausvc.exe,2012-04-18 19:13:52,Yes,False
+1,268,SYSVOL\Program Files (x86)\JetBrains\ETW Host\JetBrains.ETW.Collector.Host.exe,2014-12-19 23:13:26,Yes,False
+1,269,SYSVOL\Program Files (x86)\Common Files\Microsoft Shared\Phone Tools\CoreCon\11.0\bin\IpOverUsbSvc.exe,2014-10-16 01:28:42,Yes,False
+1,270,SYSVOL\Program Files\Intel\iCLS Client\HeciServer.exe,2013-08-27 20:32:14,Yes,False
+1,271,SYSVOL\Program Files (x86)\DU Meter\DUMeterSvc.exe,2014-11-13 21:01:04,Yes,False
+1,272,SYSVOL\Program Files\CrashPlan\CrashPlanService.exe,2014-11-20 16:15:39,Yes,False
+1,273,SYSVOL\Program Files (x86)\ASUS\AXSP\1.01.02\atkexComSvc.exe,2013-07-04 10:32:06,Yes,False
+1,274,SYSVOL\Windows\System32\spoolsv.exe,2014-07-24 08:18:34,Yes,False
+1,275,SYSVOL\Windows\System32\atieclxx.exe,2014-07-22 04:04:24,Yes,False
+1,276,SYSVOL\Windows\System32\dwm.exe,2014-03-18 10:05:39,Yes,False
+1,277,SYSVOL\Windows\System32\atiesrxx.exe,2014-07-22 04:04:24,Yes,False
+1,278,SYSVOL\Windows\System32\lsass.exe,2013-08-22 13:25:35,Yes,False
+1,279,SYSVOL\Windows\System32\services.exe,2014-03-28 15:58:34,Yes,False
+1,280,SYSVOL\Users\eric\AppData\Local\Temp\{AC9C7D16-3667-4CC7-8B07-40FF77608255}\{5D4F167D-CCC8-413E-A6EE-F2FABBBBF50D}\SetAppUserModelId.exe,2015-02-20 16:35:42,Yes,False
+1,281,SYSVOL\Users\eric\AppData\Local\Temp\{AC9C7D16-3667-4CC7-8B07-40FF77608255}\ISBEW64.exe,2011-08-22 08:05:40,Yes,False
+1,282,SYSVOL\Users\eric\AppData\Local\Temp\{33D122BE-413F-4A5D-A20E-1F4B04940F27}\Disk1\data1.hdr,2015-02-21 16:33:07,No,False
+1,283,SYSVOL\Users\eric\AppData\Local\Temp\Directory Opus Updates\DOpusInstall-x64-b000b-0.exe,2015-02-20 21:16:32,Yes,False
+1,284,SYSVOL\Program Files (x86)\Common Files\Microsoft Shared\OFFICE15\MSOSQM.EXE,2015-01-21 21:58:38,Yes,False
+1,285,SYSVOL\Windows\System32\WinSAT.exe,2013-08-22 10:19:31,Yes,False
+1,286,SYSVOL\Windows\System32\makecab.exe,2013-08-22 11:32:20,Yes,False
+1,287,SYSVOL\Program Files\Red Gate\SmartAssembly 6\SmartAssembly.exe,2014-10-30 13:01:32,Yes,False
+1,288,SYSVOL\ProjectWorkingFolder\RegistryViewerZ\RegistryViewerZ\bin\Debug\RegistryExplorer.vshost.exe,2015-02-20 01:58:50,Yes,False
+1,289,SYSVOL\ProjectWorkingFolder\RegistryViewerZ\RegistryViewerZ\bin\Release\RegistryExplorer.vshost.exe,2015-02-20 01:58:39,Yes,False
+1,290,SYSVOL\ProjectWorkingFolder\RegistryViewerZ\RegistryViewerZ\bin\RegistryExplorer.exe,2015-02-19 23:00:04,No,False
+1,291,SYSVOL\Windows\System32\mstsc.exe,2013-08-22 10:06:45,Yes,False
+1,292,SYSVOL\ProjectWorkingFolder\RegistryViewerZ\RegistryViewerZ\bin\!!ProductionSkeleton\RegistryExplorer.exe,2015-02-19 22:50:49,No,False
+1,293,SYSVOL\Windows\Temp\CR_8CC58.tmp\setup.exe,2015-02-19 21:50:44,Yes,False
+1,294,SYSVOL\Program Files (x86)\Google\Chrome\Application\40.0.2214.111\Installer\setup.exe,2015-02-06 05:51:11,Yes,False
+1,295,SYSVOL\Program Files (x86)\Google\Update\Install\{85D950C5-86CB-4585-BB00-E261F0DEA04A}\40.0.2214.115_40.0.2214.111_chrome_updater.exe,2015-02-19 15:47:00,Yes,False
+1,296,SYSVOL\Users\Public\Documents\DevExpress Demos 14.2\Components\Components\Bin\DevExpress.DemoCenter.v14.2.exe,2015-02-19 18:15:20,No,False
+1,297,SYSVOL\Windows\Microsoft.NET\Framework\v4.0.30319\InstallUtil.exe,2013-08-10 00:53:17,Yes,False
+1,298,SYSVOL\Program Files (x86)\DevExpress 14.2\Components\Tools\ToolboxCreator.exe,2015-02-19 18:15:07,Yes,False
+1,299,SYSVOL\Users\eric\Desktop\DevExpressComponents-14.2.5.exe,2015-02-19 17:52:42,Yes,False
+1,300,SYSVOL\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe,2013-08-10 00:53:41,Yes,False
+1,301,SYSVOL\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\CommonExtensions\Microsoft\IntelliTrace\14.0.0\IntelliTrace.exe,2015-01-12 08:41:48,Yes,False
+1,302,SYSVOL\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Remote Debugger\x64\msvsmon.exe,2015-01-12 05:53:32,Yes,False
+1,303,SYSVOL\Program Files (x86)\MSBuild\14.0\Bin\csc2.exe,2015-01-12 01:33:00,Yes,False
+1,304,SYSVOL\ProjectWorkingFolder\Registry2\Registry\ExampleApp\bin\Release\ExampleApp.vshost.exe,2015-02-19 16:10:54,Yes,False
+1,305,SYSVOL\Program Files (x86)\MSBuild\14.0\Bin\VBCSCompiler.exe,2015-01-12 01:33:00,Yes,False
+1,306,SYSVOL\Program Files (x86)\MSBuild\14.0\Bin\MSBuild.exe,2015-01-12 08:41:50,Yes,False
+1,307,SYSVOL\ProjectWorkingFolder\ConsoleApplication9\ConsoleApplication9\bin\Debug\ConsoleApplication9.vshost.exe,2015-02-19 15:04:12,Yes,False
+1,308,SYSVOL\ProjectWorkingFolder\ShellBagsExplorer\ShellBagsExplorer\bin\Release\ShellBagsExplorer.vshost.exe,2015-02-19 14:50:56,Yes,False
+1,309,SYSVOL\Windows\Microsoft.NET\assembly\GAC_32\Microsoft.Alm.Shared.Remoting.RemoteContainer\v4.0_14.0.0.0__b03f5f7f11d50a3a\Microsoft.Alm.Shared.Remoting.RemoteContainer.dll,2015-02-05 13:41:02,Yes,False
+1,310,SYSVOL\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\devenv.exe,2015-01-12 08:41:50,Yes,False
+1,311,SYSVOL\Program Files (x86)\Common Files\Microsoft Shared\VsHub\1.0.0.0\VsHub.exe,2015-01-12 08:41:50,Yes,False
+1,312,SYSVOL\Users\eric\AppData\Local\JetBrains\Installations\ReSharperPlatformVs14\JetBrains.dotCover.WorkspaceHost.exe,2015-02-05 13:55:57,Yes,False
+1,313,SYSVOL\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\PerfWatson2.exe,2015-01-12 08:41:50,Yes,False
+1,314,SYSVOL\ProjectWorkingFolder\ShellBagsExplorer\SBE\bin\Debug\SBECmd.vshost.exe,2015-02-19 13:43:42,Yes,False
+1,315,SYSVOL\Windows\SoftwareDistribution\Download\Install\AM_Delta_Patch_1.193.158.0.exe,2015-02-19 06:03:01,Yes,False
+1,316,SYSVOL\Windows\SysWOW64\rundll32.exe,2013-08-22 03:40:23,Yes,False
+1,317,SYSVOL\Windows\SysWOW64\taskkill.exe,2013-08-22 03:25:16,Yes,False
+1,318,SYSVOL\Windows\SysWOW64\sc.exe,2013-08-22 02:54:13,Yes,False
+1,319,SYSVOL\Windows\Installer\MSICC07.tmp-\scshow.bat,2015-02-19 09:41:47,No,False
+1,320,SYSVOL\Windows\Installer\MSICC07.tmp-\scset.bat,2015-02-19 09:41:47,No,False
+1,321,SYSVOL\Windows\SysWOW64\msiexec.exe,2013-08-22 03:56:51,Yes,False
+1,322,SYSVOL\Windows\Temp\tmp6F3B.tmp.exe,2015-02-19 09:41:36,Yes,False
+1,323,SYSVOL\Program Files (x86)\Garmin\Express Self Updater\esu.exe,2014-10-21 21:45:52,Yes,False
+1,324,SYSVOL\Program Files (x86)\Garmin\Express Self Updater\ExpressSelfUpdater.exe,2014-10-21 21:45:52,Yes,False
+1,325,SYSVOL\Windows\System32\TSTheme.exe,2013-08-22 11:16:38,Yes,False
+1,326,SYSVOL\Windows\System32\rdpclip.exe,2014-03-18 10:06:05,Yes,False
+1,327,SYSVOL\Users\eric\AppData\Roaming\Dropbox\bin\DropboxUninstaller.exe,2015-02-11 01:15:08,No,False
+1,328,SYSVOL\Windows\System32\regsvr32.exe,2013-08-22 11:22:40,Yes,False
+1,329,SYSVOL\Windows\SysWOW64\regsvr32.exe,2013-08-22 03:55:58,Yes,False
+1,330,SYSVOL\Users\eric\AppData\Roaming\Dropbox\bin\update\Dropbox.exe,2015-02-11 01:12:26,Yes,False
+1,331,D:\Dropbox (Personal)\.dropbox.cache\dropbox-upgrade-3.2.6.exe,2015-02-19 00:38:01,Yes,False
+1,332,SYSVOL\Windows\Temp\nss5E46.tmp\TvUpdateInfo.exe,2015-01-20 09:24:16,Yes,False
+1,333,SYSVOL\Windows\regedit.exe,2013-08-22 10:57:13,Yes,False
+1,334,D:\temp\XWFIM.exe,2015-02-03 16:53:03,Yes,False
+1,335,SYSVOL\Users\eric\AppData\Local\Temp\CitrixUpdates\GoToMeeting\2352\G2MInstaller.exe,2015-02-18 19:39:09,Yes,False
+1,336,SYSVOL\Users\eric\AppData\Local\Temp\CitrixUpdates\GoToMeeting\2352\G2MCoreInstExtractor.exe,2015-02-18 19:39:08,Yes,False
+1,337,SYSVOL\Users\eric\AppData\Local\Citrix\GoToMeeting\2331\g2mupdate.exe,2015-02-12 23:22:16,Yes,False
+1,338,D:\cmder\vendor\conemu-maximus5\ConEmu\ConEmuC.exe,2014-07-08 21:32:09,Yes,False
+1,339,D:\cmder\vendor\msysgit\bin\git.exe,2014-06-12 14:10:18,Yes,False
+1,340,SYSVOL\ProjectWorkingFolder\Registry2\Registry\ExampleApp\Binaries\ExampleApp.exe,2015-02-18 15:22:00,Yes,False
+1,341,D:\cmder\vendor\msysgit\bin\ls.exe,2014-06-12 14:10:17,Yes,False
+1,342,SYSVOL\Windows\System32\doskey.exe,2013-08-22 11:33:34,Yes,False
+1,343,D:\cmder\vendor\clink\clink_x64.exe,2014-05-06 21:51:38,Yes,False
+1,344,SYSVOL\Windows\Microsoft.NET\Framework64\v2.0.50727\cvtres.exe,2014-05-27 04:39:08,Yes,False
+1,345,SYSVOL\Windows\Microsoft.NET\Framework64\v2.0.50727\vbc.exe,2014-05-27 04:39:16,Yes,False
+1,346,SYSVOL\Program Files (x86)\Microsoft Office\Office15\WINWORD.EXE,2015-01-21 21:59:54,Yes,False
+1,347,SYSVOL\ProjectWorkingFolder\Registry2\Registry\ExampleApp\bin\Release\ExampleApp.exe,2015-02-18 15:22:00,No,False
+1,348,SYSVOL\ProjectWorkingFolder\Registry2\Registry\ExampleApp\bin\Debug\ExampleApp.exe,2015-02-18 15:21:43,Yes,False
+1,349,SYSVOL\Windows\System32\Defrag.exe,2014-07-24 09:04:32,Yes,False
+1,350,SYSVOL\Program Files (x86)\AppLife Update\MakeUpdate\Kjs.AppLife.Update.MakeUpdate.UI.exe,2014-06-20 01:45:39,Yes,False
+1,351,SYSVOL\ProjectWorkingFolder\ShellBagsExplorer\SBE\bin\Debug\SBECmd.exe,2015-02-17 21:18:00,Yes,False
+1,352,SYSVOL\ProjectWorkingFolder\ShellBagsExplorer\SBE\bin\Debug\SBE.vshost.exe,2014-10-04 14:56:09,No,False
+1,353,D:\Dropbox (Personal)\ShellBagsTesting\ShellBagsExplorer\SBECmd.exe,2015-02-17 21:07:57,Yes,False
+1,354,SYSVOL\ProjectWorkingFolder\ShellBagsExplorer\ShellBagsExplorer\bin\SBECmd.exe,2015-02-17 21:07:57,No,False
+1,355,SYSVOL\ProjectWorkingFolder\ShellBagsExplorer\ShellBagsExplorer\bin\ShellBagsExplorer.exe,2015-02-17 21:08:02,No,False
+1,356,SYSVOL\ProjectWorkingFolder\ShellBagsExplorer\SBE\bin\SBECmd.exe,2015-02-17 21:07:57,No,False
+1,357,SYSVOL\Windows\SoftwareDistribution\Download\Install\AM_Delta_Patch_1.193.14.0.exe,2015-02-17 16:01:50,Yes,False
+1,358,SYSVOL\ProgramData\PostSharp\4.0.42\bin.Release\PostSharp.HQ.v3.0.exe,2015-02-13 09:44:28,Yes,False
+1,359,SYSVOL\ProjectWorkingFolder\ShellBagsExplorer\packages\PostSharp.4.0.42\tools\PostSharp-Tools.exe,2015-02-17 18:38:05,Yes,False
+1,360,SYSVOL\ProjectWorkingFolder\ShellBagsExplorer\ShellBagsExplorer\bin\Debug\ShellBagsExplorer.exe,2015-02-17 18:31:43,Yes,False
+1,361,SYSVOL\ProjectWorkingFolder\AsmSpy.exe,2012-04-26 08:06:48,No,False
+1,362,SYSVOL\Users\eric\AppData\Local\Temp\PROCEXP64.exe,2015-02-17 17:56:24,Yes,False
+1,363,SYSVOL\ProgramData\PostSharp\4.0.37\bin.Release\postsharp.srv.4.0-x86.exe,2014-12-08 11:03:17,Yes,False
+1,364,D:\Dropbox (Personal)\!Software\GOON2\GOON2.exe,2014-11-04 15:25:58,Yes,False
+1,365,SYSVOL\Windows\Installer\{91150000-0011-0000-0000-0000000FF1CE}\pptico.exe,2015-02-17 10:40:08,No,False
+1,366,SYSVOL\Windows\Microsoft.NET\Framework\v3.5\AddInUtil.exe,2013-08-03 04:40:16,Yes,False
+1,367,SYSVOL\Program Files (x86)\Microsoft Office\Office15\MSOHTMED.EXE,2014-01-23 21:56:14,Yes,False
+1,368,SYSVOL\Windows\SoftwareDistribution\Download\Install\AM_Base_Patch1.exe,2015-02-16 15:39:46,Yes,False
+1,369,SYSVOL\Windows\SoftwareDistribution\Download\Install\AM_Engine_Patch_1.1.11302.0.exe,2015-02-16 15:38:38,Yes,False
+1,370,SYSVOL\Windows\SoftwareDistribution\Download\Install\AM_Delta_Patch_1.191.4985.0.exe,2015-02-16 02:06:45,Yes,False
+1,371,D:\Dropbox (Personal)\ShellBagsTesting\ShellBagsExplorer\ShellBagsExplorer.exe,2015-02-14 21:48:58,Yes,False
+1,372,D:\Dropbox (Personal)\ShellBagsTesting\sbags\sbag.exe,2015-02-11 02:16:50,Yes,False
+1,373,SYSVOL\Windows\SysWOW64\WerFault.exe,2014-10-29 03:12:03,Yes,False
+1,374,SYSVOL\Program Files (x86)\Microsoft Office\Office15\EXCEL.EXE,2015-01-21 21:59:12,Yes,False
+1,375,SYSVOL\Windows\System32\notepad.exe,2013-08-22 11:00:12,Yes,False
+1,376,D:\temp\autorunsc.exe,2014-08-18 18:29:28,No,False
+1,377,D:\temp\regdecoderR103.exe,2012-08-16 01:18:46,Yes,False
+1,378,SYSVOL\ProjectWorkingFolder\ShellBagsExplorer\SBE\bin\Release\SBECmd.vshost.exe,2015-02-14 21:47:53,Yes,False
+1,379,D:\temp\ShellBagsExplorer.exe,2015-01-27 18:41:36,Yes,False
+1,380,SYSVOL\Program Files (x86)\Microsoft Visual Studio 14.0\Team Tools\DiagnosticsHub\Collector\StandardCollector.Service.exe,2015-01-12 05:53:32,Yes,False
+1,381,SYSVOL\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\Packages\Debugger\Services\VsEtwService.exe,2015-01-12 05:53:32,Yes,False
+1,382,SYSVOL\Program Files (x86)\Common Files\Microsoft Shared\VsHub\1.0.0.0\Microsoft.VsHub.Server.HttpHost.exe,2015-01-12 08:41:50,Yes,False
+1,383,SYSVOL\Program Files (x86)\Google\Chrome\Application\40.0.2214.111\nacl64.exe,2015-02-04 09:02:50,Yes,False
+1,384,SYSVOL\Program Files (x86)\Microsoft SDKs\Windows Phone\v8.1\Tools\Phone Registration\PhoneReg.exe,2014-10-16 01:29:14,No,False
+1,385,SYSVOL\Program Files (x86)\Microsoft SDKs\Windows Phone\v8.1\Tools\PowerTools\PwTools.exe,2014-10-16 01:29:18,No,False
+1,386,SYSVOL\Program Files (x86)\Microsoft SDKs\Windows Phone\v8.1\Tools\AppDeploy\AppDeploy.exe,2014-10-16 01:29:22,No,False
+1,387,SYSVOL\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\WPRUI.exe,2013-08-22 11:16:58,No,False
+1,388,SYSVOL\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\wpa.exe,2013-08-22 11:16:58,No,False
+1,389,SYSVOL\Program Files (x86)\Windows Kits\8.1\App Certification Kit\appcertui.exe,2014-02-20 11:53:04,No,False
+1,390,SYSVOL\Program Files (x86)\VMware\VMware Workstation\vmplayer.exe,2014-11-21 01:44:34,No,False
+1,391,SYSVOL\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe,2013-08-22 03:36:19,No,False
+1,392,SYSVOL\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\mtm.exe,2015-01-12 08:41:50,No,False
+1,393,SYSVOL\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\mfbclient.exe,2015-01-12 08:41:50,No,False
+1,394,SYSVOL\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Blend.exe,2015-01-12 08:41:50,Yes,False
+1,395,SYSVOL\Program Files\TrueCrypt\TrueCrypt Setup.exe,2012-02-13 20:51:14,No,False
+1,396,SYSVOL\Program Files\TortoiseSVN\bin\TortoiseMerge.exe,2014-08-10 22:10:38,No,False
+1,397,SYSVOL\Program Files\TortoiseSVN\bin\TortoiseIDiff.exe,2014-08-10 22:10:38,No,False
+1,398,SYSVOL\Program Files\TortoiseSVN\bin\TortoiseProc.exe,2014-08-10 22:10:38,No,False
+1,399,SYSVOL\Windows\Installer\{979028FC-2DBF-4BB4-A9EC-4627A9D63D50}\SnagitIcon.exe,2014-10-30 15:26:17,No,False
+1,400,SYSVOL\Program Files (x86)\Sanderson Forensics\SkypeAlyzer\unins000.exe,2014-08-28 20:06:32,No,False
+1,401,SYSVOL\Program Files\Just Great Software\RegexMagic 2\UnDeploy64.exe,2014-10-07 17:54:01,No,False
+1,402,SYSVOL\Program Files\Just Great Software\RegexBuddy4\UnDeploy64.exe,2014-12-12 15:46:36,No,False
+1,403,SYSVOL\Program Files\PremiumSoft\Navicat for SQLite\unins000.exe,2014-08-26 14:22:29,No,False
+1,404,SYSVOL\Program Files\Just Great Software\PowerGREP4\UnDeploy64.exe,2014-09-08 14:52:31,No,False
+1,405,SYSVOL\Windows\Installer\{91150000-0011-0000-0000-0000000FF1CE}\wordicon.exe,2015-02-13 10:06:39,No,False
+1,406,SYSVOL\Windows\Installer\{91150000-0011-0000-0000-0000000FF1CE}\msouc.exe,2015-02-13 10:06:39,No,False
+1,407,SYSVOL\Windows\Installer\{91150000-0011-0000-0000-0000000FF1CE}\dbcicons.exe,2015-02-13 10:06:39,No,False
+1,408,SYSVOL\Windows\Installer\{91150000-0011-0000-0000-0000000FF1CE}\lyncicon.exe,2015-02-13 10:06:39,No,False
+1,409,SYSVOL\Windows\Installer\{91150000-0011-0000-0000-0000000FF1CE}\xlicons.exe,2015-02-13 10:06:39,No,False
+1,410,SYSVOL\Windows\Installer\{91150000-0011-0000-0000-0000000FF1CE}\accicons.exe,2015-02-13 10:06:39,No,False
+1,411,SYSVOL\Program Files (x86)\Malwarebytes Anti-Malware\unins000.exe,2014-12-08 13:19:09,No,False
+1,412,SYSVOL\Program Files (x86)\JDownloader\JDownloaderPortable.exe,2012-05-22 15:43:16,No,False
+1,413,SYSVOL\Program Files (x86)\JDownloader\JDUpdate.exe,2012-05-22 15:45:28,No,False
+1,414,SYSVOL\Program Files (x86)\JDownloader\JDUninstall.exe,2012-05-22 15:45:28,No,False
+1,415,SYSVOL\Program Files\nsoftware\IPWorks ZIP V9 .NET Edition\uninstall.exe,2014-05-20 18:22:58,No,False
+1,416,SYSVOL\Program Files\nsoftware\IPWorks V9 .NET Edition\uninstall.exe,2014-05-20 18:21:31,No,False
+1,417,SYSVOL\Program Files\nsoftware\IPWorks SSL V9 .NET Edition\uninstall.exe,2014-05-20 18:19:34,No,False
+1,418,SYSVOL\Users\Public\Documents\Infragistics\2014.2\Windows Forms\Samples\SamplesBrowser.exe,2014-09-25 05:26:44,No,False
+1,419,SYSVOL\Program Files (x86)\Infragistics\2014.2\Windows Forms\AppStylist for Windows Forms\Infragistics4.Win.AppStylist.v14.2.exe,2015-01-21 22:58:30,No,False
+1,420,SYSVOL\Users\Public\Documents\Infragistics\2014.2\Reporting\Samples\Bin\Infragistics4.Samples.Web.Start.exe,2014-09-17 16:16:34,No,False
+1,421,SYSVOL\Program Files (x86)\ImgBurn\uninstall.exe,2014-07-08 19:22:24,No,False
+1,422,SYSVOL\Program Files (x86)\Gurock Software\SmartInspect Professional\SmartInspectBuilder.exe,2014-06-12 21:53:08,No,False
+1,423,SYSVOL\Program Files (x86)\Garmin\Express\Express.exe,2014-10-21 21:45:34,No,False
+1,424,SYSVOL\Program Files (x86)\Fookes Software\Aid4Mail3\unins000.exe,2014-11-18 18:38:02,No,False
+1,425,SYSVOL\Program Files (x86)\F-Response\unins000.exe,2014-05-29 21:33:39,No,False
+1,426,SYSVOL\Program Files (x86)\F-Response\F-Response TACTICAL\tac-manager.exe,2014-04-29 23:22:42,No,False
+1,427,SYSVOL\Program Files (x86)\eMule\Uninstall.exe,2014-09-02 19:56:39,No,False
+1,428,SYSVOL\Program Files (x86)\eMule\LinkCreator.exe,2006-03-22 21:12:16,No,False
+1,429,SYSVOL\Program Files\Just Great Software\EditPad Pro 7\UnDeploy64.exe,2014-12-05 20:29:28,No,False
+1,430,SYSVOL\Program Files (x86)\DisplayFusion\unins000.exe,2015-01-30 22:41:39,No,False
+1,431,SYSVOL\Program Files (x86)\ClipboardFusion\unins000.exe,2015-01-04 05:11:49,No,False
+1,432,SYSVOL\Program Files\Classic Shell\ClassicShellUpdate.exe,2014-04-20 17:17:38,No,False
+1,433,SYSVOL\Program Files\Classic Shell\ClassicIE_32.exe,2014-04-20 17:17:36,No,False
+1,434,SYSVOL\Program Files\Classic Shell\ClassicExplorerSettings.exe,2014-04-20 17:17:34,No,False
+1,435,SYSVOL\Program Files (x86)\AppLife Update\MakeUpdate\ServiceRegistrationUtility.exe,2012-03-27 19:24:42,No,False
+1,436,SYSVOL\Program Files (x86)\Beyond Compare 4\unins000.exe,2015-02-03 20:17:35,No,False
+1,437,SYSVOL\Users\eric\AppData\Roaming\Microsoft\Installer\{A62B4B00-4F1A-46C9-A2EC-BF3A8DA1B545}\_2872744ADCD28FAFB0F1BE.exe,2014-10-16 19:59:34,No,False
+1,438,SYSVOL\Users\eric\AppData\Roaming\Microsoft\Installer\{A62B4B00-4F1A-46C9-A2EC-BF3A8DA1B545}\_BEBA166D4854E0B5C6AB0A.exe,2014-10-16 19:59:34,No,False
+1,439,SYSVOL\Users\eric\AppData\Roaming\Microsoft\Installer\{A62B4B00-4F1A-46C9-A2EC-BF3A8DA1B545}\_90B9AECFF3321604CFE527.exe,2014-10-16 19:59:34,No,False
+1,440,SYSVOL\Users\eric\AppData\Local\JDownloader v2.0\Uninstall JDownloader.exe,2014-07-23 21:01:00,No,False
+1,441,SYSVOL\Users\eric\AppData\Local\JDownloader v2.0\JDownloader2Update.exe,2014-07-23 21:01:00,No,False
+1,442,SYSVOL\Program Files (x86)\AppLife Update\MakeUpdate\UpdateLogViewer.exe,2012-03-14 20:28:48,Yes,False
+1,443,SYSVOL\Windows\Installer\{6D8C09A5-652A-4350-8972-DE8B5DA3430A}\XMLSpy.exe,2015-01-08 19:57:11,No,False
+1,444,SYSVOL\Program Files\010 Editor\unins000.exe,2015-02-09 23:02:32,No,False
+1,445,SYSVOL\Program Files\010 Editor\assistant.exe,2014-09-26 02:10:38,Yes,False
+1,446,SYSVOL\Users\eric\AppData\Local\JetBrains\Installations\dotTrace01\dotTrace64.exe,2015-02-05 13:57:10,No,False
+1,447,SYSVOL\Users\eric\AppData\Local\JetBrains\Installations\dotPeek01\dotPeek64.exe,2015-02-05 13:56:50,No,False
+1,448,SYSVOL\Users\eric\AppData\Local\JetBrains\Installations\dotMemory01\dotMemory64.exe,2015-02-05 13:56:37,Yes,False
+1,449,SYSVOL\Users\eric\AppData\Local\JetBrains\Installations\dotCover01\dotCover.Shell.exe,2015-02-05 13:56:19,No,False
+1,450,SYSVOL\Windows\System32\mcbuilder.exe,2014-03-18 10:05:21,Yes,False
+1,451,SYSVOL\Program Files (x86)\Garmin\Core Update Service\Garmin.Cartography.MapUpdate.CoreService.exe,2014-10-21 21:45:20,Yes,False
+1,452,SYSVOL\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\PrivateAssemblies\ScriptedSandbox64.exe,2015-01-12 05:53:32,Yes,False
+1,453,SYSVOL\Windows\SoftwareDistribution\Download\Install\AM_Delta_Patch_1.191.4779.0.exe,2015-02-13 18:38:09,Yes,False
+1,454,SYSVOL\Windows\System32\WFS.exe,2013-08-22 10:13:52,No,False
+1,455,SYSVOL\Windows\SoftwareDistribution\Download\Install\AM_Delta_Patch_1.191.4757.0.exe,2015-02-12 15:50:34,Yes,False
+1,456,SYSVOL\Users\eric\AppData\Local\Citrix\GoToMeeting\2331\G2MInstaller.exe,2015-02-12 23:22:16,Yes,False
+1,457,SYSVOL\Users\eric\AppData\Local\Temp\CitrixUpdates\GoToMeeting\2331\G2MInstaller.exe,2015-02-12 23:22:16,Yes,False
+1,458,SYSVOL\Users\eric\AppData\Local\Temp\CitrixUpdates\GoToMeeting\2331\G2MCoreInstExtractor.exe,2015-02-12 23:22:15,Yes,False
+1,459,SYSVOL\Users\eric\AppData\Local\Citrix\GoToMeeting\2318\G2MInstaller.exe,2015-02-12 23:22:09,Yes,False
+1,460,SYSVOL\Users\eric\AppData\Local\Temp\CitrixUpdates\GoToMeeting\2318\G2MInstaller.exe,2015-02-12 23:22:09,Yes,False
+1,461,SYSVOL\Users\eric\AppData\Local\Temp\CitrixUpdates\GoToMeeting\2318\G2MCoreInstExtractor.exe,2015-02-12 23:22:08,Yes,False
+1,462,SYSVOL\Users\eric\AppData\Local\Citrix\GoToMeeting\2273\g2mupdate.exe,2015-01-27 04:47:08,Yes,False
+1,463,SYSVOL\ProjectWorkingFolder\XWFManager\XWFManager\trunk\XWFRT\bin\Release\XWFRT.vshost.exe,2015-02-12 21:08:17,Yes,False
+1,464,SYSVOL\ProjectWorkingFolder\XWFManager\XWFManager\trunk\XWFRT\bin\Debug\XWFRT.vshost.exe,2015-02-12 20:55:17,Yes,False
+1,465,SYSVOL\Windows\SysWOW64\notepad.exe,2013-08-22 03:35:48,Yes,False
+1,466,SYSVOL\ProjectWorkingFolder\RegistryViewerZ\RegistryViewerZ\bin\Debug\RegistryExplorer.exe,2015-02-12 16:43:20,No,False
+1,467,SYSVOL\temp\RegistryExplorer\RegistryExplorer.exe,2015-02-11 16:28:16,Yes,False
+1,468,SYSVOL\Windows\Microsoft.NET\Framework64\v3.5\AddInUtil.exe,2013-08-03 04:42:42,Yes,False
+1,469,F:\b0e6b8cb3eca04130f\install.exe,2014-09-03 07:27:22,Yes,False
+1,470,F:\df0c6ecfd663019c409ef7e4f106f9ee\vstor40\vstor40_x64.exe,2014-09-03 07:33:44,Yes,False
+1,471,F:\df0c6ecfd663019c409ef7e4f106f9ee\Setup.exe,2014-09-03 12:19:32,Yes,False
+1,472,SYSVOL\Windows\SoftwareDistribution\Download\Install\vstor_redist.exe,2014-10-09 23:48:08,Yes,False
+1,473,SYSVOL\Windows\System32\Taskmgr.exe,2014-03-18 10:05:22,Yes,False
+1,474,SYSVOL\Windows\Microsoft.NET\Framework64\v4.0.30319\cvtres.exe,2013-08-10 00:40:00,Yes,False
+1,475,SYSVOL\Windows\Microsoft.NET\Framework64\v4.0.30319\vbc.exe,2014-12-11 21:51:28,Yes,False
+1,476,SYSVOL\ProjectWorkingFolder\eMule Parser\eMule Parser\bin\Debug\eMuleParser.vshost.exe,2015-02-11 21:35:40,Yes,False
+1,477,SYSVOL\ProjectWorkingFolder\eMule Parser\eMule Parser\bin\Release\eMuleParser.vshost.exe,2015-02-11 21:33:19,Yes,False
+1,478,SYSVOL\PROGRA~1\REDGAT~1\SMARTA~1\SMARTA~1.EXE,2014-10-30 13:01:32,Yes,False
+1,479,F:\c100340c360e74e03a05\Setup.exe,2012-07-09 07:40:10,Yes,False
+1,480,SYSVOL\Users\eric\AppData\Local\Temp\AppLifeLauncher\5.0.0.6\8950f7ce085045bcbef753d3331355f2\1f67614f409f4a35a2b6c0a49282c813.exe,2014-07-24 12:58:04,Yes,False
+1,481,SYSVOL\Users\eric\AppData\Local\Temp\AppLifeLauncher\5.0.0.6\8950f7ce085045bcbef753d3331355f2\Kjs.AppLife.Update.Engine.UI.exe,2014-06-20 01:44:57,Yes,False
+1,482,SYSVOL\Windows\System32\Macromed\Flash\FlashUtil_ActiveX.exe,2015-02-03 19:31:19,Yes,False
+1,483,SYSVOL\Windows\System32\OpenWith.exe,2013-08-22 12:39:50,Yes,False
+1,484,SYSVOL\Program Files (x86)\Git\bin\sh.exe,2015-02-03 17:24:46,Yes,False
+1,485,SYSVOL\Program Files (x86)\Git\libexec\git-core\git.exe,2015-02-03 17:24:45,Yes,False
+1,486,SYSVOL\Program Files (x86)\Git\libexec\git-core\git-remote-https.exe,2015-02-03 17:24:46,Yes,False
+1,487,SYSVOL\Program Files (x86)\Git\libexec\git-core\git-merge.exe,2015-02-03 17:24:45,Yes,False
+1,488,SYSVOL\Program Files (x86)\Git\bin\tr.exe,2015-02-03 17:24:46,Yes,False
+1,489,SYSVOL\Program Files (x86)\Git\bin\sed.exe,2015-02-03 17:24:46,Yes,False
+1,490,SYSVOL\Program Files (x86)\Git\bin\uname.exe,2015-02-03 17:24:46,Yes,False
+1,491,SYSVOL\Program Files (x86)\Git\bin\basename.exe,2015-02-03 17:24:45,Yes,False
+1,492,SYSVOL\Program Files (x86)\Git\libexec\git-core\git-upload-pack.exe,2015-02-03 17:24:46,Yes,False
+1,493,SYSVOL\Program Files (x86)\Git\libexec\git-core\git-for-each-ref.exe,2015-02-03 17:24:45,Yes,False
+1,494,SYSVOL\Program Files (x86)\Git\libexec\git-core\git-ls-files.exe,2015-02-03 17:24:45,Yes,False
+1,495,SYSVOL\Program Files (x86)\Git\libexec\git-core\git-diff-files.exe,2015-02-03 17:24:45,Yes,False
+1,496,SYSVOL\Program Files (x86)\Git\libexec\git-core\git-diff-index.exe,2015-02-03 17:24:45,Yes,False
+1,497,SYSVOL\Program Files (x86)\Git\libexec\git-core\git-update-index.exe,2015-02-03 17:24:45,Yes,False
+1,498,SYSVOL\Program Files (x86)\Git\libexec\git-core\git-rev-parse.exe,2015-02-03 17:24:45,Yes,False
+1,499,SYSVOL\Program Files (x86)\Git\libexec\git-core\git-config.exe,2015-02-03 17:24:45,Yes,False
+1,500,SYSVOL\Program Files (x86)\Git\bin\wish.exe,2015-02-03 17:24:46,Yes,False
+1,501,SYSVOL\Program Files (x86)\Git\libexec\git-core\git-update-ref.exe,2015-02-03 17:24:45,Yes,False
+1,502,SYSVOL\Program Files (x86)\Git\libexec\git-core\git-commit-tree.exe,2015-02-03 17:24:45,Yes,False
+1,503,SYSVOL\Program Files (x86)\Git\libexec\git-core\git-write-tree.exe,2015-02-03 17:24:45,Yes,False
+1,504,SYSVOL\Program Files (x86)\Git\libexec\git-core\git-var.exe,2015-02-03 17:24:45,Yes,False
+1,505,SYSVOL\Program Files (x86)\Git\libexec\git-core\git-mktree.exe,2015-02-03 17:24:45,Yes,False
+1,506,SYSVOL\Windows\System32\ByteCodeGenerator.exe,2013-08-22 09:17:04,Yes,False
+1,507,SYSVOL\Windows\Installer\MSI7575.tmp,2015-02-11 14:27:22,Yes,False
+1,508,SYSVOL\ProgramData\Package Cache\{95716cce-fc71-413f-8ad5-56c2892d4b3a}\vcredist_x86.exe,2014-05-20 15:32:30,Yes,False
+1,509,SYSVOL\Windows\SoftwareDistribution\Download\Install\vcredist_x86.exe,2015-02-06 01:35:07,Yes,False
+1,510,SYSVOL\ProgramData\Package Cache\{a1909659-0a08-4554-8af1-2175904903a1}\vcredist_x64.exe,2014-05-20 15:32:34,Yes,False
+1,511,SYSVOL\Windows\SoftwareDistribution\Download\Install\vcredist_x64.exe,2015-02-06 01:34:22,Yes,False
+1,512,F:\92bbd5a926ad6d2ab15775\mrtstub.exe,2015-01-30 00:38:00,Yes,False
+1,513,SYSVOL\Windows\SoftwareDistribution\Download\Install\Windows-KB890830-x64-V5.21-delta.exe,2015-02-05 03:29:03,Yes,False
+1,514,F:\731a2b73e693e932b10656d4\Setup.exe,2012-07-09 07:40:10,Yes,False
+1,515,SYSVOL\Users\eric\AppData\Local\Temp\AppLifeLauncher\5.0.0.6\ff195fa536a241ae8716e13d9ff01f21\82dbc5a6516e43fd858b02841b570f90.exe,2014-07-24 12:58:04,Yes,False
+1,516,SYSVOL\Users\eric\AppData\Local\Temp\AppLifeLauncher\5.0.0.6\ff195fa536a241ae8716e13d9ff01f21\Kjs.AppLife.Update.Engine.UI.exe,2014-06-20 01:44:57,Yes,False
+1,517,SYSVOL\Windows\Temp\nsb137.tmp\TvUpdateInfo.exe,2015-01-20 09:24:16,Yes,False
+1,518,SYSVOL\Windows\System32\gpscript.exe,2014-03-18 09:43:17,Yes,False
+1,519,SYSVOL\Program Files (x86)\Common Files\Microsoft Shared\VsHub\1.0.0.0\Microsoft.VsHub.Server.HttpHostx64.exe,2015-01-12 05:53:32,Yes,False
+1,520,SYSVOL\Windows\SoftwareDistribution\Download\Install\AM_Delta_Patch_1.191.4445.0.exe,2015-02-10 11:19:00,Yes,False
+1,521,SYSVOL\temp\bin\ShellBagsExplorer.exe,2015-02-10 01:41:36,Yes,False
+1,522,D:\Dropbox (Personal)\!Software\hexinator-64-1.0.3\Hexinator.exe,2015-02-08 07:44:34,Yes,False
+1,523,SYSVOL\Program Files\010 Editor\unins00a.exe,2015-01-28 20:14:50,Yes,False
+1,524,F:\0150c12098721ab4c9c7\install.exe,2008-08-08 21:35:26,Yes,False
+1,525,SYSVOL\Users\eric\AppData\Local\Temp\is-2A8EO.tmp\vcredist_x64.exe,2014-11-12 22:58:26,Yes,False
+1,526,SYSVOL\Users\eric\AppData\Local\Temp\is-KJ7RA.tmp\010EditorWin64Installer601.tmp,2015-02-09 23:02:32,Yes,False
+1,527,SYSVOL\Users\eric\AppData\Local\Temp\is-KJ7R9.tmp\010EditorWin64Installer601.tmp,2015-02-09 23:02:32,Yes,False
+1,528,SYSVOL\Users\eric\Desktop\010EditorWin64Installer601.exe,2015-02-09 23:01:54,Yes,False
+1,529,SYSVOL\Users\eric\AppData\Local\Temp\is-4D875.tmp\010EditorWin64Installer601.tmp,2015-02-09 23:02:32,Yes,False
+1,530,SYSVOL\Users\eric\AppData\Local\Temp\is-VCITT.tmp\010EditorWin64Installer601.tmp,2015-02-09 23:02:32,Yes,False
+1,531,D:\Dropbox (Personal)\.dropbox.cache\dropbox-upgrade-3.2.4.exe,2015-02-09 22:27:09,Yes,False
+1,532,D:\Dropbox (Personal)\GnuPG\gpg2keys_hkp.exe,2014-02-01 03:05:50,Yes,False
+1,533,SYSVOL\Windows\SoftwareDistribution\Download\Install\AM_Delta_Patch_1.191.4397.0.exe,2015-02-09 16:05:16,Yes,False
+1,534,D:\Dropbox (Personal)\!Software\hexinator-64-1.0.3\TurboActivate.exe,2015-02-08 07:44:34,No,False
+1,535,F:\849fcd12fbcefd9186e70d6dbd\Setup.exe,2012-07-09 07:40:10,Yes,False
+1,536,SYSVOL\Users\eric\AppData\Local\Temp\AppLifeLauncher\5.0.0.6\09cc1f06b3ef48c580d020a3478ae1bb\66bf315bad7a4e778fa2cfab3cf30453.exe,2014-07-24 12:58:04,Yes,False
+1,537,SYSVOL\Users\eric\AppData\Local\Temp\AppLifeLauncher\5.0.0.6\09cc1f06b3ef48c580d020a3478ae1bb\Kjs.AppLife.Update.Engine.UI.exe,2014-06-20 01:44:57,Yes,False
+1,538,SYSVOL\ProjectWorkingFolder\RegistryViewerZ\RegistryViewerZ\bin\Release\RegistryExplorer.exe,2015-02-09 17:14:59,Yes,False
+1,539,D:\temp\ShellBagsExplorer\ShellBagsExplorer.exe,2014-11-14 18:54:35,No,False
+1,540,D:\temp\ShellBagsExplorer\SBECmd.exe,2014-11-14 19:05:03,No,False
+1,541,SYSVOL\Users\eric\AppData\Local\JetBrains\Installations\dotMemory01\JetBrains.dotMemory.ExternalProcessor.exe,2015-02-05 13:56:32,Yes,False
+1,542,SYSVOL\Users\eric\AppData\Local\JetBrains\Installations\dotMemory01\x86\JetBrains.Profiler.Windows.AttachHelper.exe,2015-02-05 13:56:34,Yes,False
+1,543,SYSVOL\Users\eric\AppData\Local\JetBrains\Installations\dotMemory01\x64\JetBrains.Profiler.Windows.AttachHelper.exe,2015-02-05 13:56:33,Yes,False
+1,544,SYSVOL\Users\eric\AppData\Local\JetBrains\Installations\dotMemory01\x64\JetBrains.Profiler.Windows.WinRTHelper.exe,2015-02-05 13:56:33,Yes,False
+1,545,SYSVOL\Program Files\Red Gate\ANTS Performance Profiler 9\RedGate.Profiler.Trigger_x64.exe,2014-12-10 20:43:18,Yes,False
+1,546,SYSVOL\Program Files\Red Gate\ANTS Performance Profiler 9\RedGate.Profiler.Trigger_x86.exe,2014-12-10 20:43:18,Yes,False
+1,547,SYSVOL\Program Files\Red Gate\ANTS Performance Profiler 9\RedGate.AppHost.Client.exe,2014-12-10 20:43:17,Yes,False
+1,548,SYSVOL\Program Files\Red Gate\ANTS Performance Profiler 9\RedGate.Profiler.UI.exe,2014-12-10 20:43:18,Yes,False
+1,549,SYSVOL\Windows\SoftwareDistribution\Download\Install\AM_Delta_Patch_1.191.4348.0.exe,2015-02-08 23:33:02,Yes,False
+1,550,F:\12e2febd09cab2534074e0\Setup.exe,2011-10-06 02:52:10,Yes,False
+1,551,SYSVOL\Windows\SoftwareDistribution\Download\Install\VS10sp1-KB983509-web.exe,2011-10-14 02:18:22,Yes,False
+1,552,F:\bf39334492772652b95d6168eabcfcb3\VS10sp1_x86.exe,2011-09-13 03:03:06,Yes,False
+1,553,SYSVOL\Windows\SoftwareDistribution\Download\Install\VS10sp1_x86.exe,2011-10-14 02:17:02,Yes,False
+1,554,F:\7f24ef1565611d36817b937f832a7e70\VS10sp1-KB983509.exe,2011-07-29 00:53:02,Yes,False
+1,555,SYSVOL\Windows\SoftwareDistribution\Download\Install\VS10sp1-KB983509.exe,2011-10-14 02:16:57,Yes,False
+1,556,F:\c1ff667acaf7b3edbb91\VS10sp1-KB983509-Pro.exe,2011-07-29 01:49:28,Yes,False
+1,557,SYSVOL\Windows\SoftwareDistribution\Download\Install\VS10sp1-KB983509-Pro.exe,2011-10-14 02:05:02,Yes,False
+1,558,F:\e6606653bbd0a37995645f5ef42d4e\vstor40_x64.exe,2011-07-29 03:12:12,Yes,False
+1,559,SYSVOL\Windows\SoftwareDistribution\Download\Install\vstor40_x64.exe,2011-10-14 01:52:59,Yes,False
+1,560,F:\77409c1160c53580c0fe58c0fb388f31\HelpSetup_x64.exe,2011-07-29 16:58:12,Yes,False
+1,561,SYSVOL\Windows\SoftwareDistribution\Download\Install\HelpSetup_x64.exe,2011-10-14 00:56:00,Yes,False
+1,562,F:\5baeb107793daa1f19444a23\SharedManagementObjects_x86_enu.exe,2011-07-29 09:29:58,Yes,False
+1,563,SYSVOL\Windows\SoftwareDistribution\Download\Install\SharedManagementObjects_x86_enu.exe,2011-10-14 01:17:51,Yes,False
+1,564,F:\0fa3a1a0c075140c1f5b06386b698df1\Vc_runtime_x86.exe,2011-07-29 05:18:04,Yes,False
+1,565,SYSVOL\Windows\SoftwareDistribution\Download\Install\Vc_runtime_x86.exe,2011-10-13 23:28:10,Yes,False
+1,566,F:\5f4a9e0463f5e69c79f63694b247a29b\Vc_runtime_x64.exe,2011-07-29 05:40:06,Yes,False
+1,567,SYSVOL\Windows\SoftwareDistribution\Download\Install\Vc_runtime_x64.exe,2011-10-13 23:26:37,Yes,False
+1,568,F:\88db6efe78697da011\SQLSysClrTypes_x86_enu.exe,2011-07-29 07:47:50,Yes,False
+1,569,SYSVOL\Windows\SoftwareDistribution\Download\Install\SQLSysClrTypes_x86_enu.exe,2011-10-13 22:56:30,Yes,False
+1,570,F:\3516b176d4cac19b820f495f6cfa\SQLSysClrTypes_amd64_enu.exe,2011-07-29 08:52:08,Yes,False
+1,571,SYSVOL\Windows\SoftwareDistribution\Download\Install\SQLSysClrTypes_amd64_enu.exe,2011-10-13 22:50:17,Yes,False
+1,572,SYSVOL\Windows\SoftwareDistribution\Download\Install\AM_Delta_Patch_1.191.4286.0.exe,2015-02-08 01:50:08,Yes,False
+1,573,SYSVOL\Program Files (x86)\Git\share\vim\vim74\vim.exe,2014-07-03 05:46:06,Yes,False
+1,574,SYSVOL\ProjectWorkingFolder\RegistryViewerZ\RegistryViewerZ\bin\Release\RegistryViewerZ.vshost.exe,2014-12-10 22:07:09,Yes,False
+1,575,SYSVOL\Windows\assembly\tmp\MU5G31OT\Microsoft.Alm.Shared.Remoting.RemoteContainer.dll,2015-02-05 13:41:02,No,False
+1,576,SYSVOL\Windows\SoftwareDistribution\Download\Install\AM_Delta_Patch_1.191.4228.0.exe,2015-02-07 06:09:32,Yes,False
+1,577,SYSVOL\Program Files\Red Gate\ANTS Memory Profiler 8\RedGate.Profiler.Trigger_x86.exe,2014-05-20 18:26:18,Yes,False
+1,578,SYSVOL\Windows\System32\msdtc.exe,2013-08-22 09:40:46,Yes,False
+1,579,SYSVOL\Program Files\Red Gate\ANTS Memory Profiler 8\RedGate.MemoryProfiler.UI.exe,2014-05-20 18:26:18,Yes,False
+1,580,SYSVOL\$Recycle.Bin\S-1-5-21-2417227394-2575385136-2411922467-1105\$RGVODYE.exe,2015-02-05 13:40:19,No,False
+1,581,D:\temp\RegExpAlpha\RegistryExplorer.exe,2015-02-06 21:58:33,Yes,False
+1,582,SYSVOL\Program Files (x86)\Google\Update\1.3.26.9\GoogleUpdateBroker.exe,2015-02-03 22:45:20,Yes,False
+1,583,SYSVOL\Program Files (x86)\Google\Chrome\Application\40.0.2214.94\delegate_execute.exe,2015-01-27 03:44:03,Yes,False
+1,584,F:\fe30c5081c9822cb25d8112c3092a3\Setup.exe,2011-10-06 02:52:10,Yes,False
+1,585,F:\ed77177cb62044dd3c044ac29114\VS10sp1_x86.exe,2011-09-13 03:03:06,Yes,False
+1,586,F:\ba9dff61078d6439fe2076\VS10sp1-KB983509.exe,2011-07-29 00:53:02,Yes,False
+1,587,F:\eaf68d301509f97ac2b0ee\VS10sp1-KB983509-Pro.exe,2011-07-29 01:49:28,Yes,False
+1,588,F:\8684e19fbb3345d430c39a06d04d75\vstor40_x64.exe,2011-07-29 03:12:12,Yes,False
+1,589,F:\cbb0450bc9616da794585c17\HelpSetup_x64.exe,2011-07-29 16:58:12,Yes,False
+1,590,F:\fc8b52864912d7a27f84d3434f\SharedManagementObjects_x86_enu.exe,2011-07-29 09:29:58,Yes,False
+1,591,F:\f7f0b855783209a927b0c7cd1f446912\Vc_runtime_x86.exe,2011-07-29 05:18:04,Yes,False
+1,592,F:\0996e028beaf1b1ff802\Vc_runtime_x64.exe,2011-07-29 05:40:06,Yes,False
+1,593,F:\ed14ee7cc0815f65419550b0e5a3\SQLSysClrTypes_x86_enu.exe,2011-07-29 07:47:50,Yes,False
+1,594,F:\f94d68869e98ba4c43e0\SQLSysClrTypes_amd64_enu.exe,2011-07-29 08:52:08,Yes,False
+1,595,SYSVOL\Windows\Temp\CR_23308.tmp\setup.exe,2015-02-06 05:51:11,Yes,False
+1,596,SYSVOL\Program Files (x86)\Google\Update\Install\{F566A949-817D-4DD3-9D1E-4B01C701ACC7}\40.0.2214.111_40.0.2214.94_chrome_updater.exe,2015-02-05 16:41:00,Yes,False
+1,597,SYSVOL\Program Files (x86)\Google\Chrome\Application\40.0.2214.94\Installer\setup.exe,2015-02-02 21:44:59,Yes,False
+1,598,SYSVOL\Program Files (x86)\Mandiant\Highlighter\Highlighter.exe,2011-09-12 22:36:52,Yes,False
+1,599,SYSVOL\temp\re\RegistryExplorer.exe,2015-02-05 22:16:17,Yes,False
+1,600,F:\a8de5a50690d64ce83\Setup.exe,2012-07-09 07:40:10,Yes,False
+1,601,SYSVOL\Users\eric\AppData\Local\Temp\AppLifeLauncher\5.0.0.6\8ab6c1a5f90c4eb2b6a72237c0deb4c5\c07d197552f3426db40cf2b1532c12c1.exe,2014-07-24 12:58:04,Yes,False
+1,602,SYSVOL\Users\eric\AppData\Local\Temp\AppLifeLauncher\5.0.0.6\8ab6c1a5f90c4eb2b6a72237c0deb4c5\Kjs.AppLife.Update.Engine.UI.exe,2014-06-20 01:44:57,Yes,False
+1,603,SYSVOL\Windows\SoftwareDistribution\Download\Install\AM_Delta_Patch_1.191.4024.0.exe,2015-02-05 18:13:13,Yes,False
+1,604,SYSVOL\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\Extensions\BugAid Software\BugAid\1.0\NGenManager.exe,2014-06-23 07:42:42,Yes,False
+1,605,SYSVOL\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.6 Tools\lc.exe,2014-12-11 05:33:34,Yes,False
+1,606,SYSVOL\Windows\System32\vds.exe,2014-03-18 10:05:21,Yes,False
+1,607,SYSVOL\Windows\System32\vdsldr.exe,2013-08-22 11:20:21,Yes,False
+1,608,SYSVOL\Windows\System32\mmc.exe,2013-08-22 11:01:45,Yes,False
+1,609,SYSVOL\Windows\System32\CompMgmtLauncher.exe,2013-08-22 11:14:33,Yes,False
+1,610,SYSVOL\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe,2014-12-11 21:51:46,Yes,False
+1,611,SYSVOL\Users\eric\Desktop\ReSharperAndToolsPacked01Update1.exe,2015-02-05 13:40:19,Yes,False
+1,612,SYSVOL\Windows\SysWOW64\wermgr.exe,2014-10-29 03:12:03,Yes,False
+1,613,F:\5f5e6555aa0b0336a0aa2f2ee3ff64c8\VSSetupUtility.exe,2015-01-12 09:41:50,Yes,False
+1,614,SYSVOL\ProgramData\Package Cache\1A09B386-44EC-34F1-8460-A34B385948A5\packages\vs_ultimate\VSSetupUtility.exe,2015-01-12 10:52:20,Yes,False
+1,615,SYSVOL\ProgramData\Package Cache\ECA02C89740FB98183EA475530D88FE1E3C971AF\packages\VS_Clean\VS_PostClean_vs.exe,2015-02-05 03:50:45,Yes,False
+1,616,SYSVOL\ProgramData\Package Cache\E8E0B96EEB0BFFE6EAD07C19BBE9614C4A99A9FF\packages\SecondaryInstallerExe\SecondaryInstaller.exe,2015-02-05 03:50:12,Yes,False
+1,617,SYSVOL\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\VSIXInstaller.exe,2015-01-12 08:41:50,Yes,False
+1,618,SYSVOL\Windows\Microsoft.NET\Framework\v2.0.50727\ngen.exe,2014-05-27 04:39:19,Yes,False
+1,619,F:\90bc67eb0186bb98f3\install.exe,2013-05-14 14:03:54,Yes,False
+1,620,SYSVOL\ProgramData\Package Cache\EFFBF3BD325EF6B1629D03B4B9B3A1B491F59C5D\packages\Silverlight\5.0_DRT\Silverlight_Developer.exe,2014-05-20 15:55:15,Yes,False
+1,621,SYSVOL\Users\eric\AppData\Local\Temp\517B91DD-627B-44D7-A778-DB99B0AB0547\DismHost.exe,2014-03-18 10:05:07,Yes,False
+1,622,SYSVOL\Windows\System32\Dism.exe,2014-03-18 10:05:19,Yes,False
+1,623,SYSVOL\ProgramData\Package Cache\9C2E2021-F0D5-3DEC-A2AB-5065712EC901\packages\WPT\enableaspnet.exe,2015-02-05 03:47:31,Yes,False
+1,624,SYSVOL\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\DDConfigCA.exe,2015-01-12 08:41:50,Yes,False
+1,625,SYSVOL\Windows\System32\wevtutil.exe,2013-08-22 09:46:45,Yes,False
+1,626,SYSVOL\Windows\SysWOW64\wevtutil.exe,2013-08-22 02:43:07,Yes,False
+1,627,SYSVOL\ProgramData\Package Cache\C63A8157-6B3B-37D5-B2E7-C17DCA80E3EF\packages\vcRedistD12\1033\vcredist_x86.exe,2014-10-29 21:54:01,Yes,False
+1,628,SYSVOL\Program Files (x86)\Google\Chrome\Application\40.0.2214.94\nacl64.exe,2015-01-27 03:44:09,Yes,False
+1,629,SYSVOL\Users\eric\Desktop\en_visual_studio_2015_ultimate_ctp_5_version_14.0.22512.0.dp_x86_web_installer_6204389.exe,2015-02-05 03:35:48,Yes,False
+1,630,SYSVOL\ProgramData\Package Cache\{60e6abde-0696-4d99-aaf5-b2bb46f0d32d}\vs_ultimate.exe,2015-02-05 03:37:00,Yes,False
+1,631,F:\c4f120a252a85b1b588d3628eb\Setup.exe,2011-10-06 02:52:10,Yes,False
+1,632,F:\7daca9247147dfd869c2cc6b2667\VS10sp1_x86.exe,2011-09-13 03:03:06,Yes,False
+1,633,F:\80e6780c561f8325b0\VS10sp1-KB983509.exe,2011-07-29 00:53:02,Yes,False
+1,634,F:\faeb5c6ff1958bfc40b375\VS10sp1-KB983509-Pro.exe,2011-07-29 01:49:28,Yes,False
+1,635,F:\7c6e694be2d9be64e1b7cef4f9\vstor40_x64.exe,2011-07-29 03:12:12,Yes,False
+1,636,F:\c05c2f60dbed5df936\HelpSetup_x64.exe,2011-07-29 16:58:12,Yes,False
+1,637,F:\2b0e9f4af7cc6883592ccd7c\SharedManagementObjects_x86_enu.exe,2011-07-29 09:29:58,Yes,False
+1,638,F:\7458c91c8a25125bedb181f1fc\Vc_runtime_x86.exe,2011-07-29 05:18:04,Yes,False
+1,639,F:\670ec5dfeb7fcdf94f85f165c130240d\Vc_runtime_x64.exe,2011-07-29 05:40:06,Yes,False
+1,640,F:\3d872d2cb1e4f8655974733b73df\SQLSysClrTypes_x86_enu.exe,2011-07-29 07:47:50,Yes,False
+1,641,F:\8d1d23005816901f36e407b281c9\SQLSysClrTypes_amd64_enu.exe,2011-07-29 08:52:08,Yes,False
+1,642,SYSVOL\Program Files (x86)\Google\Chrome\Application\40.0.2214.93\delegate_execute.exe,2015-01-25 06:08:34,Yes,False
+1,643,F:\c559808298b5c7f2687b211f49ec\SetupUtility.exe,2014-12-11 05:55:52,Yes,False
+1,644,F:\c559808298b5c7f2687b211f49ec\Setup.exe,2014-12-11 05:55:52,Yes,False
+1,645,SYSVOL\ProgramData\Package Cache\A139C241F432C1FDD437C75AAEEC45F78D98F3FF\packages\dotNetFramework\dotNetFx-Web.exe,2015-01-08 00:00:52,Yes,False
+1,646,SYSVOL\ProgramData\Package Cache\EBD71C37-AC89-3237-ACEE-D13E68772060\packages\vcRedistD11\1033\vcredist_x64.exe,2013-09-11 23:57:37,Yes,False
+1,647,SYSVOL\ProgramData\Package Cache\FF125DA6-BCB0-3B94-A5B7-6FE45890F299\packages\vcRedistD11\1033\vcredist_x86.exe,2013-09-11 23:57:37,Yes,False
+1,648,SYSVOL\ProgramData\Package Cache\39D4DB09-C3F4-3D2F-B182-73ABB7DAFE43\packages\vcRedistD14\VC_redist.x64.exe,2015-01-12 10:25:40,Yes,False
+1,649,SYSVOL\ProgramData\Package Cache\39D4DB09-C3F4-3D2F-B182-73ABB7DAFE43\packages\vcRedistD14\VC_redist.x86.exe,2015-01-12 10:24:30,Yes,False
+1,650,SYSVOL\ProgramData\Package Cache\0FAC8B6B-777A-3A0C-9215-F4FCC827404D\packages\vcRedistD12\1033\vcredist_x64.exe,2014-10-29 21:54:01,Yes,False
+1,651,SYSVOL\ProgramData\Package Cache\39D4DB09-C3F4-3D2F-B182-73ABB7DAFE43\packages\vs_ultimate\Preparation.exe,2015-01-12 09:41:48,Yes,False
+1,652,SYSVOL\ProgramData\Package Cache\3DC08503582A9D9A2E29283B3614188FE7D6F633\packages\VS_Clean\VS_PreClean_vs.exe,2015-01-12 09:41:48,Yes,False
+1,653,F:\77120aefa3e0e2a2c0939a60ae7535c5\VSSetupUtility.exe,2015-01-12 09:41:50,Yes,False
+1,654,SYSVOL\Users\eric\AppData\Local\Temp\{60e6abde-0696-4d99-aaf5-b2bb46f0d32d}\.be\vs_ultimate.exe,2015-02-05 03:37:00,Yes,False
+1,655,SYSVOL\Users\eric\AppData\Local\Temp\20150204_203555_{C8945D18-B212-3149-A8C7-F5AC66B5F076}\ManagedUx_v14.0.22512.77.exe,2015-02-05 03:35:55,Yes,False
+1,656,SYSVOL\Windows\SoftwareDistribution\Download\Install\AM_Delta_Patch_1.191.3929.0.exe,2015-02-04 18:41:44,Yes,False
+1,657,F:\97ae1401132af00faa6c0583fa50c618\Setup.exe,2011-10-06 02:52:10,Yes,False
+1,658,F:\d25378ac8a7fb055f6b34f\VS10sp1_x86.exe,2011-09-13 03:03:06,Yes,False
+1,659,F:\a42356ad7fc24ea437eefc9099\VS10sp1-KB983509.exe,2011-07-29 00:53:02,Yes,False
+1,660,F:\a037d146cab5e8822b\VS10sp1-KB983509-Pro.exe,2011-07-29 01:49:28,Yes,False
+1,661,F:\da5b2818bd436ce9345948\vstor40_x64.exe,2011-07-29 03:12:12,Yes,False
+1,662,F:\89d11e2a5483be71ce34\HelpSetup_x64.exe,2011-07-29 16:58:12,Yes,False
+1,663,F:\751c3cac64b97acca639980fe0bb\SharedManagementObjects_x86_enu.exe,2011-07-29 09:29:58,Yes,False
+1,664,F:\7a301ba6addc0be69c3d21\Vc_runtime_x86.exe,2011-07-29 05:18:04,Yes,False
+1,665,F:\7cabd274139739fb8a659cce5c\Vc_runtime_x64.exe,2011-07-29 05:40:06,Yes,False
+1,666,F:\3e47fe9332a2537ee836149025e905\SQLSysClrTypes_x86_enu.exe,2011-07-29 07:47:50,Yes,False
+1,667,F:\89348e2f7df196c1fd6d\SQLSysClrTypes_amd64_enu.exe,2011-07-29 08:52:08,Yes,False
+1,668,SYSVOL\Windows\Temp\{670B4862-AB21-47BB-A927-0578638B7ED8}\InstallFlashPlayer.exe,2015-02-04 18:38:42,Yes,False
+1,669,SYSVOL\Windows\SysWOW64\FlashPlayerInstaller.exe,2015-02-04 18:38:40,Yes,False
+1,670,SYSVOL\Program Files (x86)\Git\libexec\git-core\git-check-attr.exe,2015-02-03 17:24:45,Yes,False
+1,671,SYSVOL\Program Files (x86)\Git\bin\pdftotext.exe,2015-02-03 17:24:46,Yes,False
+1,672,SYSVOL\Program Files (x86)\Git\bin\perl.exe,2015-02-03 17:24:46,Yes,False
+1,673,SYSVOL\Program Files (x86)\Git\bin\env.exe,2015-02-03 17:24:45,Yes,False
+1,674,SYSVOL\ProjectWorkingFolder\ShellBagsExplorer\SBE\bin\Release\SBECmd.exe,2015-02-04 17:08:35,No,False
+1,675,SYSVOL\Program Files (x86)\Git\libexec\git-core\git-cat-file.exe,2015-02-03 17:24:45,Yes,False
+1,676,SYSVOL\Users\eric\AppData\Local\Temp\AppLifeLauncher\5.0.0.6\a88940accd1a449890e7d1b06a992211\Kjs.AppLife.Update.Engine.UI.exe,2014-06-20 01:44:57,Yes,False
+1,677,D:\Dropbox (Personal)\temp\XWFRT.exe,2015-02-04 14:59:26,Yes,False
+1,678,SYSVOL\Users\eric\AppData\Local\Temp\AppLifeLauncher\4.5.0.10\0d964b2bba2c4698918b9b70f149d227\Kjs.AppLife.Update.Engine.UI.exe,2014-06-20 01:44:57,Yes,False
+1,679,SYSVOL\Users\eric\AppData\Local\Temp\AppLifeLauncher\4.5.0.10\Kjs.AppLife.Update.UpdateLauncher.exe,2015-02-04 15:11:06,Yes,False
+1,680,D:\Dropbox (Personal)\!Software\xwfim\XWFIM.exe,2015-02-04 14:59:32,Yes,False
+1,681,SYSVOL\Users\eric\AppData\Local\Temp\AppLifeLauncher\5.0.0.6\249f42b3a9f74116af37d53c8eab37d8\Kjs.AppLife.Update.Engine.UI.exe,2014-06-20 01:44:57,Yes,False
+1,682,SYSVOL\Program Files (x86)\Git\libexec\git-core\git-push.exe,2015-02-03 17:24:45,Yes,False
+1,683,SYSVOL\Program Files (x86)\Git\bin\bash.exe,2015-02-03 17:24:45,Yes,False
+1,684,SYSVOL\Program Files (x86)\Git\bin\kill.exe,2015-02-03 17:24:45,Yes,False
+1,685,SYSVOL\ProjectWorkingFolder\XWFManager\XWFManager\trunk\XWFManager\bin\Debug\XWFIM.vshost.exe,2015-02-04 14:07:01,Yes,False
+1,686,SYSVOL\ProjectWorkingFolder\XWFManager\XWFManager\trunk\XWFManager\bin\Release\XWFIM.vshost.exe,2015-02-04 14:06:58,Yes,False
+1,687,I:\xwfportable\xwforensics.exe,2015-02-02 01:00:02,Yes,False
+1,688,I:\xwfportable\zip.exe,2015-02-02 01:00:02,No,False
+1,689,I:\xwfportable\xwforensics64.exe,2015-02-02 01:00:02,No,False
+1,690,I:\xwfportable\WinHex.exe,2015-02-02 01:00:02,No,False
+1,691,I:\xwfportable\WinHex64.exe,2015-02-02 01:00:02,No,False
+1,692,I:\xwfportable\setup.exe,2015-02-02 01:00:02,No,False
+1,693,I:\xwfportable\Indexer.exe,2015-02-02 01:00:02,No,False
+1,694,I:\xwfportable\Indexer64.exe,2015-02-02 01:00:02,No,False
+1,695,SYSVOL\Windows\hh.exe,2013-08-22 11:32:56,Yes,False
+1,696,SYSVOL\Program Files (x86)\Google\Update\1.3.26.9\GoogleUpdateComRegisterShell64.exe,2015-02-03 22:45:20,Yes,False
+1,697,SYSVOL\Program Files (x86)\GUM668.tmp\GoogleUpdate.exe,2015-02-03 22:45:20,Yes,False
+1,698,SYSVOL\Program Files (x86)\Google\Update\Install\{ED22575B-402A-4F78-82A8-386D25CB7372}\GoogleUpdateSetup.exe,2015-01-28 21:47:00,Yes,False
+1,699,SYSVOL\Windows\SoftwareDistribution\Download\Install\AM_Delta_Patch_1.191.3865.0.exe,2015-02-03 14:46:39,Yes,False
+1,700,SYSVOL\Program Files (x86)\Beyond Compare 4\UACLaunch.exe,2015-01-16 21:15:14,Yes,False
+1,701,SYSVOL\Users\eric\AppData\Local\Temp\is-9LTR7.tmp\BCUpdate.tmp,2015-02-03 20:17:35,Yes,False
+1,702,SYSVOL\Users\eric\AppData\Local\Temp\BCUpdate.exe,2015-02-03 20:17:32,Yes,False
+1,703,SYSVOL\Users\eric\AppData\Local\Temp\is-FAUTI.tmp\BCUpdate.tmp,2015-02-03 20:17:34,Yes,False
+1,704,D:\Dropbox (Personal)\.dropbox.cache\dropbox-upgrade-3.2.3.exe,2015-02-03 19:42:10,Yes,False
+1,705,SYSVOL\temp\sbag.exe,2015-01-09 23:47:46,Yes,False
+1,706,D:\Dropbox (Personal)\!Software\sbags\sbag.exe,2015-01-09 23:47:46,Yes,False
+1,707,SYSVOL\Users\eric\Desktop\msysgitVS.exe,2015-02-03 17:23:57,Yes,False
+1,708,D:\temp\RegistryExplorer.exe,2015-01-28 14:27:32,Yes,False
+1,709,SYSVOL\Program Files (x86)\Git\bin\less.exe,2015-02-03 17:24:45,Yes,False
+1,710,SYSVOL\ProjectWorkingFolder\XWFManager\XWFManager\trunk\XWFManager\bin\XWFIM.exe,2015-02-03 17:16:25,No,False
+1,711,SYSVOL\ProjectWorkingFolder\XWFManager\XWFManager\trunk\XWFManager\bin\XWFIM old.exe,2014-08-04 14:54:36,No,False
+1,712,SYSVOL\Windows\SysWOW64\explorer.exe,2014-08-23 07:13:24,Yes,False
+1,713,SYSVOL\Users\eric\AppData\Local\Temp\is-3KA2V.tmp\Git-1.9.5-preview20141217.tmp,2015-02-03 17:24:33,Yes,False
+1,714,SYSVOL\Users\eric\AppData\Local\Microsoft\Web Platform Installer\installers\msysgitVS\21BD5187EF2F7E5124DD7BF1A0A8B7713A7C4953\Git-1.9.5-preview20141217.exe,2015-02-03 17:24:32,Yes,False
+1,715,SYSVOL\Program Files\Microsoft\Web Platform Installer\WebPlatformInstaller.exe,2014-04-30 09:22:52,Yes,False
+1,716,SYSVOL\ProjectWorkingFolder\XWFManager\XWFManager\trunk\XWFManager\bin\Debug\XWFIM1 (2).exe,2015-02-03 16:50:32,Yes,False
+1,717,SYSVOL\ProjectWorkingFolder\XWFManager\XWFManager\trunk\XWFManager\bin\Debug\XWFIM.exe,2015-02-03 16:50:32,No,False
+1,718,SYSVOL\ProjectWorkingFolder\XWFManager\XWFManager\trunk\XWFManager\bin\Debug\XWFIM1.exe,2015-02-03 16:47:31,Yes,False
+1,719,SYSVOL\Windows\SoftwareDistribution\Download\Install\AM_Delta_Patch_1.191.3788.0.exe,2015-02-02 23:12:57,Yes,False
+1,720,D:\Dropbox (Personal)\temp\AresFTKConverter.exe,2013-02-13 22:08:20,No,False
+1,721,D:\Dropbox (Personal)\temp\eMuleParser.exe,2014-09-18 14:28:06,No,False
+1,722,D:\Dropbox (Personal)\temp\GOON2.exe,2014-10-24 16:17:02,No,False
+1,723,D:\Dropbox (Personal)\temp\osTriage 2 unknown.exe,2014-09-01 01:36:31,No,False
+1,724,D:\Dropbox (Personal)\temp\osTriage1.exe,2013-08-14 12:59:13,No,False
+1,725,D:\Dropbox (Personal)\temp\osTriage2RunToExtract.exe,2014-09-18 15:06:06,No,False
+1,726,D:\Dropbox (Personal)\temp\osTriage2RunToExtractNonLE.exe,2014-09-18 15:07:39,No,False
+1,727,D:\Dropbox (Personal)\temp\XWFIM.exe,2014-01-09 16:12:45,No,False
+1,728,D:\Dropbox (Personal)\temp\osTriage2001RunToExtract.exe,2014-07-25 15:54:55,No,False
+1,729,D:\Dropbox (Personal)\temp\TwitterParser.exe,2012-05-31 02:39:27,No,False
+1,730,D:\Dropbox (Personal)\temp\WinSearchIndexLogParser.exe,2014-01-15 16:34:26,No,False
+1,731,SYSVOL\Program Files (x86)\Google\Update\1.3.25.11\GoogleCrashHandler64.exe,2014-11-13 00:39:02,Yes,False
+1,732,SYSVOL\Program Files (x86)\Google\Update\1.3.25.11\GoogleCrashHandler.exe,2014-11-13 00:39:02,Yes,False
+1,733,SYSVOL\Windows\Temp\CR_779A3.tmp\setup.exe,2015-02-02 21:44:59,Yes,False
+1,734,SYSVOL\Program Files (x86)\Google\Update\Install\{45811E3B-CDDD-4FFB-85F6-1057BB5C8670}\40.0.2214.94_chrome_installer.exe,2015-01-29 19:07:00,Yes,False
+1,735,D:\Dropbox (Personal)\!DfirPermalinks\XWFRT.exe,2014-07-10 21:16:04,Yes,False
+1,736,SYSVOL\xwf\zip.exe,2015-02-02 01:00:02,No,False
+1,737,SYSVOL\xwf\setup.exe,2015-02-02 01:00:02,No,False
+1,738,SYSVOL\xwf\WinHex64.exe,2015-02-02 01:00:02,No,False
+1,739,SYSVOL\xwf\Indexer64.exe,2015-02-02 01:00:02,No,False
+1,740,SYSVOL\xwf\Indexer.exe,2015-02-02 01:00:02,No,False
+1,741,SYSVOL\Program Files (x86)\VMware\VMware Workstation\vprintproxy.exe,2014-11-21 00:37:40,Yes,False
+1,742,SYSVOL\Program Files (x86)\VMware\VMware Workstation\x64\vmware-vmx.exe,2014-11-21 01:44:34,Yes,False
+1,743,SYSVOL\Program Files (x86)\VMware\VMware Workstation\vmware-unity-helper.exe,2014-11-21 01:44:36,Yes,False
+1,744,D:\Dropbox (Personal)\Kitty\WinSCP.exe,2014-10-23 21:56:24,Yes,False
+1,745,SYSVOL\Program Files (x86)\SmartWhois\swsetup.exe,2014-06-10 18:01:41,Yes,False
+1,746,SYSVOL\Users\eric\AppData\Local\Temp\sw5.exe,2015-02-02 13:57:17,Yes,False
+1,747,SYSVOL\xwfbyod\xwforensics64.exe,2015-02-02 14:45:22,No,False
+1,748,SYSVOL\Windows\SoftwareDistribution\Download\Install\AM_Delta_Patch_1.191.3762.0.exe,2015-02-02 00:05:00,Yes,False
+1,749,SYSVOL\Program Files (x86)\VMware\VMware Workstation\vixDiskMountServer.exe,2014-11-21 01:44:36,Yes,False
+1,750,SYSVOL\xwfbyod\zip.exe,2015-01-28 01:00:02,No,False
+1,751,SYSVOL\xwfbyod\xwforensicsb.exe,2015-01-28 01:00:02,No,False
+1,752,SYSVOL\xwfbyod\xwforensics64b.exe,2015-01-28 01:00:02,Yes,False
+1,753,SYSVOL\xwfbyod\winhexb.exe,2015-01-28 01:00:02,Yes,False
+1,754,SYSVOL\xwfbyod\Indexer.exe,2015-01-28 01:00:02,No,False
+1,755,SYSVOL\xwfbyod\Indexer64.exe,2015-01-28 01:00:02,No,False
+1,756,SYSVOL\xwfbyod\winhex.exe,2015-01-28 01:00:02,Yes,False
+1,757,SYSVOL\xwfbyod\xwforensics64b - Copy.exe,2015-01-28 01:00:02,No,False
+1,758,SYSVOL\$Recycle.Bin\S-1-5-21-2417227394-2575385136-2411922467-1105\$RS64835.exe,2015-01-30 18:14:35,No,False
+1,759,SYSVOL\Windows\Temp\nss578.tmp\TvUpdateInfo.exe,2015-01-20 09:24:16,Yes,False
+1,760,SYSVOL\Program Files (x86)\Infragistics\2014.2\Version Utility\Infragistics.VersionUtility.UI.exe,2014-09-23 19:28:02,Yes,False
+1,761,D:\Dropbox (Personal)\.dropbox.cache\dropbox-upgrade-3.2.2.exe,2015-01-31 21:56:18,Yes,False
+1,762,SYSVOL\Program Files (x86)\Google\Chrome\Application\40.0.2214.93\nacl64.exe,2015-01-25 06:08:40,Yes,False
+1,763,SYSVOL\Windows\SoftwareDistribution\Download\Install\AM_Delta_Patch_1.191.3639.0.exe,2015-01-31 10:36:42,Yes,False
+1,764,SYSVOL\Program Files (x86)\DisplayFusion\DisplayFusionCommand.exe,2015-01-29 22:27:04,No,False
+1,765,SYSVOL\Users\eric\AppData\Local\Temp\is-H5AHV.tmp\DisplayFusionSetup.tmp,2015-01-30 22:41:39,Yes,False
+1,766,SYSVOL\Users\eric\AppData\Roaming\DisplayFusion\DisplayFusionSetup.exe,2015-01-30 22:41:35,Yes,False
+1,767,SYSVOL\Users\eric\AppData\Local\Temp\is-BCIN6.tmp\DisplayFusionSetup.tmp,2015-01-30 22:41:39,Yes,False
+1,768,D:\temp\ShellBagsTesting\ShellBagsExplorer\ShellBagsExplorer.exe,2015-01-27 18:41:36,Yes,False
+1,769,D:\temp\ShellBags testing\ShellBagsExplorer\ShellBagsExplorer.exe,2015-01-27 18:41:36,Yes,False
+1,770,D:\temp\ShellBagsTesting\ShellBagsExplorer\SBECmd.exe,2015-01-27 18:41:31,Yes,False
+1,771,D:\temp\ShellBags testing\ShellBagsExplorer\SBECmd.exe,2015-01-27 18:41:31,Yes,False
+1,772,D:\temp\ShellBagsTesting\sbags\sbag.exe,2015-01-09 23:47:46,Yes,False
+1,773,SYSVOL\Windows\System32\help.exe,2013-08-22 11:33:40,Yes,False
+1,774,D:\temp\ShellBagsTesting\rrv2.8\rr.exe,2015-01-10 13:14:03,Yes,False
+1,775,D:\temp\ShellBagsTesting\rrv2.8\rip.exe,2015-01-10 13:14:03,No,False
+1,776,D:\temp\ShellBagsTesting\rrv2.8\pb.exe,2012-09-14 16:37:02,No,False
+1,777,D:\temp\ShellBags testing\rrv2.8\rr.exe,2015-01-10 13:14:03,Yes,False
+1,778,SYSVOL\Program Files (x86)\Malwarebytes Anti-Malware\mbampt.exe,2014-11-21 13:12:52,Yes,False
+1,779,D:\temp\osTriage2\Plugins\__tmp\4d499079-4567-475e-b3da-53a31d55b2f8\osTriageHelperApp.exe,2015-01-30 20:46:59,Yes,False
+1,780,D:\temp\osTriage2\Plugins\__tmp\988783e9-074f-4a3a-8f04-9d35975198ff\osTriageHelperApp.exe,2015-01-30 20:46:59,Yes,False
+1,781,D:\temp\osTriage2\Plugins\__tmp\7ac78b68-978d-46ee-86ad-a0200f5969f9\osTriageHelperApp.exe,2015-01-30 20:46:59,Yes,False
+1,782,D:\temp\osTriage2\Plugins\__tmp\e3a1e2af-a2b3-42a3-8bc5-eaca2fb17a19\osTriageHelperApp.exe,2015-01-30 20:46:57,Yes,False
+1,783,SYSVOL\Windows\System32\ipconfig.exe,2013-08-22 09:53:02,Yes,False
+1,784,D:\temp\osTriage2\Plugins\__tmp\6c1bcd89-4c2d-4182-a64b-d1647827f2c7\osTriageHelperApp.exe,2015-01-30 20:46:57,Yes,False
+1,785,D:\temp\osTriage2\Plugins\__tmp\168c20ba-ea4e-4ce2-b088-2097cea69deb\osTriageHelperApp.exe,2015-01-30 20:46:57,Yes,False
+1,786,SYSVOL\Windows\System32\ARP.EXE,2013-08-22 10:01:59,Yes,False
+1,787,D:\temp\osTriage2\osTriage2.exe,2014-09-16 15:26:39,Yes,False
+1,788,SYSVOL\Windows\System32\ls.exe,1999-11-10 23:00:00,Yes,False
+1,789,F:\159f87a3c55ad2f24119144cce92\Setup.exe,2012-07-09 07:40:10,Yes,False
+1,790,SYSVOL\Users\eric\AppData\Local\Temp\AppLifeLauncher\5.0.0.6\ae20013fe4e44447a9115b4e655b3f70\320e044247e74ccda08e0a1fe2b06358.exe,2014-07-24 12:58:04,Yes,False
+1,791,SYSVOL\Users\eric\AppData\Local\Temp\AppLifeLauncher\5.0.0.6\ae20013fe4e44447a9115b4e655b3f70\Kjs.AppLife.Update.Engine.UI.exe,2014-06-20 01:44:57,Yes,False
+1,792,D:\Forensics\rrv2.8\pb.exe,2012-09-14 16:37:02,No,False
+1,793,D:\Forensics\rrv2.8\rip.exe,2015-01-10 13:14:03,No,False
+1,794,D:\Forensics\rrv2.8\rr.exe,2015-01-10 13:14:03,Yes,False
+1,795,SYSVOL\Windows\SoftwareDistribution\Download\Install\AM_Delta_Patch_1.191.3583.0.exe,2015-01-30 12:51:03,Yes,False
+1,796,SYSVOL\Windows\SysWOW64\PING.EXE,2013-08-22 02:53:47,Yes,False
+1,797,SYSVOL\Users\eric\Desktop\ccsetup502.exe,2015-01-30 18:14:35,Yes,False
+1,798,SYSVOL\Users\eric\AppData\Local\Temp\SetupRegexBuddy421EricPeterson.exe,2015-01-30 15:32:33,Yes,False
+1,799,SYSVOL\Users\eric\Desktop\SetupRegexBuddy421EricPeterson.exe,2015-01-30 15:32:31,Yes,False
+1,800,SYSVOL\Program Files\Just Great Software\PowerGREP4\PowerGREPUndoManager4.exe,2014-09-08 10:06:00,Yes,False
+1,801,SYSVOL\Users\eric\AppData\Local\Temp\SetupEditPadPro736EricPeterson.exe,2015-01-29 20:12:41,Yes,False
+1,802,SYSVOL\Users\eric\Desktop\SetupEditPadPro736EricPeterson.exe,2015-01-29 20:12:38,Yes,False
+1,803,SYSVOL\xwf\decode.dat,2015-01-28 01:00:02,Yes,False
+1,804,SYSVOL\Windows\SoftwareDistribution\Download\Install\AM_Delta_Patch_1.191.3461.0.exe,2015-01-29 02:01:20,Yes,False
+1,805,SYSVOL\Users\eric\Desktop\audacity-win-2.0.6\Audacity\audacity.exe,2014-09-21 05:11:36,Yes,False
+1,806,SYSVOL\temp\RegistryExplorer.exe,2015-01-28 14:31:22,Yes,False
+1,807,SYSVOL\Program Files (x86)\Arsenal Recon\Registry Recon\RegistryRecon.exe,2014-11-13 00:30:12,Yes,False
+1,808,SYSVOL\Program Files (x86)\DisplayFusion\DisplayFusionService.exe,2015-01-27 21:30:40,Yes,False
+1,809,SYSVOL\Users\eric\AppData\Local\Temp\is-68F7A.tmp\DisplayFusionSetup.tmp,2015-01-28 13:49:43,Yes,False
+1,810,SYSVOL\Users\eric\AppData\Local\Temp\is-PU383.tmp\DisplayFusionSetup.tmp,2015-01-28 13:49:43,Yes,False
+1,811,SYSVOL\Windows\SoftwareDistribution\Download\Install\AM_Delta_Patch_1.191.3390.0.exe,2015-01-28 08:04:45,Yes,False
+1,812,F:\a2fc1d8a3e1bbcf60d3e05\Setup.exe,2012-07-09 07:40:10,Yes,False
+1,813,SYSVOL\Users\eric\AppData\Local\Temp\AppLifeLauncher\5.0.0.6\d593c3585e4c4972bbfac36cf782fafd\320e044247e74ccda08e0a1fe2b06358.exe,2014-07-24 12:58:04,Yes,False
+1,814,SYSVOL\Users\eric\AppData\Local\Temp\AppLifeLauncher\5.0.0.6\d593c3585e4c4972bbfac36cf782fafd\Kjs.AppLife.Update.Engine.UI.exe,2014-06-20 01:44:57,Yes,False
+1,815,D:\Dropbox (Personal)\dotNetFx40_Full_x86_x64.exe,2011-04-21 18:27:15,No,False
+1,816,D:\Dropbox (Personal)\dotNetFx451_Full_x86_x64.exe,2014-08-23 17:13:59,No,False
+1,817,SYSVOL\Users\eric\AppData\Local\LINQPad\ProcessServerAnyCPU\LINQPad.UserQuery.exe,2014-08-28 22:56:35,Yes,False
+1,818,SYSVOL\Users\eric\Desktop\ac.exe,2015-01-27 17:01:17,Yes,False
+1,819,SYSVOL\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\Extensions\Microsoft\VsGraphics\vsgraphics.exe,2014-11-01 07:46:48,Yes,False
+1,820,SYSVOL\Windows\System32\wbem\unsecapp.exe,2013-08-22 09:51:35,Yes,False
+1,821,SYSVOL\Program Files (x86)\Attribute Changer\acmain.exe,2014-06-01 20:26:20,Yes,False
+1,822,SYSVOL\Users\eric\AppData\Local\Temp\is-MKCJM.tmp\ac.tmp,2015-01-27 17:01:37,Yes,False
+1,823,SYSVOL\Users\eric\AppData\Local\Temp\is-6749G.tmp\ac.tmp,2015-01-27 17:01:36,Yes,False
+1,824,SYSVOL\Windows\SoftwareDistribution\Download\Install\AM_Delta_Patch_1.191.3310.0.exe,2015-01-27 10:12:04,Yes,False
+1,825,SYSVOL\Users\eric\AppData\Local\Citrix\GoToMeeting\2273\G2MInstaller.exe,2015-01-27 04:47:08,Yes,False
+1,826,SYSVOL\Users\eric\AppData\Local\Temp\CitrixUpdates\GoToMeeting\2273\G2MInstaller.exe,2015-01-27 04:47:08,Yes,False
+1,827,SYSVOL\Users\eric\AppData\Local\Temp\CitrixUpdates\GoToMeeting\2273\G2MCoreInstExtractor.exe,2015-01-27 04:47:08,Yes,False
+1,828,SYSVOL\Users\eric\AppData\Local\Citrix\GoToMeeting\2185\g2mupdate.exe,2015-01-14 18:37:11,Yes,False
+1,829,SYSVOL\Program Files (x86)\Google\Chrome\Application\40.0.2214.91\delegate_execute.exe,2015-01-21 03:50:37,Yes,False
+1,830,SYSVOL\Program Files (x86)\Google\Chrome\Application\40.0.2214.93\Installer\setup.exe,2015-01-27 00:45:14,Yes,False
+1,831,SYSVOL\Program Files (x86)\Google\Update\1.3.25.11\GoogleUpdateOnDemand.exe,2014-11-13 00:39:02,Yes,False
+1,832,SYSVOL\Windows\Temp\CR_2E673.tmp\setup.exe,2015-01-27 00:45:14,Yes,False
+1,833,SYSVOL\Program Files (x86)\Google\Update\Install\{4F81B246-0981-4B65-B105-BBC77D3AC28C}\40.0.2214.93_40.0.2214.91_chrome_updater.exe,2015-01-26 17:08:00,Yes,False
+1,834,SYSVOL\Program Files (x86)\Google\Chrome\Application\40.0.2214.91\Installer\setup.exe,2015-01-22 15:03:28,Yes,False
+1,835,SYSVOL\Users\eric\AppData\Local\JetBrains\Installations\dotTrace01\dotTraceView64.exe,2015-01-16 17:19:44,Yes,False
+1,836,SYSVOL\Users\eric\AppData\Local\JetBrains\Installations\dotTrace01\x64\JetBrains.Profiler.Windows.AttachHelper.exe,2015-01-16 17:19:38,Yes,False
+1,837,SYSVOL\Users\eric\AppData\Local\JetBrains\Installations\dotTrace01\x86\JetBrains.Profiler.Windows.AttachHelper.exe,2015-01-16 17:19:38,Yes,False
+1,838,SYSVOL\Users\eric\AppData\Local\JetBrains\Installations\dotTrace01\x64\JetBrains.Profiler.Windows.WinRTHelper.exe,2015-01-16 17:19:38,Yes,False
+1,839,D:\Forensics\sleuthkit-4.1.3-win32\bin\hfind.exe,2014-01-27 03:52:18,No,False
+1,840,D:\Forensics\sleuthkit-4.1.3-win32\bin\icat.exe,2014-01-27 03:52:18,No,False
+1,841,D:\Forensics\sleuthkit-4.1.3-win32\bin\ifind.exe,2014-01-27 03:52:18,No,False
+1,842,D:\Forensics\sleuthkit-4.1.3-win32\bin\ils.exe,2014-01-27 03:52:18,No,False
+1,843,D:\Forensics\sleuthkit-4.1.3-win32\bin\img_cat.exe,2014-01-27 03:52:18,No,False
+1,844,D:\Forensics\sleuthkit-4.1.3-win32\bin\img_stat.exe,2014-01-27 03:52:18,Yes,False
+1,845,D:\Forensics\sleuthkit-4.1.3-win32\bin\istat.exe,2014-01-27 03:52:18,Yes,False
+1,846,D:\Forensics\sleuthkit-4.1.3-win32\bin\jcat.exe,2014-01-27 03:52:18,No,False
+1,847,D:\Forensics\sleuthkit-4.1.3-win32\bin\jls.exe,2014-01-27 03:52:18,No,False
+1,848,D:\Forensics\sleuthkit-4.1.3-win32\bin\mmcat.exe,2014-01-27 03:52:18,Yes,False
+1,849,D:\Forensics\sleuthkit-4.1.3-win32\bin\blkstat.exe,2014-01-27 03:52:18,No,False
+1,850,D:\Forensics\sleuthkit-4.1.3-win32\bin\mmls.exe,2014-01-27 03:52:18,Yes,False
+1,851,D:\Forensics\sleuthkit-4.1.3-win32\bin\fcat.exe,2014-01-27 03:52:18,Yes,False
+1,852,D:\Forensics\sleuthkit-4.1.3-win32\bin\mmstat.exe,2014-01-27 03:52:18,Yes,False
+1,853,D:\Forensics\sleuthkit-4.1.3-win32\bin\ffind.exe,2014-01-27 03:52:18,No,False
+1,854,D:\Forensics\sleuthkit-4.1.3-win32\bin\fsstat.exe,2014-01-27 03:52:18,Yes,False
+1,855,D:\Forensics\sleuthkit-4.1.3-win32\bin\fls.exe,2014-01-27 03:52:18,Yes,False
+1,856,D:\Forensics\sleuthkit-4.1.3-win32\bin\blkls.exe,2014-01-27 03:52:18,No,False
+1,857,D:\Forensics\sleuthkit-4.1.3-win32\bin\blkcat.exe,2014-01-27 03:52:18,Yes,False
+1,858,D:\Forensics\sleuthkit-4.1.3-win32\bin\blkcalc.exe,2014-01-27 03:52:18,Yes,False
+1,859,D:\Forensics\autoruns.exe,2014-09-11 14:57:36,No,False
+1,860,D:\Forensics\ANJPv3_PE_201405.exe,2014-05-27 19:35:29,No,False
+1,861,D:\Forensics\sleuthkit-4.1.3-win32\bin\tsk_comparedir.exe,2014-01-27 03:52:18,No,False
+1,862,D:\Forensics\sleuthkit-4.1.3-win32\bin\tsk_gettimes.exe,2014-01-27 03:52:18,No,False
+1,863,D:\Forensics\sleuthkit-4.1.3-win32\bin\tsk_loaddb.exe,2014-01-27 03:52:18,No,False
+1,864,D:\Forensics\sleuthkit-4.1.3-win32\bin\tsk_recover.exe,2014-01-27 03:52:18,No,False
+1,865,D:\Forensics\DCode.exe,2009-11-02 14:20:12,No,False
+1,866,D:\Forensics\SBECmd.exe,2014-12-10 13:59:26,No,False
+1,867,SYSVOL\Windows\SoftwareDistribution\Download\Install\AM_Delta_Patch_1.191.3217.0.exe,2015-01-25 18:51:37,Yes,False
+1,868,SYSVOL\Windows\SoftwareDistribution\Download\Install\AM_Delta_Patch_1.191.3173.0.exe,2015-01-25 02:02:00,Yes,False
+1,869,SYSVOL\Windows\Temp\{18A6A80C-A2C9-4D74-90FC-E69CA78D8FFA}\InstallFlashPlayer.exe,2015-01-24 20:38:04,Yes,False
+1,870,J:\xwfportable\zip.exe,2015-01-23 10:00:00,No,False
+1,871,J:\xwfportable\WinHex64.exe,2015-01-23 10:00:00,No,False
+1,872,J:\xwfportable\WinHex.exe,2015-01-23 10:00:00,No,False
+1,873,J:\xwfportable\xwforensics.exe,2015-01-23 10:00:00,No,False
+1,874,J:\xwfportable\xwforensics64.exe,2015-01-23 10:00:00,No,False
+1,875,J:\xwfportable\setup.exe,2015-01-23 10:00:00,No,False
+1,876,J:\xwfportable\Indexer.exe,2015-01-23 10:00:00,No,False
+1,877,J:\xwfportable\Indexer64.exe,2015-01-23 10:00:00,No,False
+1,878,J:\Windows7-USB-DVD-Download-Tool-Installer-en-US.exe,2015-01-23 22:17:26,No,False
+1,879,J:\SanDiskSecureAccessV2_win.exe,2014-10-30 22:34:32,No,False
+1,880,SYSVOL\Users\eric\Desktop\Windows7-USB-DVD-Download-Tool-Installer-en-US.exe,2015-01-23 22:17:26,No,False
+1,881,D:\temp\RegistryViewerZ\RegistryExplorer.exe,2015-01-23 21:27:32,Yes,False
+1,882,F:\3eeb596b4aabc279ecf5711fb3dbe2\Setup.exe,2012-07-09 07:40:10,Yes,False
+1,883,SYSVOL\Users\eric\AppData\Local\Temp\AppLifeLauncher\5.0.0.6\e2fbb50b2e9d4d32b482120fefefdfe1\92615344166b469480b10ebaaefe2e58.exe,2014-07-24 12:58:04,Yes,False
+1,884,SYSVOL\Users\eric\AppData\Local\Temp\AppLifeLauncher\5.0.0.6\e2fbb50b2e9d4d32b482120fefefdfe1\Kjs.AppLife.Update.Engine.UI.exe,2014-06-20 01:44:57,Yes,False
+1,885,D:\temp\RegistryViewerZ\RegistryViewerZ.exe,2014-12-10 22:08:20,Yes,False
+1,886,SYSVOL\ProjectWorkingFolder\RegistryViewerZ\RegistryViewerZ\bin\RegistryViewerZ.exe,2014-12-10 22:08:20,No,False
+1,887,SYSVOL\Program Files (x86)\MarkdownPad 2\AwesomiumProcess,2014-12-24 21:05:36,Yes,False
+1,888,SYSVOL\Program Files (x86)\Google\Update\1.3.25.11\GoogleUpdateBroker.exe,2014-11-13 00:39:02,Yes,False
+1,889,SYSVOL\Program Files (x86)\Java\jre1.8.0_31\bin\awt.dll,2015-01-23 16:40:10,No,False
+1,890,SYSVOL\Program Files (x86)\Java\jre1.8.0_31\bin\jp2launcher.exe,2015-01-23 16:40:10,Yes,False
+1,891,SYSVOL\Program Files (x86)\Java\jre1.8.0_31\bin\javaw.exe,2015-01-23 16:40:10,Yes,False
+1,892,SYSVOL\Program Files (x86)\Java\jre1.8.0_31\bin\javacpl.exe,2015-01-23 16:40:10,No,False
+1,893,SYSVOL\Program Files (x86)\Common Files\Java\Java Update\jaureg.exe,2014-12-18 05:12:32,Yes,False
+1,894,SYSVOL\Program Files (x86)\Java\jre7\bin\jqs.exe,2014-10-22 14:28:57,Yes,False
+1,895,SYSVOL\Program Files (x86)\Java\jre1.8.0_31\bin\javaws.exe,2015-01-23 16:40:10,Yes,False
+1,896,SYSVOL\Program Files (x86)\Java\jre1.8.0_31\bin\unpack200.exe,2015-01-23 16:40:11,Yes,False
+1,897,SYSVOL\ProgramData\Oracle\Java\installcache\bspatch.exe,2015-01-23 16:40:09,Yes,False
+1,898,SYSVOL\Windows\Installer\MSI3DBF.tmp,2015-01-23 16:40:09,Yes,False
+1,899,SYSVOL\Users\eric\AppData\LocalLow\Sun\Java\jre1.8.0_31\LZMA_EXE,2015-01-23 16:39:36,Yes,False
+1,900,SYSVOL\Users\eric\AppData\LocalLow\Sun\Java\AU\LZMA_EXE,2015-01-23 16:39:36,Yes,False
+1,901,SYSVOL\Users\eric\AppData\Local\Temp\jre-8u31-windows-au.exe,2014-12-18 17:29:49,Yes,False
+1,902,SYSVOL\Program Files (x86)\Java\jre7\bin\awt.dll,2014-10-22 14:28:56,No,False
+1,903,SYSVOL\Program Files (x86)\Java\jre7\bin\javaw.exe,2014-10-22 14:28:56,Yes,False
+1,904,SYSVOL\Program Files (x86)\Java\jre7\bin\javaws.exe,2014-10-22 14:28:56,Yes,False
+1,905,SYSVOL\Program Files (x86)\Java\jre7\bin\java.exe,2014-10-22 14:28:56,Yes,False
+1,906,SYSVOL\Program Files (x86)\Common Files\Java\Java Update\jucheck.exe,2013-07-02 15:16:32,Yes,False
+1,907,SYSVOL\Users\eric\AppData\Local\Temp\vmware_1422030819\tools-winpre2k-9.9.0.exe,2015-01-23 16:34:55,Yes,False
+1,908,SYSVOL\Users\eric\AppData\Local\Temp\vmware_1422030819\tools-windows-9.9.0.exe,2015-01-23 16:34:50,Yes,False
+1,909,SYSVOL\Users\eric\AppData\Local\Temp\vmware_1422030819\tools-solaris-9.9.0.exe,2015-01-23 16:34:49,Yes,False
+1,910,SYSVOL\Users\eric\AppData\Local\Temp\vmware_1422030819\tools-netware-9.9.0.exe,2015-01-23 16:34:48,Yes,False
+1,911,SYSVOL\Users\eric\AppData\Local\Temp\vmware_1422030819\tools-linux-9.9.0.exe,2015-01-23 16:34:43,Yes,False
+1,912,SYSVOL\Users\eric\AppData\Local\Temp\vmware_1422030819\tools-freebsd-9.9.0.exe,2015-01-23 16:34:41,Yes,False
+1,913,SYSVOL\Windows\SysWOW64\net1.exe,2013-08-22 02:52:26,Yes,False
+1,914,SYSVOL\Windows\SysWOW64\net.exe,2013-08-22 02:52:54,Yes,False
+1,915,SYSVOL\Program Files (x86)\VMware\VMware Workstation\vnetlib64.exe,2014-11-21 01:44:44,Yes,False
+1,916,SYSVOL\Program Files (x86)\VMware\VMware Workstation\vmnetcfg.exe,2014-11-21 01:44:42,No,False
+1,917,SYSVOL\Program Files (x86)\Common Files\VMware\USB\vnetlib64.exe,2014-11-18 15:04:48,Yes,False
+1,918,SYSVOL\Program Files (x86)\Common Files\VMware\USB\DriverCache\vnetlib64.exe,2014-11-18 15:04:48,Yes,False
+1,919,SYSVOL\Program Files (x86)\Common Files\Java\Java Update\jusched.exe,2013-07-02 15:16:26,Yes,False
+1,920,SYSVOL\Program Files (x86)\Google\Chrome\Application\40.0.2214.91\nacl64.exe,2015-01-21 03:50:44,Yes,False
+1,921,F:\2dc694bbbec4e3d2606565395030\install.exe,2009-07-12 14:35:34,Yes,False
+1,922,SYSVOL\Users\eric\AppData\Local\Temp\vmware_1422030819\vcredist_x64.exe,2015-01-23 16:33:49,Yes,False
+1,923,F:\34c0d1dd2cbc9bb976783ac6b1\install.exe,2009-07-12 10:55:40,Yes,False
+1,924,SYSVOL\Users\eric\AppData\Local\Temp\vmware_1422030819\vcredist_x86.exe,2015-01-23 16:33:47,Yes,False
+1,925,SYSVOL\Users\eric\Desktop\VMware-workstation-full-11.0.0-2305329.exe,2015-01-23 15:46:49,Yes,False
+1,926,F:\67b67c473edd9bf0d06fc07de33e60ef\install.exe,2009-07-12 14:35:34,Yes,False
+1,927,SYSVOL\Users\eric\AppData\Local\Temp\vmware_1422030447\vcredist_x64.exe,2015-01-23 16:27:38,Yes,False
+1,928,F:\ccf125fb13149f01686eb4b40c\install.exe,2009-07-12 10:55:40,Yes,False
+1,929,SYSVOL\Users\eric\AppData\Local\Temp\vmware_1422030447\vcredist_x86.exe,2015-01-23 16:27:37,Yes,False
+1,930,F:\cd09ca0cffc26d0acd407a0244c5\install.exe,2009-07-12 14:35:34,Yes,False
+1,931,SYSVOL\Users\eric\AppData\Local\Temp\vmware_1422028581\vcredist_x64.exe,2015-01-23 16:26:47,Yes,False
+1,932,F:\fdcc91329bf404972a3c5f71eac8\install.exe,2009-07-12 10:55:40,Yes,False
+1,933,SYSVOL\Users\eric\AppData\Local\Temp\vmware_1422028581\vcredist_x86.exe,2015-01-23 16:26:45,Yes,False
+1,934,SYSVOL\Users\eric\AppData\Local\Temp\VMW5C43.tmp,2014-11-25 15:28:13,Yes,False
+1,935,SYSVOL\ProgramData\VMware\VMware Workstation\Uninstaller\uninstall.exe,2014-11-25 15:28:13,Yes,False
+1,936,SYSVOL\Program Files (x86)\MarkdownPad 2\wyUpdate.exe,2012-09-05 23:04:06,Yes,False
+1,937,SYSVOL\Windows\SysWOW64\attrib.exe,2013-08-22 02:53:52,Yes,False
+1,938,SYSVOL\Users\eric\AppData\Local\Temp\EXE76AF.tmp.bat,2015-01-23 15:43:38,No,False
+1,939,SYSVOL\Users\eric\AppData\Local\Temp\EXE767F.tmp.bat,2015-01-23 15:43:38,No,False
+1,940,SYSVOL\Windows\System32\pcaui.exe,2014-03-18 10:05:22,Yes,False
+1,941,SYSVOL\Users\eric\Desktop\markdownpad2-setup.exe,2015-01-23 15:41:43,Yes,False
+1,942,SYSVOL\Program Files (x86)\Infragistics\2014.2\Windows Forms\Toolbox Utility\ToolboxUtilityCommandLine.exe,2015-01-21 23:05:08,No,False
+1,943,SYSVOL\Users\eric\AppData\Local\Temp\sslcra32.exe,2015-01-23 14:32:36,Yes,False
+1,944,SYSVOL\Users\eric\AppData\Local\Temp\DeleteToolboxRegistryKeys.exe,2015-01-23 14:32:35,Yes,False
+1,945,SYSVOL\ProgramData\Infragistics\14.2\Infragistics_DevTools_20142.exe,2014-10-28 14:41:20,Yes,False
+1,946,SYSVOL\ProgramData\Infragistics\14.2\Infragistics_20142_Platform.exe,2014-10-28 14:41:34,Yes,False
+1,947,SYSVOL\Users\eric\AppData\Local\Temp\Infragistics_PlatformLauncher.exe,2013-11-27 11:52:33,Yes,False
+1,948,SYSVOL\ProgramData\Infragistics\14.2\Infragistics_Ultimate_20142.exe,2014-10-03 16:45:29,Yes,False
+1,949,SYSVOL\Windows\SoftwareDistribution\Download\Install\AM_Delta_Patch_1.191.3014.0.exe,2015-01-23 06:33:00,Yes,False
+1,950,SYSVOL\Windows\Temp\{F2F50471-EBC6-4B77-BF7A-3B055325B5EB}\InstallFlashPlayer.exe,2015-01-22 18:38:04,Yes,False
+1,951,SYSVOL\Windows\SoftwareDistribution\Download\Install\AM_Delta_Patch_1.191.2948.0.exe,2015-01-22 13:32:37,Yes,False
+1,952,SYSVOL\Program Files (x86)\Siber Systems\AI RoboForm\rfwipeout.exe,2015-01-22 15:35:54,No,False
+1,953,SYSVOL\Users\eric\AppData\Local\Temp\RFSFF59.tmp\rfwipeout.exe,2015-01-22 15:35:54,Yes,False
+1,954,SYSVOL\Users\eric\AppData\Local\Temp\RoboForm-Setup.exe,2015-01-22 15:35:53,Yes,False
+1,955,SYSVOL\Users\eric\AppData\Local\Temp\{6517D4E9-7E50-4514-9EB2-F1B81E91EAE5}\ISBEW64.exe,2015-01-22 15:28:08,Yes,False
+1,956,SYSVOL\Users\eric\AppData\Local\Downloaded Installations\UltraEdit\{87A419C4-CDB4-47E0-BD41-D25B34476B7E}\UltraEdit.msi,2015-01-22 15:28:07,No,False
+1,957,SYSVOL\Users\eric\AppData\Local\Temp\ueupdate0\ue_english.exe,2015-01-22 15:28:04,Yes,False
+1,958,SYSVOL\Program Files (x86)\IDM Computer Solutions\UltraEdit\update.exe,2011-09-06 22:53:32,Yes,False
+1,959,SYSVOL\Program Files (x86)\Google\Chrome\Application\39.0.2171.99\delegate_execute.exe,2015-01-09 00:35:47,Yes,False
+1,960,SYSVOL\Users\eric\AppData\Local\Temp\CR_CDA1C.tmp\setup.exe,2015-01-22 15:03:28,Yes,False
+1,961,SYSVOL\Program Files (x86)\Google\Update\Install\{1512CA60-09F0-4A40-85D4-5BA063B9B634}\40.0.2214.91_39.0.2171.99_chrome_updater.exe,2015-01-21 18:51:00,Yes,False
+1,962,SYSVOL\Program Files (x86)\Google\Chrome\Application\39.0.2171.99\Installer\setup.exe,2015-01-14 02:45:23,Yes,False
+1,963,SYSVOL\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\Extensions\Remco Software\NCrunch for Visual Studio 2013\NCrunch.Installer.40.exe,2015-01-22 19:03:40,Yes,False
+1,964,SYSVOL\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\Extensions\Remco Software\NCrunch for Visual Studio 2013\nCrunch.TaskRunner40.x86.exe,2014-09-16 21:10:56,Yes,False
+1,965,SYSVOL\temp\KnTToolsEnterprise--2.3.0.2898d\KnTToolsEnterprise\KnTTools.amd64\kntdd.exe,2013-09-18 02:48:30,Yes,False
+1,966,SYSVOL\temp\KnTToolsEnterprise--2.3.0.2898d\KnTToolsEnterprise\KnTTools.amd64\autorun.exe,2013-09-13 20:39:32,Yes,False
+1,967,SYSVOL\temp\MWMT-v2.1-RTM\DumpIt.exe,2014-03-20 11:27:44,Yes,False
+1,968,SYSVOL\temp\winpmem-1.4\winpmem_1.4.exe,2013-03-06 18:13:04,Yes,False
+1,969,SYSVOL\Users\eric\Desktop\Android tools\CEAU_Android\AndroidTools\Tools\riffbox_reorder.exe,2014-09-30 17:08:28,Yes,False
+1,970,SYSVOL\Users\eric\Desktop\Android tools\CEAU_Android\AndroidTools\Tools\rfs_rebuilder.exe,2014-09-30 17:08:30,Yes,False
+1,971,SYSVOL\Users\eric\Desktop\Android tools\CEAU_Android\AndroidTools\Tools\onenand_obch_decode.exe,2014-09-30 17:08:28,Yes,False
+1,972,SYSVOL\Users\eric\Desktop\Android tools\CEAU_Android\AndroidTools\Tools\nvidia_partition_extract.exe,2014-09-30 17:08:28,Yes,False
+1,973,SYSVOL\Users\eric\Desktop\Android tools\CEAU_Android\AndroidTools\Tools\location_parse.exe,2014-09-30 17:09:02,Yes,False
+1,974,SYSVOL\Users\eric\Desktop\Android tools\CEAU_Android\AndroidTools\Tools\android_mediatek_reorder.exe,2014-09-30 17:08:24,Yes,False
+1,975,SYSVOL\Users\eric\Desktop\Android tools\CEAU_Android\AndroidTools\Tools\android_freescale_reorder.exe,2014-09-30 17:08:22,Yes,False
+1,976,SYSVOL\ProjectWorkingFolder\ProccessingConfig\ExampleApp\bin\Debug\Worker\ExampleWorker.exe,2015-01-21 17:15:10,Yes,False
+1,977,SYSVOL\ProjectWorkingFolder\ProccessingConfig\ExampleApp\bin\Debug\ExampleApp.vshost.exe,2015-01-21 17:15:11,Yes,False
+1,978,SYSVOL\ProjectWorkingFolder\ProccessingConfig\ExampleApp\bin\Debug\ExampleApp.exe,2015-01-21 17:14:09,No,False
+1,979,SYSVOL\ProjectWorkingFolder\ProccessingConfig\ExampleWorker\bin\Release\ExampleWorker.exe,2015-01-21 17:15:10,No,False
+1,980,SYSVOL\ProjectWorkingFolder\ProccessingConfig\ExampleApp\bin\Release\ExampleApp.vshost.exe,2015-01-21 17:15:09,Yes,False
+1,981,SYSVOL\ProjectWorkingFolder\ProccessingConfig\ExampleApp\bin\Worker\ExampleWorker.exe,2015-01-20 18:08:54,Yes,False
+1,982,SYSVOL\Windows\System32\SndVol.exe,2014-07-24 15:16:24,Yes,False
+1,983,SYSVOL\ProjectWorkingFolder\ProccessingConfig\ExampleWorker\bin\Debug\ExampleWorker.exe,2015-01-21 15:43:40,Yes,False
+1,984,SYSVOL\Windows\SoftwareDistribution\Download\Install\AM_Delta_Patch_1.191.2746.0.exe,2015-01-20 17:52:08,Yes,False
+1,985,SYSVOL\ProjectWorkingFolder\ProccessingConfig\ExampleApp\bin\Release\ExampleApp.exe,2015-01-20 18:06:01,No,False
+1,986,SYSVOL\ProjectWorkingFolder\ProccessingConfig\ExampleWorker\bin\Debug\ExampleWorker.vshost.exe,2015-01-20 16:51:15,Yes,False
+1,987,SYSVOL\Users\eric\AppData\Local\Temp\is-LLPUF.tmp\BCUpdate.tmp,2015-01-20 14:00:42,Yes,False
+1,988,SYSVOL\Users\eric\AppData\Local\Temp\is-PBNK4.tmp\BCUpdate.tmp,2015-01-20 14:00:41,Yes,False
+1,989,SYSVOL\Windows\SoftwareDistribution\Download\Install\AM_Delta_Patch_1.191.2675.0.exe,2015-01-19 20:02:12,Yes,False
+1,990,SYSVOL\Users\eric\Desktop\DevExpressComponents-14.2.4.exe,2015-01-19 18:23:10,Yes,False
+1,991,SYSVOL\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\VSIXInstaller.exe,2014-11-01 07:46:50,Yes,False
+1,992,SYSVOL\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\VSIXInstaller.exe,2010-03-19 05:21:56,Yes,False
+1,993,SYSVOL\Program Files (x86)\DevExpress 14.2\CodeRush\System\DXCore\BIN\DXCoreVersion4.exe,2015-01-19 18:22:22,Yes,False
+1,994,SYSVOL\Users\eric\Desktop\DevExpressCodeRush-14.2.4.exe,2015-01-19 18:22:09,Yes,False
+1,995,SYSVOL\Users\eric\Desktop\RegistryExplorer_Locked 20150117\RegistryExplorer.exe,2015-01-18 00:52:14,Yes,False
+1,996,SYSVOL\Program Files (x86)\Google\Chrome\Application\39.0.2171.99\nacl64.exe,2015-01-09 00:35:53,Yes,False
+1,997,SYSVOL\Windows\SoftwareDistribution\Download\Install\AM_Delta_Patch_1.191.2550.0.exe,2015-01-17 10:34:23,Yes,False
+1,998,SYSVOL\Windows\SoftwareDistribution\Download\Install\AM_Delta_Patch_1.191.2478.0.exe,2015-01-16 16:06:24,Yes,False
+1,999,D:\Dropbox (Personal)\osTriage2\Plugins\__tmp\ffmpeg.exe,2015-01-15 19:45:06,Yes,False
+1,1000,D:\Dropbox (Personal)\osTriage2\Plugins\__tmp\282c694f-fa03-465c-b07e-5ceb8982221b\osTriageHelperApp.exe,2015-01-15 19:45:20,Yes,False
+1,1001,D:\Dropbox (Personal)\osTriage2\Plugins\__tmp\2cfbd2d8-0be9-4465-919b-740dd34f21db\osTriageHelperApp.exe,2015-01-15 19:45:20,Yes,False
+1,1002,D:\Dropbox (Personal)\osTriage2\Plugins\__tmp\6679ef60-aacf-4581-a3de-899bda15a535\osTriageHelperApp.exe,2015-01-15 19:45:20,Yes,False
+1,1003,D:\Dropbox (Personal)\osTriage2\Plugins\__tmp\7dbf13d3-e2f4-488e-965b-b480c7773b52\osTriageHelperApp.exe,2015-01-15 19:45:20,Yes,False
+1,1004,D:\Dropbox (Personal)\osTriage2\Plugins\__tmp\906b9c49-0c86-4fea-86e1-238d09a400d3\osTriageHelperApp.exe,2015-01-15 19:45:05,Yes,False
+1,1005,D:\Dropbox (Personal)\osTriage2\Plugins\__tmp\aa543f20-6c54-40b8-843c-93ad9c01803d\osTriageHelperApp.exe,2015-01-15 19:44:28,Yes,False
+1,1006,D:\Dropbox (Personal)\osTriage2\Plugins\__tmp\8a49fc39-c089-41a0-a16f-2cb3b63cf82f\osTriageHelperApp.exe,2015-01-15 19:44:27,Yes,False
+1,1007,D:\Dropbox (Personal)\osTriage2\Plugins\__tmp\f89a4e21-fc80-4d19-a4f0-695e89ebdf43\osTriageHelperApp.exe,2015-01-15 19:44:27,Yes,False
+1,1008,D:\Dropbox (Personal)\osTriage2\Plugins\__tmp\c37acf93-6bda-4545-b5a5-4b1b12e327a2\osTriageHelperApp.exe,2015-01-15 19:44:25,Yes,False
+1,1009,D:\Dropbox (Personal)\osTriage2\Plugins\__tmp\5d328356-8ab7-45e6-8356-95dd58003942\osTriageHelperApp.exe,2015-01-15 19:44:25,Yes,False
+1,1010,D:\Dropbox (Personal)\osTriage2\Plugins\__tmp\3a69a75d-e584-45c5-b63e-7cf0f85c4b64\osTriageHelperApp.exe,2015-01-15 19:44:25,Yes,False
+1,1011,D:\Dropbox (Personal)\osTriage2\osTriage2.exe,2014-09-18 15:02:56,Yes,False
+1,1012,SYSVOL\Windows\SoftwareDistribution\Download\Install\AM_Delta_Patch_1.191.2312.0.exe,2015-01-15 01:09:40,Yes,False
+1,1013,SYSVOL\Users\eric\AppData\Local\Citrix\GoToMeeting\2185\G2MInstaller.exe,2015-01-14 18:37:11,Yes,False
+1,1014,SYSVOL\Users\eric\AppData\Local\Temp\CitrixUpdates\GoToMeeting\2185\G2MInstaller.exe,2015-01-14 18:37:11,Yes,False
+1,1015,SYSVOL\Users\eric\AppData\Local\Temp\CitrixUpdates\GoToMeeting\2185\G2MCoreInstExtractor.exe,2015-01-14 18:37:11,Yes,False
+1,1016,SYSVOL\Users\eric\AppData\Local\Citrix\GoToMeeting\2152\g2mupdate.exe,2015-01-07 04:31:10,Yes,False
+1,1017,SYSVOL\Users\eric\AppData\Local\Temp\is-DNK8Q.tmp\BCUpdate.tmp,2015-01-14 17:04:35,Yes,False
+1,1018,SYSVOL\Users\eric\AppData\Local\Temp\is-V0212.tmp\BCUpdate.tmp,2015-01-14 17:04:35,Yes,False
+1,1019,F:\fe87600420b86582cb1bee7329e89b\mrtstub.exe,2014-12-31 20:11:38,Yes,False
+1,1020,SYSVOL\Windows\SoftwareDistribution\Download\Install\Windows-KB890830-x64-V5.20-delta.exe,2015-01-07 20:12:14,Yes,False
+1,1021,SYSVOL\Program Files (x86)\Google\Chrome\Application\39.0.2171.95\delegate_execute.exe,2014-12-06 01:50:43,Yes,False
+1,1022,SYSVOL\Windows\Temp\CR_D6728.tmp\setup.exe,2015-01-14 02:45:23,Yes,False
+1,1023,SYSVOL\Program Files (x86)\Google\Chrome\Application\39.0.2171.95\Installer\setup.exe,2014-12-10 23:45:16,Yes,False
