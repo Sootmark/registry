@@ -1,6 +1,6 @@
 [package]
 name = "sootmark-registry"
-version = "0.4.0"
+version = "0.5.0"
 edition = "2021"
 rust-version = "1.80"
 description = "Windows registry hive (regf) parser: keys, values, big data, subkey indexes; ShimCache, UserAssist, ShellBags and shell items."
@@ -13,6 +13,10 @@ include = ["/src", "/README.md", "/LICENSE-APACHE", "/LICENSE-MIT"]
 
 [lib]
 name = "registry"
+
+[dependencies]
+# Shell items, shared with LNK files and jump lists.
+shell = { package = "sootmark-shell", version = "0.1.0" }
 
 [dev-dependencies]
 # The digests of the recorded dumps.

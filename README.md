@@ -1,10 +1,10 @@
 # registry
 
-A Windows registry hive (`regf`) parser, written from the public format documentation: SYSTEM, SOFTWARE, SAM, SECURITY, NTUSER.DAT, UsrClass.dat, Amcache.hve, BCD. No dependencies.
+A Windows registry hive (`regf`) parser, written from the public format documentation: SYSTEM, SOFTWARE, SAM, SECURITY, NTUSER.DAT, UsrClass.dat, Amcache.hve, BCD. One dependency, its sibling `sootmark-shell` (shell items).
 
 ```toml
 [dependencies]
-sootmark-registry = "0.4"
+sootmark-registry = "0.5"
 ```
 
 ```rust

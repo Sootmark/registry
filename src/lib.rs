@@ -17,7 +17,9 @@
 //! and values from free cells.
 
 pub mod shellbags;
-pub mod shellitem;
+/// Shell items, from `sootmark-shell` (shared with LNK files and jump
+/// lists).
+pub use shell::item as shellitem;
 pub mod shimcache;
 pub mod userassist;
 mod value;
