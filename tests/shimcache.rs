@@ -144,12 +144,132 @@ fn reads_windows7_caches() {
 #[test]
 fn refuses_unknown_and_damaged_caches() {
     assert!(shimcache::parse(&[]).is_err());
-    assert!(shimcache::parse(&0xdead_beef_u32.to_le_bytes())
+    assert!(shimcache::parse(&0x1234_5678_u32.to_le_bytes())
         .unwrap_err()
         .reason
-        .contains("XP"));
+        .contains("unknown"));
     let mut damaged = 0x34_u32.to_le_bytes().to_vec();
     damaged.resize(0x34, 0);
     damaged.extend(b"10ts\0\0\0\0\xff\xff\0\0");
     assert!(shimcache::parse(&damaged).is_err());
+}
+
+/// One file's expectations: name, layout, entry count, and checked
+/// entries (index, part of the path, executed).
+type Case = (
+    &'static str,
+    Format,
+    usize,
+    &'static [(usize, &'static str, Option<bool>)],
+);
+const CASES: &[Case] = &[
+    (
+        "Win2k8Standard.bin",
+        Format::VistaX64,
+        873,
+        &[
+            (0, "raw_agent_svc.exe", Some(true)),
+            (2, "mmc.exe", Some(true)),
+            (5, "SCW.exe", Some(false)),
+            (337, "MSExchangeTransport.exe", Some(true)),
+            (349, "MSExchangeFDS.exe", Some(true)),
+        ],
+    ),
+    (
+        "Win10Creators.bin",
+        Format::Windows10,
+        506,
+        &[
+            (0, "nvstreg.exe", None),
+            (2, "grpconv.exe", None),
+            (7, "ISBEW64.exe", None),
+            (337, "wsqmcons.exe", None),
+            (349, "SLUI.exe", None),
+        ],
+    ),
+    (
+        "Win10.bin",
+        Format::Windows10,
+        350,
+        &[
+            (0, "vds.exe", None),
+            (2, "DismHost.exe", None),
+            (7, "mstsc.exe", None),
+            (337, "Ngen.exe", None),
+            (349, "services.exe", None),
+        ],
+    ),
+    (
+        "win7x64.bin",
+        Format::Windows7X64,
+        304,
+        &[
+            (0, "wuauclt.exe", Some(true)),
+            (2, "SearchFilterHost.exe", Some(true)),
+            (7, "chrome.exe", Some(false)),
+            (300, "chrmstp.exe", Some(true)),
+            (301, "reg.exe", Some(true)),
+        ],
+    ),
+    (
+        "WinXPx86.bin",
+        Format::WindowsXp,
+        17,
+        &[
+            (0, "msoobe.exe", None),
+            (2, "agentsvr.exe", None),
+            (8, "NETSHELL.dll", None),
+        ],
+    ),
+    (
+        "win7x86.bin",
+        Format::Windows7X86,
+        91,
+        &[
+            (0, "LogonUI.exe", Some(true)),
+            (2, "SearchProtocolHost.exe", Some(true)),
+            (8, "wmplayer.exe", Some(false)),
+            (89, "reg.exe", Some(true)),
+            (90, "SETUPUGC.EXE", Some(true)),
+        ],
+    ),
+    (
+        "Win80.bin",
+        Format::Windows8,
+        104,
+        &[
+            (0, "LogonUI.exe", Some(true)),
+            (2, "EditPadLite7.exe", Some(true)),
+            (8, "svchost.exe", Some(true)),
+            (100, "Setup.exe", Some(true)),
+            (101, "WWAHost.exe", Some(false)),
+        ],
+    ),
+    (
+        "Win81.bin",
+        Format::Windows81,
+        1024,
+        &[
+            (0, "java.exe", Some(true)),
+            (2, "SpotifyHelper.exe", Some(true)),
+        ],
+    ),
+];
+
+/// AppCompatCacheParser's own test values (MIT; `tests/fixtures/appcompatcache/`)
+/// and what its tests expect of each: entry count, then (index, part of the
+/// path, executed: `None` where the layout doesn't record it).
+#[test]
+fn matches_appcompatcacheparser_tests() {
+    let dir = Path::new(env!("CARGO_MANIFEST_DIR")).join("tests/fixtures/appcompatcache");
+    for (file, format, count, checks) in CASES {
+        let (found, entries) = shimcache::parse(&fs::read(dir.join(file)).unwrap()).unwrap();
+        assert_eq!(found, *format, "{file}");
+        assert_eq!(entries.len(), *count, "{file}");
+        for (index, part, executed) in *checks {
+            let entry = &entries[*index];
+            assert!(entry.path.contains(part), "{file}[{index}]: {}", entry.path);
+            assert_eq!(entry.executed, *executed, "{file}[{index}]");
+        }
+    }
 }

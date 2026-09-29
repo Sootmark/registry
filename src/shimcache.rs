@@ -6,14 +6,20 @@
 //!
 //! Layouts from the public documentation (Mandiant's "Leveraging the
 //! Application Compatibility Cache in Forensic Investigations", libyal's
-//! notes): Windows 7 / 2008 R2 (x86 and x64), 8.0, 8.1 / 2012 R2, and 10 /
-//! 11. XP and Vista layouts are refused with the reason.
+//! notes): Windows XP (32-bit), Vista / 2008 and 7 / 2008 R2 (x86 and x64),
+//! 8.0, 8.1 / 2012 R2, and 10 / 11.
 
 use crate::{error, u16_at, u32_at, u64_at, Error};
 
 /// The layout a cache was written in.
 #[derive(Debug, Clone, Copy, PartialEq, Eq)]
 pub enum Format {
+    /// Windows XP, 32-bit.
+    WindowsXp,
+    /// Windows Vista / Server 2008, 32-bit.
+    VistaX86,
+    /// Windows Vista / Server 2008, 64-bit.
+    VistaX64,
     /// Windows 7 / Server 2008 R2, 32-bit.
     Windows7X86,
     /// Windows 7 / Server 2008 R2, 64-bit.
@@ -36,7 +42,7 @@ pub struct Entry {
     /// The file's last modification time (FILETIME; 0 when none).
     pub last_modified: u64,
     /// Whether the insertion flags say it was executed; `None` where the
-    /// layout doesn't record it (Windows 10 and later).
+    /// layout doesn't record it (XP, Windows 10 and later).
     pub executed: Option<bool>,
 }
 
@@ -62,20 +68,16 @@ fn utf16(bytes: &[u8]) -> String {
 /// (entries before it are lost too: the cache is read in one pass).
 pub fn parse(value: &[u8]) -> Result<(Format, Vec<Entry>), Error> {
     let first = u32_at(value, 0).ok_or_else(|| error(0, "AppCompatCache too short"))?;
-    match first {
-        WINDOWS7 => windows7(value),
-        XP => Err(error(0, "Windows XP AppCompatCache (not supported yet)")),
-        VISTA => Err(error(
-            0,
-            "Windows Vista / 2008 AppCompatCache (not supported yet)",
-        )),
-        0x80 => match value.get(0x80..0x84) {
-            Some(b"00ts") => signed(value, 0x80, Format::Windows8),
-            Some(b"10ts") => signed(value, 0x80, Format::Windows81),
-            _ => Err(error(0x80, "unknown AppCompatCache entry signature")),
-        },
-        0x30 | 0x34 => signed(value, first as usize, Format::Windows10),
-        other => Err(error(
+    // Windows 8.x is told by its first entry's signature at 0x80 (the
+    // header's first field is 0x80 on 8.1 but can be 0 on 8.0).
+    match (first, value.get(0x80..0x84)) {
+        (WINDOWS7, _) => windows7(value),
+        (XP, _) => windows_xp(value),
+        (VISTA, _) => vista(value),
+        (_, Some(b"00ts")) => signed(value, 0x80, Format::Windows8),
+        (_, Some(b"10ts")) => signed(value, 0x80, Format::Windows81),
+        (0x30 | 0x34, _) => signed(value, first as usize, Format::Windows10),
+        (other, _) => Err(error(
             0,
             format!("unknown AppCompatCache layout (header {other:#x})"),
         )),
@@ -89,6 +91,10 @@ fn signed(value: &[u8], start: usize, format: Format) -> Result<(Format, Vec<Ent
     while at + 12 <= value.len() {
         let signature = &value[at..at + 4];
         if signature != b"10ts" && signature != b"00ts" {
+            // Windows pads the value with zeros after the last entry.
+            if value[at..].iter().all(|&b| b == 0) {
+                break;
+            }
             return Err(error(at, "AppCompatCache entry without signature"));
         }
         let size = u32_at(value, at + 8).unwrap_or(0) as usize;
@@ -102,17 +108,17 @@ fn signed(value: &[u8], start: usize, format: Format) -> Result<(Format, Vec<Ent
         let (last_modified, executed) = match format {
             Format::Windows10 => (u64_at(data, o).ok_or_else(short)?, None),
             Format::Windows81 | Format::Windows8 => {
-                if format == Format::Windows81 {
-                    let package = usize::from(u16_at(data, o).ok_or_else(short)?);
-                    o += 2 + package;
-                }
+                // A package name (empty for desktop programs) follows the
+                // path, on 8.0 as on 8.1.
+                let package = usize::from(u16_at(data, o).ok_or_else(short)?);
+                o += 2 + package;
                 let insertion = u32_at(data, o).ok_or_else(short)?;
                 (
                     u64_at(data, o + 8).ok_or_else(short)?,
                     Some(insertion & EXECUTED_FLAG != 0),
                 )
             }
-            Format::Windows7X86 | Format::Windows7X64 => unreachable!("not a signed layout"),
+            _ => unreachable!("not a signed layout"),
         };
         entries.push(Entry {
             position: entries.len(),
@@ -167,4 +173,70 @@ fn windows7(value: &[u8]) -> Result<(Format, Vec<Entry>), Error> {
         });
     }
     Ok((format, entries))
+}
+
+/// Vista / 2008: an 8-byte header with the count, then fixed-size entries
+/// pointing at their paths (like Windows 7, without the data fields).
+fn vista(value: &[u8]) -> Result<(Format, Vec<Entry>), Error> {
+    let count = u32_at(value, 4).unwrap_or(0) as usize;
+    // x64 entries are 32 bytes, x86 24: the x64 path offset (a u64 at +8)
+    // points inside the value, with a zero upper half.
+    let x64 = u64_at(value, 8 + 8).is_some_and(|o| o > 0 && (o as usize) < value.len())
+        && u32_at(value, 8 + 4) == Some(0);
+    let (format, size) = if x64 {
+        (Format::VistaX64, 32)
+    } else {
+        (Format::VistaX86, 24)
+    };
+    let mut entries = Vec::with_capacity(count.min(4096));
+    for i in 0..count {
+        let at = 8 + i * size;
+        let short = || error(at, "AppCompatCache entry runs past the value");
+        let len = usize::from(u16_at(value, at).ok_or_else(short)?);
+        let (path_at, modified, flags) = if x64 {
+            (
+                u64_at(value, at + 8).ok_or_else(short)? as usize,
+                u64_at(value, at + 16).ok_or_else(short)?,
+                u32_at(value, at + 24).ok_or_else(short)?,
+            )
+        } else {
+            (
+                u32_at(value, at + 4).ok_or_else(short)? as usize,
+                u64_at(value, at + 8).ok_or_else(short)?,
+                u32_at(value, at + 16).ok_or_else(short)?,
+            )
+        };
+        let path = value
+            .get(path_at..path_at + len)
+            .ok_or_else(|| error(at, "AppCompatCache path outside the value"))?;
+        entries.push(Entry {
+            position: i,
+            path: utf16(path),
+            last_modified: modified,
+            executed: Some(flags & EXECUTED_FLAG != 0),
+        });
+    }
+    Ok((format, entries))
+}
+
+/// XP (32-bit): a 400-byte header with the counts, then 552-byte entries
+/// holding the path itself (up to `MAX_PATH` + 4 characters) and the
+/// file's last modification time.
+fn windows_xp(value: &[u8]) -> Result<(Format, Vec<Entry>), Error> {
+    // The header holds the capacity (96) at 4 and the entries in use at 8.
+    let count = u32_at(value, 8).unwrap_or(0) as usize;
+    let mut entries = Vec::with_capacity(count.min(4096));
+    for i in 0..count {
+        let at = 400 + i * 552;
+        let entry = value
+            .get(at..at + 552)
+            .ok_or_else(|| error(at, "AppCompatCache entry runs past the value"))?;
+        entries.push(Entry {
+            position: i,
+            path: utf16(&entry[..528]),
+            last_modified: u64_at(entry, 528).unwrap_or(0),
+            executed: None,
+        });
+    }
+    Ok((Format::WindowsXp, entries))
 }
