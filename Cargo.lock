@@ -248,7 +248,7 @@ checksum = "30d935f7f3abeb2a66596f69d1e4fa8a7a9da04cfc5433527303adc477598fb8"
 
 [[package]]
 name = "sootmark-registry"
-version = "0.6.0"
+version = "0.6.1"
 dependencies = [
  "proptest",
  "sootmark-common",
