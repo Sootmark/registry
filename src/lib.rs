@@ -17,6 +17,7 @@
 //! and values from free cells.
 
 pub mod amcache;
+pub mod bam;
 pub mod shellbags;
 /// Shell items, from `sootmark-shell` (shared with LNK files and jump
 /// lists).
