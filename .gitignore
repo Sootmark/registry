@@ -2,3 +2,4 @@
 .DS_Store
 # Hives too large to commit: `tests/fetch-hives.sh` downloads them.
 /tests/fixtures/ez-large/
+/tests/fixtures/rathbun-large/

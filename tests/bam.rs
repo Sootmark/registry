@@ -1,9 +1,12 @@
-//! BAM against Eric Zimmerman's RECmd (its BamDam plugin) on a real
-//! Windows Server 2022 SYSTEM hive, which can't be redistributed here (the
-//! CFReDS "Compromised Windows Server 2022" image, CC BY-NC-SA): set
-//! `SOOTMARK_BAM_SYSTEM` to the hive and `SOOTMARK_BAM_RECMD` to RECmd's
-//! batch CSV for it (`--nl`, key `ControlSet*\Services\bam\State\
-//! UserSettings\*`), and every entry must match. Skipped otherwise.
+//! BAM against Eric Zimmerman's RECmd (its BamDam plugin, batch file
+//! `tests/oracle/bam.reb`, run with `--nl` on the hive alone): every entry,
+//! in every control set RECmd reports, must match.
+//!
+//! - The SYSTEM hives of Andrew Rathbun's Windows 10 and 11 VMs (MIT, DFIR
+//!   Artifact Museum), fetched by `tests/fetch-hives.sh`; RECmd's output is
+//!   in `tests/oracle/bam-win10.csv` and `bam-win11.csv`.
+//! - Any other hive: set `SOOTMARK_BAM_SYSTEM` to it and
+//!   `SOOTMARK_BAM_RECMD` to RECmd's output for it.
 
 use std::collections::BTreeSet;
 use std::fs;
@@ -51,26 +54,21 @@ fn fields(line: &str) -> Vec<String> {
     out
 }
 
-#[test]
-fn matches_recmd() {
-    let (Ok(hive_path), Ok(csv_path)) = (
-        std::env::var("SOOTMARK_BAM_SYSTEM"),
-        std::env::var("SOOTMARK_BAM_RECMD"),
-    ) else {
-        eprintln!("skipped: set SOOTMARK_BAM_SYSTEM and SOOTMARK_BAM_RECMD");
-        return;
-    };
-    let data = fs::read(hive_path).unwrap();
-    let hive = Hive::parse(&data).unwrap();
-    let csv = fs::read_to_string(csv_path).unwrap();
+/// Check every BAM entry of the hive against RECmd's output; how many.
+fn check(data: &[u8], csv: &str) -> usize {
+    let hive = Hive::parse(data).unwrap();
     let mut lines = csv.trim_start_matches('\u{feff}').lines();
     let header = fields(lines.next().unwrap());
     let column = |name: &str| header.iter().position(|h| h == name).unwrap();
     let (key, value, data2) = (column("KeyPath"), column("ValueName"), column("ValueData2"));
     let rows: Vec<Vec<String>> = lines.map(fields).collect();
+    let control_sets: BTreeSet<&str> = rows
+        .iter()
+        .map(|row| row[key].split('\\').nth(1).unwrap())
+        .collect();
+    assert!(!control_sets.is_empty());
     let mut total = 0;
-    // Both the current control set and the last known good one hold them.
-    for control_set in ["ControlSet001", "ControlSet002"] {
+    for control_set in control_sets {
         let ours: BTreeSet<(String, String, String)> = bam::entries(&hive, control_set)
             .unwrap()
             .into_iter()
@@ -85,9 +83,36 @@ fn matches_recmd() {
                 (sid, row[value].clone(), time)
             })
             .collect();
-        assert!(!theirs.is_empty(), "{control_set}");
         assert_eq!(ours, theirs, "{control_set}");
         total += ours.len();
     }
+    total
+}
+
+#[test]
+fn rathbun_vms_match_recmd() {
+    let dir = env!("CARGO_MANIFEST_DIR");
+    for (version, entries) in [("win10", 23), ("win11", 19)] {
+        let Ok(data) = fs::read(format!(
+            "{dir}/tests/fixtures/rathbun-large/{version}/SYSTEM"
+        )) else {
+            eprintln!("{version} not checked (run tests/fetch-hives.sh)");
+            continue;
+        };
+        let csv = fs::read_to_string(format!("{dir}/tests/oracle/bam-{version}.csv")).unwrap();
+        assert_eq!(check(&data, &csv), entries, "{version}");
+    }
+}
+
+#[test]
+fn any_hive_matches_recmd() {
+    let (Ok(hive), Ok(csv)) = (
+        std::env::var("SOOTMARK_BAM_SYSTEM"),
+        std::env::var("SOOTMARK_BAM_RECMD"),
+    ) else {
+        eprintln!("skipped: set SOOTMARK_BAM_SYSTEM and SOOTMARK_BAM_RECMD");
+        return;
+    };
+    let total = check(&fs::read(hive).unwrap(), &fs::read_to_string(csv).unwrap());
     eprintln!("{total} BAM entries match RECmd");
 }

@@ -1,6 +1,8 @@
 #!/bin/sh
-# Download the large test hives (MIT, Eric Zimmerman's Registry test set)
-# at a pinned commit into tests/fixtures/ez-large/, checking each SHA-256.
+# Download the large test hives at pinned commits, checking each SHA-256:
+# Eric Zimmerman's Registry test set (MIT) into tests/fixtures/ez-large/,
+# and the SYSTEM hives of Andrew Rathbun's Windows 10 and 11 VMs (MIT, DFIR
+# Artifact Museum; extracted with 7z) into tests/fixtures/rathbun-large/.
 set -eu
 cd "$(dirname "$0")/fixtures"
 mkdir -p ez-large
@@ -24,4 +26,21 @@ e59f1fb3d437b544627c57bf58427762e32e9f8e3f330a3c1c8179f727448efa  UsrClass FTP.d
 7ff60b93c7f0640907ccb943105a10da64398c957bb23d3b87da5dc22c7df315  UsrClass zip files unicode.dat
 232a03165b46650f1c0705d917e50eb867fe3db1a342d032e68cd5ea1d2f0870  UsrClass-win7.dat
 8b30584fea3e51c037069f16d518b42c0196c02a76ec3056a045fe3b1642da50  UsrClassJVM.dat
+EOF
+
+museum=https://raw.githubusercontent.com/AndrewRathbun/DFIRArtifactMuseum/fdcb1fab0c7b00e89129668d9c30174dd4ea3e5b/Windows/Registry
+mkdir -p rathbun-large
+while read -r archive_sum system_sum version; do
+    dir="rathbun-large/win$version"
+    if [ ! -f "$dir/SYSTEM" ]; then
+        mkdir -p "$dir"
+        curl -sfL -o "$dir.7z" "$museum/Win$version/RathbunVM/RathbunVM_W${version}RegistryHives.7z"
+        echo "$archive_sum  $dir.7z" | shasum -a 256 -c --quiet -
+        7z e -y -bd -o"$dir" "$dir.7z" SYSTEM >/dev/null
+        rm "$dir.7z"
+    fi
+    echo "$system_sum  $dir/SYSTEM" | shasum -a 256 -c --quiet -
+done <<EOF
+f4f321cf45ae06db0fa832c9103699bdc6114b3017fdb6671fa6bd0971c7a9aa 61293882afec46472a2b8f6c896b4657626461fbbfed67ff100ae06da8e4b680 10
+23c8d3cf99fd0cdc91da4d6ad7d8c91e03d8fb0b744c6bc70d737f8b2eee268a d65c718c91e50d57fd549e9fa8782a5edad60c8cdcd597bb40481a81854496ee 11
 EOF
