@@ -1,2 +1,2 @@
 # Tool and format names, not code.
-doc-valid-idents = ["UsrClass", "UserAssist", "ShimCache", "AppCompatCache", "AppCompatCacheParser", "AmcacheParser", "Amcache", "RECmd", "BamDam", "CFReDS", "SBECmd", "ShellBags", "ShellBag", "BagMRU", "NodeSlot", "MRUListEx", ".."]
+doc-valid-idents = ["UsrClass", "UserAssist", "ShimCache", "AppCompatCache", "AppCompatCacheParser", "AmcacheParser", "Amcache", "RECmd", "BamDam", "CFReDS", "SBECmd", "ShellBags", "ShellBag", "BagMRU", "NodeSlot", "MRUListEx", "RunOnce", "RunMRU", "TaskCache", "RecentDocs", "TypedPaths", "WordWheelQuery", "MountedDevices", "StartupApproved", "ProfileList", "DynamicInfo", "UsernameHint", ".."]

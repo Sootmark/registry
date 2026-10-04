@@ -133,7 +133,7 @@ pub struct Value<'h> {
 }
 
 /// UTF-16LE text up to the first NUL.
-fn utf16_until_nul(bytes: &[u8]) -> String {
+pub(crate) fn utf16_until_nul(bytes: &[u8]) -> String {
     let units: Vec<u16> = bytes
         .chunks_exact(2)
         .map(|c| u16::from_le_bytes([c[0], c[1]]))

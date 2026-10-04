@@ -1,0 +1,3 @@
+HivePath,HiveType,Description,Category,KeyPath,ValueName,ValueType,ValueData,ValueData2,ValueData3,Comment,Recursive,Deleted,LastWriteTimestamp
+w10-NTUSER/NTUSER.DAT,NtUser,TypedPaths,User Activity,ROOT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\TypedPaths,url1,RegSz,C:\ProgramData,,,Displays paths that were typed by the user in Windows Explorer,False,False,2022-02-07 05:19:03.0615246
+w10-NTUSER/NTUSER.DAT,NtUser,Startup Programs,Autoruns,ROOT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\StartupApproved\Run,,,,,,Displays list of programs that start up upon system boot,True,False,2022-02-08 20:54:50.0856713

@@ -1,0 +1,40 @@
+﻿Extension,BatchKeyPath,ValueName,BatchValueName,TargetName,LnkName,MruPosition,OpenedOn,ExtensionLastOpened
+RecentDocs,ROOT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs,11,11,windows,windows.lnk,0,2022-02-08 20:44:20.6310474,2022-02-08 20:44:20.6310474
+RecentDocs,ROOT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs,12,12,Windows.edb,Windows.edb.lnk,1,,2022-02-08 20:44:20.6154021
+RecentDocs,ROOT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs,10,10,Windows.jfm,Windows.jfm.lnk,2,,2022-02-06 22:09:00.1929462
+RecentDocs,ROOT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs,9,9,New Text Document.txt,New Text Document.lnk,3,,2022-02-06 20:17:56.9359700
+RecentDocs,ROOT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs,8,8,deletedfile.txt,deletedfile.lnk,4,,
+RecentDocs,ROOT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs,7,7,FeedbackHub,FeedbackHub.lnk,5,,
+RecentDocs,ROOT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs,6,6,SubmissionPayload.json,SubmissionPayload.json.lnk,6,,2022-02-05 19:55:36.9452790
+RecentDocs,ROOT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs,3,3,Personal,Personal.lnk,7,,
+RecentDocs,ROOT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs,5,5,telemetry-dll-ramp-value.txt,telemetry-dll-ramp-value.lnk,8,,
+RecentDocs,ROOT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs,1,1,logs,logs.lnk,9,,
+RecentDocs,ROOT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs,4,4,Install-PerUser_2022-02-05_193251_17f8-f08.log,Install-PerUser_2022-02-05_193251_17f8-f08.lnk,10,,2022-02-05 19:55:05.6239154
+RecentDocs,ROOT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs,0,0,Update_2022-02-05_193254_1500-1878.log,Update_2022-02-05_193254_1500-1878.lnk,11,,
+RecentDocs,ROOT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs,2,2,assertInformation.ini,assertInformation.lnk,12,,2022-02-05 19:54:51.6217924
+Folder,ROOT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs\Folder,3,3,windows,windows.lnk,0,2022-02-08 20:44:20.6310474,
+Folder,ROOT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs\Folder,2,2,FeedbackHub,FeedbackHub.lnk,1,,
+Folder,ROOT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs\Folder,1,1,Personal,Personal.lnk,2,,
+Folder,ROOT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs\Folder,0,0,logs,logs.lnk,3,,
+.txt,ROOT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs\.txt,2,2,New Text Document.txt,New Text Document.lnk,0,2022-02-06 20:17:56.9359700,
+.txt,ROOT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs\.txt,1,1,deletedfile.txt,deletedfile.lnk,1,,
+.txt,ROOT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs\.txt,0,0,telemetry-dll-ramp-value.txt,telemetry-dll-ramp-value.lnk,2,,
+.log,ROOT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs\.log,1,1,Install-PerUser_2022-02-05_193251_17f8-f08.log,Install-PerUser_2022-02-05_193251_17f8-f08.lnk,0,2022-02-05 19:55:05.6239154,
+.log,ROOT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs\.log,0,0,Update_2022-02-05_193254_1500-1878.log,Update_2022-02-05_193254_1500-1878.lnk,1,,
+.json,ROOT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs\.json,0,0,SubmissionPayload.json,SubmissionPayload.json.lnk,0,2022-02-05 19:55:36.9452790,
+.jfm,ROOT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs\.jfm,0,0,Windows.jfm,Windows.jfm.lnk,0,2022-02-06 22:09:00.1929462,
+.ini,ROOT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs\.ini,0,0,assertInformation.ini,assertInformation.lnk,0,2022-02-05 19:54:51.6217924,
+.edb,ROOT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs\.edb,0,0,Windows.edb,Windows.edb.lnk,0,2022-02-08 20:44:20.6154021,
+.edb,ROOT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs\.edb,0,0,Windows.edb,Windows.edb.lnk,0,2022-02-08 20:44:20.6154021,
+.ini,ROOT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs\.ini,0,0,assertInformation.ini,assertInformation.lnk,0,2022-02-05 19:54:51.6217924,
+.jfm,ROOT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs\.jfm,0,0,Windows.jfm,Windows.jfm.lnk,0,2022-02-06 22:09:00.1929462,
+.json,ROOT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs\.json,0,0,SubmissionPayload.json,SubmissionPayload.json.lnk,0,2022-02-05 19:55:36.9452790,
+.log,ROOT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs\.log,1,1,Install-PerUser_2022-02-05_193251_17f8-f08.log,Install-PerUser_2022-02-05_193251_17f8-f08.lnk,0,2022-02-05 19:55:05.6239154,
+.log,ROOT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs\.log,0,0,Update_2022-02-05_193254_1500-1878.log,Update_2022-02-05_193254_1500-1878.lnk,1,,
+.txt,ROOT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs\.txt,2,2,New Text Document.txt,New Text Document.lnk,0,2022-02-06 20:17:56.9359700,
+.txt,ROOT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs\.txt,1,1,deletedfile.txt,deletedfile.lnk,1,,
+.txt,ROOT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs\.txt,0,0,telemetry-dll-ramp-value.txt,telemetry-dll-ramp-value.lnk,2,,
+Folder,ROOT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs\Folder,3,3,windows,windows.lnk,0,2022-02-08 20:44:20.6310474,
+Folder,ROOT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs\Folder,2,2,FeedbackHub,FeedbackHub.lnk,1,,
+Folder,ROOT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs\Folder,1,1,Personal,Personal.lnk,2,,
+Folder,ROOT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs\Folder,0,0,logs,logs.lnk,3,,

@@ -11,6 +11,7 @@
 
 use std::collections::HashSet;
 
+use crate::artifact::mru_list_ex;
 use crate::shellitem::{self, Item};
 use crate::{Data, Error, Hive, Key};
 
@@ -53,19 +54,6 @@ fn dword(key: &Key<'_>, name: &str) -> Option<u32> {
     }
 }
 
-/// `MRUListEx`: value numbers, most recent first, ended by `0xFFFFFFFF`.
-fn mru(key: &Key<'_>) -> Vec<u32> {
-    let Ok(Some(value)) = key.value("MRUListEx") else {
-        return Vec::new();
-    };
-    value
-        .bytes
-        .chunks_exact(4)
-        .map(|c| u32::from_le_bytes([c[0], c[1], c[2], c[3]]))
-        .take_while(|&n| n != u32::MAX)
-        .collect()
-}
-
 /// Every ShellBag in `hive`, depth first.
 ///
 /// # Errors
@@ -92,7 +80,7 @@ fn walk(
     if depth > MAX_DEPTH || !seen.insert(key.offset) {
         return Ok(());
     }
-    let order = mru(key);
+    let order = mru_list_ex(key);
     let subkeys = key.subkeys()?;
     let mut values: Vec<(u32, Vec<u8>)> = key
         .values()?

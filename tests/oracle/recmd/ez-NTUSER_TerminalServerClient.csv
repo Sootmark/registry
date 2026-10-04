@@ -1,0 +1,7 @@
+﻿HostName,BatchKeyPath,Username,BatchValueName,MRUPosition,LastModified
+GOON-pc.su.local,CsiTool-CreateHive-{00000000-0000-0000-0000-000000000000}\Software\Microsoft\Terminal Server Client,SU\eric,UsernameHint,1,2014-05-28 22:32:08.1983569
+SU-BAK02,CsiTool-CreateHive-{00000000-0000-0000-0000-000000000000}\Software\Microsoft\Terminal Server Client,SU\administrator,UsernameHint,3,2014-11-03 19:58:11.9124959
+SU-SVR01,CsiTool-CreateHive-{00000000-0000-0000-0000-000000000000}\Software\Microsoft\Terminal Server Client,SU\administrator,UsernameHint,4,2014-07-11 17:05:40.9735270
+SU-SVR02,CsiTool-CreateHive-{00000000-0000-0000-0000-000000000000}\Software\Microsoft\Terminal Server Client,SU\administrator,UsernameHint,0,2014-07-02 14:40:09.8392293
+SU-SVR03,CsiTool-CreateHive-{00000000-0000-0000-0000-000000000000}\Software\Microsoft\Terminal Server Client,su\administrator,UsernameHint,2,2014-05-27 21:33:06.3075703
+SU-SVR05,CsiTool-CreateHive-{00000000-0000-0000-0000-000000000000}\Software\Microsoft\Terminal Server Client,su\administrator,UsernameHint,-1,2014-11-04 13:50:22.1847737

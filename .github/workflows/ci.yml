@@ -27,6 +27,7 @@ jobs:
         with:
           path: |
             tests/fixtures/ez-large
+            tests/fixtures/plaso-large
             tests/fixtures/rathbun-large
           key: hives-${{ hashFiles('tests/fetch-hives.sh') }}
       - name: Fetch the large test hives

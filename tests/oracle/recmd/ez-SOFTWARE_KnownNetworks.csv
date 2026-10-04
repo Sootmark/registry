@@ -1,0 +1,2 @@
+﻿FirstNetwork,BatchKeyPath,NetworkName,BatchValueName,NameType,FirstConnectLOCAL,LastConnectedLOCAL,Managed,DNSSuffix,GatewayMacAddress,ProfileGUID
+Network,CMI-CreateHive{199DAFC2-6F16-4946-BF90-5A3FC3A60902}\Microsoft\Windows NT\CurrentVersion\NetworkList\Profiles\{741BFF7F-B38E-40B8-88D0-973F15101705},Network,Multiple,Wired,2013-10-09 20:32:23.2410000,2013-10-09 22:10:22.4600000,False,localdomain,00-50-56-F6-99-6B,{741BFF7F-B38E-40B8-88D0-973F15101705}

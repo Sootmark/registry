@@ -15,6 +15,7 @@
 
 use std::fmt::Write as _;
 
+use crate::artifact::{days_from_civil, unix_seconds};
 use crate::{Data, Error, Hive, Key};
 
 /// What an entry describes.
@@ -358,23 +359,6 @@ fn date(text: &str) -> Option<u64> {
     }
     let days = days_from_civil(year, month, mday);
     unix_seconds(days * 86_400 + hour * 3_600 + minute * 60 + second)
-}
-
-/// Seconds since 1970 as a FILETIME.
-fn unix_seconds(seconds: i64) -> Option<u64> {
-    let ticks = (seconds.checked_add(11_644_473_600)?).checked_mul(10_000_000)?;
-    u64::try_from(ticks).ok().filter(|&t| t != 0)
-}
-
-/// Days since 1970-01-01 of a proleptic Gregorian date.
-fn days_from_civil(year: i64, month: i64, day: i64) -> i64 {
-    let y = if month <= 2 { year - 1 } else { year };
-    let era = y.div_euclid(400);
-    let yoe = y - era * 400;
-    let mp = (month + 9) % 12;
-    let doy = (153 * mp + 2) / 5 + day - 1;
-    let doe = yoe * 365 + yoe / 4 - yoe / 100 + doy;
-    era * 146_097 + doe - 719_468
 }
 
 #[cfg(test)]

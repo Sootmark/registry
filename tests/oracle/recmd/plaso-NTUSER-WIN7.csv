@@ -1,0 +1,3 @@
+HivePath,HiveType,Description,Category,KeyPath,ValueName,ValueType,ValueData,ValueData2,ValueData3,Comment,Recursive,Deleted,LastWriteTimestamp
+plaso-NTUSER-WIN7/NTUSER.DAT,NtUser,System Info (Current),System Info,CMI-CreateHive{D43B12B8-09B5-40DB-B4F6-F6DFEB78DAEC}\Software\Microsoft\Windows Media\WMSDK\General,ComputerName,RegSz,WKS-WIN764BITB,,,Name of computer used by the user,False,False,2010-11-10 07:51:13.7178750
+plaso-NTUSER-WIN7/NTUSER.DAT,NtUser,TypedPaths,User Activity,CMI-CreateHive{D43B12B8-09B5-40DB-B4F6-F6DFEB78DAEC}\Software\Microsoft\Windows\CurrentVersion\Explorer\TypedPaths,url1,RegSz,\\controller,,,Displays paths that were typed by the user in Windows Explorer,False,False,2010-11-10 07:58:15.8116250

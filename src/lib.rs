@@ -17,18 +17,29 @@
 //! and values from free cells.
 
 pub mod amcache;
+mod artifact;
 pub mod bam;
+pub mod mounted;
+pub mod mru;
+pub mod networks;
+pub mod persistence;
+pub mod programs;
+pub mod rdp;
 pub mod shellbags;
 /// Shell items, from `sootmark-shell` (shared with LNK files and jump
 /// lists).
 pub use shell::item as shellitem;
 pub mod shimcache;
+pub mod system;
+pub mod tasks;
+pub mod usb;
 pub mod userassist;
 mod value;
 
 use core::fmt;
 use std::collections::HashSet;
 
+pub use artifact::{Found, Problem, SystemTime};
 pub use value::{Data, Kind, Value};
 
 /// This crate's version, for provenance.
@@ -188,6 +199,21 @@ impl<'a> Hive<'a> {
             }
         }
         Ok(Some(key))
+    }
+
+    /// The control set Windows boots with (`ControlSet001`, …), as SYSTEM's
+    /// `Select\Current` names it; `None` in other hives.
+    ///
+    /// # Errors
+    /// When `Select` can't be read.
+    pub fn current_control_set(&self) -> Result<Option<String>, Error> {
+        let Some(select) = self.open("Select")? else {
+            return Ok(None);
+        };
+        Ok(match select.value("Current")?.map(|v| v.data()) {
+            Some(Data::Dword(n)) => Some(format!("ControlSet{n:03}")),
+            _ => None,
+        })
     }
 
     /// Every key, depth first with subkeys in the hive's order, and its
