@@ -1,0 +1,22 @@
+NTUSER-WIN7.DAT	mount	1289375447874125	CPC		Drive		
+NTUSER-WIN7.DAT	mount	1289375762358500	{d38a501b-ecfc-11df-a2d7-806e6f6e6963}	Volume	Drive		
+NTUSER-WIN7.DAT	mount	1289379600782979	{d38a501e-ecfc-11df-a2d7-806e6f6e6963}	Volume	Drive		
+NTUSER-WIN7.DAT	mount	1314032351847942	##controller#public	Remote Drive	controller	\public	Public
+NTUSER-WIN7.DAT	mount	1314119414960961	##controller#home#nfury	Remote Drive	controller	\home\nfury	Home Drive
+NTUSER-WIN7.DAT	network	1314024664682435	p	controller	\public
+NTUSER-WIN7.DAT	office	1331163058035000	Software\Microsoft\Office\14.0\Word\File MRU	[F00000000][T01CCFCBA595DFC30][O00000000]*C:\Users\nfury\Documents\ADAMANTIUM-Background.docx
+NTUSER-WIN7.DAT	office	1331307706972000	Software\Microsoft\Office\14.0\Word\Place MRU	[F00000000][T01CCFE0B22DA29C0][O00000000]*C:\Users\nfury\Documents\
+NTUSER-WIN7.DAT	office	1331307706975000	Software\Microsoft\Office\14.0\Word\File MRU	[F00000000][T01CCFE0B22DA9EF0][O00000000]*C:\Users\nfury\Documents\VIBRANIUM.docx
+NTUSER-WIN7.DAT	office	1331585547092000	Software\Microsoft\Office\14.0\Word\File MRU	[F00000000][T01CD009208780140][O00000000]*C:\Users\nfury\Documents\StarFury\StarFury\StarFury.docx
+NTUSER-WIN7.DAT	office	1331585586159000	Software\Microsoft\Office\14.0\Word\File MRU	[F00000000][T01CD00921FC127F0][O00000000]*C:\Users\nfury\Documents\StarFury\StarFury\Earthforce SA-26 Thunderbolt Star Fury.docx
+NTUSER-WIN7.DAT	office	1331663235080000	Software\Microsoft\Office\14.0\Word\Place MRU	[F00000000][T01CD0146EA1E3880][O00000000]*C:\Users\nfury\Documents\StarFury\StarFury\
+NTUSER-WIN7.DAT	office	1331663235083000	Software\Microsoft\Office\14.0\Word\File MRU	[F00000000][T01CD0146EA1EADB0][O00000000]*C:\Users\nfury\Documents\StarFury\StarFury\SA-23E Mitchell-Hyundyne Starfury.docx
+NTUSER-WIN7.DAT	typed	1289375895811625	Software\Microsoft\Windows\CurrentVersion\Explorer\TypedPaths	url1: \\controller
+NTUSER-WIN7.DAT	typed	1331587433307750	Software\Microsoft\Internet Explorer\TypedURLs	url1: http://cnn.com/ | url2: http://twitter.com/ | url3: http://linkedin.com/ | url4: http://tweetdeck.com/ | url5: mozilla | url6: http://google.com/ | url7: http://controller.shieldbase.local/certsrv/ | url8: http://controller.shieldbase.local/ | url9: http://www.stark-research-labs.com/ | url10: http://www.adobe.com/ | url11: http://www.google.com/ | url12: http://www.firefox.com/ | url13: http://go.microsoft.com/fwlink/?LinkId=69157
+NTUSER.DAT	mount	1249398743966500	A		Drive		
+NTUSER.DAT	mount	1249398743966500	C		Drive		
+NTUSER.DAT	mount	1249398743966500	D		Drive		
+NTUSER.DAT	mount	1249398790060250	{d89561fc-77fb-11dc-b29d-806d6172696f}	Volume	Drive		
+NTUSER.DAT	mount	1249398790060250	{d89561fd-77fb-11dc-b29d-806d6172696f}	Volume	Drive		
+NTUSER.DAT	mount	1249398790060250	{d89561ff-77fb-11dc-b29d-806d6172696f}	Volume	Drive		
+NTUSER.DAT	typed	1249398882357125	Software\Microsoft\Internet Explorer\TypedURLs	url1: http://firefox.com/ | url2: http://go.microsoft.com/fwlink/?LinkId=69157

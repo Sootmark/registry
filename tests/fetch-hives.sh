@@ -1,7 +1,7 @@
 #!/bin/sh
 # Download the large test hives at pinned commits, checking each SHA-256:
 # Eric Zimmerman's Registry test set (MIT) into tests/fixtures/ez-large/;
-# plaso's SYSTEM, SOFTWARE-RunTests and NTUSER-WIN7.DAT (Apache-2.0) into
+# plaso's SYSTEM, SOFTWARE-RunTests, NTUSER-WIN7.DAT and NTUSER.DAT (Apache-2.0) into
 # tests/fixtures/plaso-large/; and hives of Andrew Rathbun's Windows 10 and
 # 11 VMs (MIT, DFIR Artifact Museum; extracted with 7z) into
 # tests/fixtures/rathbun-large/: SYSTEM, SOFTWARE and NTUSER.DAT of Windows
@@ -43,6 +43,7 @@ done <<EOF
 96dc1f1cc3c0b44ef9af72d1c18a8e6a4338c67988f303d05693ca4be6bf7eb9  SYSTEM
 6e70645c80b79a97bd7038cc1ca5672d53f228125f2bfa61fc1ea120e10f5036  SOFTWARE-RunTests
 672abb15ae62fa8c002c5ee0a730cf83cd5f40706d5ffdec8f1179cf47a0bd03  NTUSER-WIN7.DAT
+4a3232850f9677de96774b4de0020ac7f5e2efeb5e4576a200bb751d9e1c9d1d  NTUSER.DAT
 EOF
 
 museum=https://raw.githubusercontent.com/AndrewRathbun/DFIRArtifactMuseum/fdcb1fab0c7b00e89129668d9c30174dd4ea3e5b/Windows/Registry

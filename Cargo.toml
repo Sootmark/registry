@@ -1,6 +1,6 @@
 [package]
 name = "sootmark-registry"
-version = "0.7.1"
+version = "0.8.0"
 edition = "2021"
 rust-version = "1.80"
 description = "Windows registry hive (regf) parser: keys, values, big data, subkey indexes; ShimCache, UserAssist, ShellBags, Amcache, BAM, USB devices, RDP history, MRU lists, networks, scheduled tasks, persistence keys, installed programs, system identity and shell items."

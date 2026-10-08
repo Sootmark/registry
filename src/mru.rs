@@ -12,6 +12,14 @@
 //! - `WordWheelQuery`: searches typed in Explorer (Windows 7 and later), in
 //!   the key and per search location in its subkeys; numbered UTF-16
 //!   values ordered by `MRUListEx`.
+//! - Internet Explorer's `TypedURLs` (`Software\Microsoft\Internet
+//!   Explorer`): addresses typed in its address bar (or Explorer's, which
+//!   shares it), `url1` the most recent; Windows 8 and later date each in
+//!   `TypedURLsTime` (a FILETIME per `url<n>`).
+//! - WinRAR (`Software\WinRAR`): `ArcHistory`, the archives it opened, and
+//!   `DialogEditHistory\ArcName` and `ExtrPath`, the archive names and
+//!   extraction folders typed in its dialogs; values `0` (the most recent),
+//!   `1`, …: how data was staged for theft.
 //!
 //! Each key's last write dates its most recent entry (position 0); the
 //! others' times aren't recorded.
@@ -22,6 +30,8 @@ use crate::value::utf16_until_nul;
 use crate::{Data, Hive, Key, Value};
 
 const EXPLORER: &str = r"Software\Microsoft\Windows\CurrentVersion\Explorer";
+const TYPED_URLS: &str = r"Software\Microsoft\Internet Explorer\TypedURLs";
+const TYPED_URLS_TIME: &str = r"Software\Microsoft\Internet Explorer\TypedURLsTime";
 
 /// Which list an entry is from.
 #[derive(Debug, Clone, Copy, PartialEq, Eq)]
@@ -34,11 +44,19 @@ pub enum List {
     TypedPaths,
     /// `WordWheelQuery`: Explorer searches.
     WordWheelQuery,
+    /// `TypedURLs`: addresses typed in Internet Explorer.
+    TypedUrls,
+    /// WinRAR's `ArcHistory`: archives opened.
+    WinRarArchives,
+    /// WinRAR's `DialogEditHistory\ArcName`: archive names typed.
+    WinRarArchiveNames,
+    /// WinRAR's `DialogEditHistory\ExtrPath`: extraction folders typed.
+    WinRarExtractPaths,
 }
 
 impl List {
     /// Its key's name: `RecentDocs`, `RunMRU`, `TypedPaths`,
-    /// `WordWheelQuery`.
+    /// `WordWheelQuery`, `TypedURLs`, `ArcHistory`, `ArcName`, `ExtrPath`.
     #[must_use]
     pub fn name(self) -> &'static str {
         match self {
@@ -46,6 +64,22 @@ impl List {
             Self::RunMru => "RunMRU",
             Self::TypedPaths => "TypedPaths",
             Self::WordWheelQuery => "WordWheelQuery",
+            Self::TypedUrls => "TypedURLs",
+            Self::WinRarArchives => "ArcHistory",
+            Self::WinRarArchiveNames => "ArcName",
+            Self::WinRarExtractPaths => "ExtrPath",
+        }
+    }
+
+    /// Its key's path in the hive.
+    #[must_use]
+    pub fn path(self) -> String {
+        match self {
+            Self::TypedUrls => TYPED_URLS.to_owned(),
+            Self::WinRarArchives => r"Software\WinRAR\ArcHistory".to_owned(),
+            Self::WinRarArchiveNames => r"Software\WinRAR\DialogEditHistory\ArcName".to_owned(),
+            Self::WinRarExtractPaths => r"Software\WinRAR\DialogEditHistory\ExtrPath".to_owned(),
+            explorer => format!(r"{EXPLORER}\{}", explorer.name()),
         }
     }
 }
@@ -66,6 +100,8 @@ pub struct Entry {
     pub text: String,
     /// `RecentDocs`: the shortcut's name in `Recent` (`report.lnk`).
     pub lnk_name: Option<String>,
+    /// `TypedURLs`: when it was typed (FILETIME), from `TypedURLsTime`.
+    pub time: Option<u64>,
     /// The key's path in the hive.
     pub key: String,
     /// When the key was last written (FILETIME): when its position 0 entry
@@ -73,7 +109,7 @@ pub struct Entry {
     pub key_last_written: u64,
 }
 
-/// Every entry of the four lists, each list in order of position.
+/// Every entry of the lists, each list in order of position.
 #[must_use]
 pub fn entries(hive: &Hive<'_>) -> Found<Entry> {
     let mut found = Found::default();
@@ -82,8 +118,12 @@ pub fn entries(hive: &Hive<'_>) -> Found<Entry> {
         List::RunMru,
         List::TypedPaths,
         List::WordWheelQuery,
+        List::TypedUrls,
+        List::WinRarArchives,
+        List::WinRarArchiveNames,
+        List::WinRarExtractPaths,
     ] {
-        let path = format!(r"{EXPLORER}\{}", list.name());
+        let path = list.path();
         let Some(key) = found.open(hive, &path) else {
             continue;
         };
@@ -95,7 +135,28 @@ pub fn entries(hive: &Hive<'_>) -> Found<Entry> {
             }
         }
     }
+    date_typed_urls(hive, &mut found);
     found
+}
+
+/// `TypedURLsTime`'s FILETIME for each `url<n>` of `TypedURLs`.
+fn date_typed_urls(hive: &Hive<'_>, found: &mut Found<Entry>) {
+    let Some(times) = found.open(hive, TYPED_URLS_TIME) else {
+        return;
+    };
+    let values = found.values(&times, TYPED_URLS_TIME);
+    for entry in found
+        .entries
+        .iter_mut()
+        .filter(|e| e.list == List::TypedUrls)
+    {
+        entry.time = values
+            .iter()
+            .find(|v| v.name.eq_ignore_ascii_case(&entry.value))
+            .and_then(|v| v.bytes.get(..8))
+            .map(|b| u64::from_le_bytes(b.try_into().unwrap_or_default()))
+            .filter(|&t| t != 0);
+    }
 }
 
 fn read_list(
@@ -118,6 +179,7 @@ fn read_list(
                 position: order.position(&value.name),
                 text,
                 lnk_name,
+                time: None,
                 key: path.to_owned(),
                 key_last_written: key.last_written,
             })
@@ -135,6 +197,8 @@ enum Order {
     Letters(String),
     /// `url<n>`: position `n - 1`.
     Urls,
+    /// `<n>`: position `n`.
+    Index,
 }
 
 impl Order {
@@ -151,7 +215,10 @@ impl Order {
                     })
                     .unwrap_or_default(),
             ),
-            List::TypedPaths => Self::Urls,
+            List::TypedPaths | List::TypedUrls => Self::Urls,
+            List::WinRarArchives | List::WinRarArchiveNames | List::WinRarExtractPaths => {
+                Self::Index
+            }
         }
     }
 
@@ -174,6 +241,7 @@ impl Order {
                 .parse::<usize>()
                 .ok()?
                 .checked_sub(1),
+            Self::Index => name.parse().ok(),
         }
     }
 }
@@ -201,8 +269,15 @@ fn read_value(list: List, value: &Value<'_>) -> Option<(String, Option<String>)>
             let command = command.strip_suffix(r"\1").unwrap_or(&command);
             Some((command.to_owned(), None))
         }
-        List::TypedPaths => {
+        List::TypedPaths | List::TypedUrls => {
             value.name.strip_prefix("url")?.parse::<u32>().ok()?;
+            match value.data() {
+                Data::String(path) => Some((path, None)),
+                _ => None,
+            }
+        }
+        List::WinRarArchives | List::WinRarArchiveNames | List::WinRarExtractPaths => {
+            value.name.parse::<u32>().ok()?;
             match value.data() {
                 Data::String(path) => Some((path, None)),
                 _ => None,
