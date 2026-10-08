@@ -4,7 +4,7 @@ A Windows registry hive (`regf`) parser and the incident-response artifacts it h
 
 ```toml
 [dependencies]
-sootmark-registry = "0.9"
+sootmark-registry = "0.10"
 ```
 
 ```rust
