@@ -242,13 +242,13 @@ dependencies = [
 
 [[package]]
 name = "sootmark-common"
-version = "0.3.4"
+version = "0.3.7"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "30d935f7f3abeb2a66596f69d1e4fa8a7a9da04cfc5433527303adc477598fb8"
+checksum = "16039a30e3d12a335537236722ba00a8da0b5dfdfcf20785b75dea78f523160e"
 
 [[package]]
 name = "sootmark-registry"
-version = "0.7.0"
+version = "0.7.1"
 dependencies = [
  "proptest",
  "sootmark-common",

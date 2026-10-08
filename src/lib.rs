@@ -25,6 +25,7 @@ pub mod networks;
 pub mod persistence;
 pub mod programs;
 pub mod rdp;
+pub mod sam;
 pub mod shellbags;
 /// Shell items, from `sootmark-shell` (shared with LNK files and jump
 /// lists).

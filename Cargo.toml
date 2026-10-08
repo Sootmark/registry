@@ -1,6 +1,6 @@
 [package]
 name = "sootmark-registry"
-version = "0.7.0"
+version = "0.7.1"
 edition = "2021"
 rust-version = "1.80"
 description = "Windows registry hive (regf) parser: keys, values, big data, subkey indexes; ShimCache, UserAssist, ShellBags, Amcache, BAM, USB devices, RDP history, MRU lists, networks, scheduled tasks, persistence keys, installed programs, system identity and shell items."
@@ -15,12 +15,12 @@ include = ["/src", "/README.md", "/LICENSE-APACHE", "/LICENSE-MIT"]
 name = "registry"
 
 [dependencies]
+# SIDs (the SAM's group members); also the digests of the recorded dumps.
+common = { package = "sootmark-common", version = "0.3.7" }
 # Shell items, shared with LNK files and jump lists.
 shell = { package = "sootmark-shell", version = "0.2.0" }
 
 [dev-dependencies]
-# The digests of the recorded dumps.
-common = { package = "sootmark-common", version = "0.3.4" }
 proptest = "1"
 
 [lints.rust]
