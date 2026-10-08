@@ -1277,6 +1277,11 @@ mod damage {
                 let _ = persistence::entries(&hive);
                 let _ = programs::programs(&hive);
                 let _ = system::identity(&hive);
+                let _ = registry::zones::zones(&hive);
+                let _ = registry::programscache::caches(&hive);
+                let _ = registry::cleaners::ccleaner(&hive);
+                let _ = registry::cleaners::diagnosed_applications(&hive);
+                let _ = registry::office::outlook_search(&hive);
             }
         }
     }

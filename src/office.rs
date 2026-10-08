@@ -10,6 +10,9 @@
 //!   trusted, by path; the data's first 8 bytes are when (FILETIME), and
 //!   its last four `FF FF FF 7F` when the user enabled macros, not only
 //!   editing: how a malicious attachment's macros came to run.
+//! - `Outlook\Search`: the mail stores Outlook's search indexed, values
+//!   named by each store's path (`.pst`, `.ost`): the user's mailboxes and
+//!   archives, local copies included.
 
 use crate::artifact::Found;
 use crate::{Data, Hive, Key};
@@ -60,6 +63,51 @@ pub struct TrustRecord {
     pub key: String,
     /// When the key was last written (FILETIME).
     pub key_last_written: u64,
+}
+
+/// The mail stores one Outlook version's search indexed.
+#[derive(Debug, Clone, PartialEq, Eq)]
+pub struct OutlookSearch {
+    /// Office's version.
+    pub version: String,
+    /// Each store's path and the number its value holds, in the key's
+    /// order.
+    pub stores: Vec<(String, u32)>,
+    /// The key's path in the hive.
+    pub key: String,
+    /// When the key was last written (FILETIME).
+    pub key_last_written: u64,
+}
+
+/// Every Outlook version's `Search` key.
+#[must_use]
+pub fn outlook_search(hive: &Hive<'_>) -> Found<OutlookSearch> {
+    let mut found = Found::default();
+    for (version, application, app_path) in applications(hive, &mut found) {
+        if !application.eq_ignore_ascii_case("Outlook") {
+            continue;
+        }
+        let path = format!(r"{app_path}\Search");
+        let Some(key) = found.open(hive, &path) else {
+            continue;
+        };
+        let stores = found
+            .values(&key, &path)
+            .into_iter()
+            .filter(|v| !v.name.is_empty())
+            .filter_map(|v| match v.data() {
+                Data::Dword(n) => Some((v.name.clone(), n)),
+                _ => None,
+            })
+            .collect();
+        found.entries.push(OutlookSearch {
+            version,
+            stores,
+            key: path,
+            key_last_written: key.last_written,
+        });
+    }
+    found
 }
 
 /// Every item of every Office application's lists.

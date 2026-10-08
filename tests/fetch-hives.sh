@@ -1,7 +1,8 @@
 #!/bin/sh
 # Download the large test hives at pinned commits, checking each SHA-256:
 # Eric Zimmerman's Registry test set (MIT) into tests/fixtures/ez-large/;
-# plaso's SYSTEM, SOFTWARE-RunTests, NTUSER-WIN7.DAT and NTUSER.DAT (Apache-2.0) into
+# plaso's SYSTEM, SOFTWARE-RunTests, NTUSER-WIN7.DAT and NTUSER.DAT, and at a later
+# commit NTUSER-CCLEANER.DAT and SOFTWARE (Apache-2.0), into
 # tests/fixtures/plaso-large/; and hives of Andrew Rathbun's Windows 10 and
 # 11 VMs (MIT, DFIR Artifact Museum; extracted with 7z) into
 # tests/fixtures/rathbun-large/: SYSTEM, SOFTWARE and NTUSER.DAT of Windows
@@ -44,6 +45,18 @@ done <<EOF
 6e70645c80b79a97bd7038cc1ca5672d53f228125f2bfa61fc1ea120e10f5036  SOFTWARE-RunTests
 672abb15ae62fa8c002c5ee0a730cf83cd5f40706d5ffdec8f1179cf47a0bd03  NTUSER-WIN7.DAT
 4a3232850f9677de96774b4de0020ac7f5e2efeb5e4576a200bb751d9e1c9d1d  NTUSER.DAT
+EOF
+
+plaso=https://raw.githubusercontent.com/log2timeline/plaso/91b6849503b125267d00ea134248e4fe59e5479c/test_data
+while read -r sum name; do
+    path="plaso-large/$name"
+    if [ ! -f "$path" ]; then
+        curl -sfL -o "$path" "$plaso/$name"
+    fi
+    echo "$sum  $path" | shasum -a 256 -c --quiet -
+done <<EOF
+3cab6fd2eaff4912b85c3a0cb86d243a3408ae5301b89a9c7e3b79fb2a69b2ad  NTUSER-CCLEANER.DAT
+c2e1a391d6be9740e79da7944e012ad9ac878902db38ec7fc225a2a68d262a1b  SOFTWARE
 EOF
 
 museum=https://raw.githubusercontent.com/AndrewRathbun/DFIRArtifactMuseum/fdcb1fab0c7b00e89129668d9c30174dd4ea3e5b/Windows/Registry

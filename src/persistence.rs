@@ -15,6 +15,11 @@
 //!   record of one being switched off, and when.
 //! - Active Setup's `StubPath`: run once per user at logon, for each
 //!   component the user hasn't run yet.
+//! - In SYSTEM, each control set's `Session Manager\BootExecute`: native
+//!   programs the session manager runs before Windows starts (Windows'
+//!   own `autocheck autochk *`, and boot-time tools); and
+//!   `BootVerificationProgram\ImagePath`: what decides whether a boot was
+//!   good.
 //!
 //! Where Windows has a default, an entry says whether its data departs
 //! from it: `Shell` other than `explorer.exe`, `Userinit` other than
@@ -54,6 +59,10 @@ pub enum Mechanism {
     StartupApproved,
     /// Active Setup `StubPath`.
     ActiveSetup,
+    /// Session Manager `BootExecute`.
+    BootExecute,
+    /// `BootVerificationProgram` `ImagePath`.
+    BootVerification,
 }
 
 impl Mechanism {
@@ -71,6 +80,8 @@ impl Mechanism {
             Self::LoadAppInitDlls => "load_appinit_dlls",
             Self::StartupApproved => "startup_approved",
             Self::ActiveSetup => "active_setup",
+            Self::BootExecute => "boot_execute",
+            Self::BootVerification => "boot_verification",
         }
     }
 }
@@ -86,7 +97,8 @@ pub struct Entry {
     pub wow64: bool,
     /// What it applies to: the program (Image File Execution Options,
     /// `SilentProcessExit`), the Run entry or Startup item
-    /// (`StartupApproved`), the component's id (Active Setup).
+    /// (`StartupApproved`), the component's id (Active Setup), the control
+    /// set (`BootExecute`, `BootVerificationProgram`).
     pub target: Option<String>,
     /// Active Setup: the component's name (its key's default value).
     pub label: Option<String>,
@@ -113,6 +125,8 @@ pub struct Entry {
 const NT: &str = r"Microsoft\Windows NT\CurrentVersion";
 const SHELL_DEFAULT: &str = "explorer.exe";
 const USERINIT_DEFAULT: &str = r"C:\Windows\system32\userinit.exe,";
+/// Windows' own `BootExecute`: check the disks that need it.
+const BOOT_EXECUTE_DEFAULT: &str = "autocheck autochk *";
 /// `FLG_MONITOR_SILENT_PROCESS_EXIT`.
 const MONITOR_SILENT_EXIT: u32 = 0x200;
 
@@ -135,6 +149,7 @@ pub fn entries(hive: &Hive<'_>) -> Found<Entry> {
     }
     startup_approved(hive, "", false, &mut found);
     startup_approved(hive, USER, true, &mut found);
+    boot(hive, &mut found);
     found
 }
 
@@ -391,6 +406,67 @@ fn startup_approved(hive: &Hive<'_>, prefix: &str, user: bool, found: &mut Found
             found.entries.push(entry);
         }
     }
+}
+
+/// Each control set's (`ControlSet001`, …, in SYSTEM) `BootExecute` and
+/// `BootVerificationProgram`.
+fn boot(hive: &Hive<'_>, found: &mut Found<Entry>) {
+    let Ok(root) = hive.root() else {
+        return;
+    };
+    let control_sets: Vec<Key<'_>> = found
+        .subkeys(&root, "")
+        .into_iter()
+        .filter(|k| is_control_set(&k.name))
+        .collect();
+    for control_set in &control_sets {
+        for (name, value_name, mechanism) in [
+            (
+                r"Control\Session Manager",
+                "BootExecute",
+                Mechanism::BootExecute,
+            ),
+            (
+                r"Control\BootVerificationProgram",
+                "ImagePath",
+                Mechanism::BootVerification,
+            ),
+        ] {
+            let path = format!(r"{}\{name}", control_set.name);
+            let Some(key) = found.open(hive, &path) else {
+                continue;
+            };
+            for value in found.values(&key, &path) {
+                if !value.name.eq_ignore_ascii_case(value_name) {
+                    continue;
+                }
+                let default = (mechanism == Mechanism::BootExecute).then_some(BOOT_EXECUTE_DEFAULT);
+                let data = data_text(&value);
+                let deviates = default.map_or(true, |d| !data.trim().eq_ignore_ascii_case(d));
+                let read = Read {
+                    mechanism,
+                    user: false,
+                    wow64: false,
+                    target: Some(control_set.name.clone()),
+                    label: None,
+                    key: &key,
+                    path: &path,
+                };
+                found.entries.push(read.entry(&value, default, deviates));
+            }
+        }
+    }
+}
+
+/// `ControlSet` and three digits.
+fn is_control_set(name: &str) -> bool {
+    name.len() == 13
+        && name
+            .get(..10)
+            .is_some_and(|p| p.eq_ignore_ascii_case("ControlSet"))
+        && name
+            .get(10..)
+            .is_some_and(|n| n.bytes().all(|b| b.is_ascii_digit()))
 }
 
 #[cfg(test)]

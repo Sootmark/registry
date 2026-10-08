@@ -19,6 +19,7 @@
 pub mod amcache;
 mod artifact;
 pub mod bam;
+pub mod cleaners;
 pub mod drives;
 pub mod mounted;
 pub mod mru;
@@ -26,6 +27,7 @@ pub mod networks;
 pub mod office;
 pub mod persistence;
 pub mod programs;
+pub mod programscache;
 pub mod rdp;
 pub mod sam;
 pub mod shellbags;
@@ -38,6 +40,7 @@ pub mod tasks;
 pub mod usb;
 pub mod userassist;
 mod value;
+pub mod zones;
 
 use core::fmt;
 use std::collections::HashSet;

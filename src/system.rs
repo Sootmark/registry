@@ -9,6 +9,10 @@
 //!   when the hive was written).
 //! - `<control set>\Control\Windows`'s `ShutdownTime`: a FILETIME, the last
 //!   clean shutdown.
+//! - `<control set>\Control\SystemInformation`, or where it isn't kept,
+//!   `HardwareConfig\<LastConfig>` (the hardware profile last used): the
+//!   machine's maker and model, and its BIOS version and release date, as
+//!   the firmware gave them.
 //! - `Microsoft\Windows NT\CurrentVersion`: product name, edition, version
 //!   and build, `InstallDate` (seconds since 1970, rewritten by feature
 //!   updates) and `InstallTime` (a FILETIME, Windows 10 and later), the
@@ -121,7 +125,24 @@ pub struct Profile {
     pub key_last_written: u64,
 }
 
-/// What a hive says of its machine: SYSTEM gives the first three, SOFTWARE
+/// The machine's hardware, as its firmware describes it.
+#[derive(Debug, Clone, PartialEq, Eq)]
+pub struct Hardware {
+    /// `SystemManufacturer`.
+    pub manufacturer: Option<String>,
+    /// `SystemProductName`: the model.
+    pub model: Option<String>,
+    /// `BIOSVersion`.
+    pub bios_version: Option<String>,
+    /// `BIOSReleaseDate`, as written (`05/20/2020`).
+    pub bios_release_date: Option<String>,
+    /// The key's path in the hive.
+    pub key: String,
+    /// When the key was last written (FILETIME).
+    pub key_last_written: u64,
+}
+
+/// What a hive says of its machine: SYSTEM gives the first four, SOFTWARE
 /// the last two.
 #[derive(Debug, Clone, Default, PartialEq, Eq)]
 pub struct Identity {
@@ -131,6 +152,8 @@ pub struct Identity {
     pub time_zone: Option<TimeZone>,
     /// Its last clean shutdown.
     pub shutdown: Option<Shutdown>,
+    /// Its hardware.
+    pub hardware: Option<Hardware>,
     /// Its Windows version.
     pub version: Option<Version>,
     /// Its user profiles.
@@ -147,6 +170,7 @@ pub fn identity(hive: &Hive<'_>) -> Found<Identity> {
             identity.computer_name = computer_name(hive, &set, &mut found);
             identity.time_zone = time_zone(hive, &set, &mut found);
             identity.shutdown = shutdown(hive, &set, &mut found);
+            identity.hardware = hardware(hive, &set, &mut found);
         }
         Ok(None) => {}
         Err(e) => found.problem("Select", Some("Current"), e.to_string()),
@@ -186,6 +210,33 @@ fn time_zone(hive: &Hive<'_>, set: &str, found: &mut Found<Identity>) -> Option<
         key: path,
         key_last_written: key.last_written,
     })
+}
+
+fn hardware(hive: &Hive<'_>, set: &str, found: &mut Found<Identity>) -> Option<Hardware> {
+    let system_information = format!(r"{set}\Control\SystemInformation");
+    hardware_at(hive, &system_information, found).or_else(|| {
+        let profiles = found.open(hive, "HardwareConfig")?;
+        let last = text(&profiles, "LastConfig")?;
+        hardware_at(hive, &format!(r"HardwareConfig\{last}"), found)
+    })
+}
+
+/// The firmware's description at `path`, when it holds any of it.
+fn hardware_at(hive: &Hive<'_>, path: &str, found: &mut Found<Identity>) -> Option<Hardware> {
+    let key = found.open(hive, path)?;
+    let hardware = Hardware {
+        manufacturer: non_empty(&key, "SystemManufacturer"),
+        model: non_empty(&key, "SystemProductName"),
+        bios_version: non_empty(&key, "BIOSVersion"),
+        bios_release_date: non_empty(&key, "BIOSReleaseDate"),
+        key: path.to_owned(),
+        key_last_written: key.last_written,
+    };
+    let any = hardware.manufacturer.is_some()
+        || hardware.model.is_some()
+        || hardware.bios_version.is_some()
+        || hardware.bios_release_date.is_some();
+    any.then_some(hardware)
 }
 
 fn shutdown(hive: &Hive<'_>, set: &str, found: &mut Found<Identity>) -> Option<Shutdown> {
